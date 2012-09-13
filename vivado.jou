@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2012.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:49:25 MDT 2012
+# Start of session at: Thu Sep 13 09:44:44 2012
+# Process ID: 5441
+# Log file: /home/cms/projects/blue7/vivado.log
+# Journal file: /home/cms/projects/blue7/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/cms/projects/blue7/blue7test/blue7test.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run impl_1 -noclean_dir
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1

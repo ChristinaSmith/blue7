@@ -1,0 +1,216 @@
+
+*** Running vivado
+    with args -log fpgaTop.rdi -m64 -messageDb vivado.pb -mode batch -source fpgaTop.tcl -notrace
+
+
+****** Vivado v2012.2 (64-bit)
+  **** Build 194362 by xbuild on Fri Jul 20 18:49:25 MDT 2012
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Common 17-81] Feature available: Synthesis
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+
+source fpgaTop.tcl -notrace
+Parsing EDIF File [./.Xil/Vivado-6929-core980/dcp/fpgaTop.edf]
+Finished Parsing EDIF File [./.Xil/Vivado-6929-core980/dcp/fpgaTop.edf]
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ClockBuffers.xml
+Loading clock placement rules from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/ClockPlacerRules.xml
+Loading package pin functions from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/PinFunctions.xml...
+Loading package from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/fbg900/Package.xml
+Loading io standards from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/./parts/xilinx/kintex7/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/ConfigModes.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/./parts/xilinx/kintex7/drc.xml
+Parsing XDC File [/home/cms/projects/blue7/blue7test/blue7test.runs/impl_1/.Xil/Vivado-6929-core980/dcp/fpgaTop.xdc]
+Finished Parsing XDC File [/home/cms/projects/blue7/blue7test/blue7test.runs/impl_1/.Xil/Vivado-6929-core980/dcp/fpgaTop.xdc]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  INV => LUT1: 1 instances
+  IODELAY => IDELAYE2: 1 instances
+
+Phase 0 | Netlist Checksum: b399a68c
+read_checkpoint: Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 529.734 ; gain = 386.156
+Parsing XDC File [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc]
+WARNING: [Vivado 12-584] No ports matched 'gmii_col_i'. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:118]
+WARNING: [Vivado 12-584] No ports matched 'gmii_col_i'. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:118]
+WARNING: [Vivado 12-584] No ports matched 'gmii_col_i'. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:119]
+WARNING: [Vivado 12-584] No ports matched 'gmii_col_i'. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:119]
+WARNING: [Vivado 12-584] No ports matched 'gmii_crs_i'. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:120]
+WARNING: [Vivado 12-584] No ports matched 'gmii_crs_i'. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:120]
+WARNING: [Vivado 12-584] No ports matched 'gmii_crs_i'. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:121]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:121]
+WARNING: [Vivado 12-584] No ports matched 'gmii_crs_i'. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:121]
+WARNING: [Vivado 12-584] No ports matched 'gmii_int_i'. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:122]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:122]
+WARNING: [Vivado 12-584] No ports matched 'gmii_int_i'. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:122]
+WARNING: [Vivado 12-584] No ports matched 'gmii_int_i'. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:123]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:123]
+WARNING: [Vivado 12-584] No ports matched 'gmii_int_i'. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:123]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:134]
+set_input_delay: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 562.469 ; gain = 32.734
+WARNING: [Vivado 12-646] clock 'gmii_gtx_clk' not found. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:142]
+CRITICAL WARNING: [Vivado 12-1387] set_output_delay: specified list for option 'clock' is an empty list. The constraint will not be applied. Please check to make sure that this is intended. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:142]
+WARNING: [Vivado 12-646] clock 'gmii_gtx_clk' not found. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:143]
+CRITICAL WARNING: [Vivado 12-1387] set_output_delay: specified list for option 'clock' is an empty list. The constraint will not be applied. Please check to make sure that this is intended. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:143]
+WARNING: [Vivado 12-646] clock 'gmii_gtx_clk' not found. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:144]
+CRITICAL WARNING: [Vivado 12-1387] set_output_delay: specified list for option 'clock' is an empty list. The constraint will not be applied. Please check to make sure that this is intended. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:144]
+Finished Parsing XDC File [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc]
+read_xdc: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 562.469 ; gain = 32.734
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-290] Got license for Implementation
+INFO: [Common 17-291] Device 'xc7k325t' license available: Implementation
+
+Starting Logic Optimization Task
+Logic Optimization | Checksum: 53bfdd9a
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 563.469 ; gain = 0.000
+
+Phase 1 Retarget
+
+Phase 1 Retarget | Checksum: 443d737e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 563.469 ; gain = 1.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-10] Eliminated 1 instances.
+Phase 2 Constant Propagation | Checksum: ae985edb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 563.469 ; gain = 1.000
+
+Phase 3 Sweep
+WARNING: [Opt 31-6] Deleting driverless net: ftop/gmac/n_1_txRS_iobTxClk.
+INFO: [Opt 31-12] Eliminated 9 unconnected nets.
+INFO: [Opt 31-11] Eliminated 4 unconnected instances.
+Phase 3 Sweep | Checksum: 5fa70b58
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 563.469 ; gain = 1.000
+Ending Logic Optimization Task | Checksum: 5fa70b58
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 563.469 ; gain = 1.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 563.469 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 564.469 ; gain = 1.000
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-290] Got license for Implementation
+INFO: [Common 17-291] Device 'xc7k325t' license available: Implementation
+Running DRC as a precondition to command place_design
+
+Starting Placer Task
+Effort Level for place_design : MEDIUM (Default)
+
+Phase 1 Mandatory Logic Optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 569.586 ; gain = 0.000
+Phase 1 Mandatory Logic Optimization | Checksum: 042b694a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 569.586 ; gain = 3.117
+
+Phase 2 Build SLR Info
+Phase 2 Build SLR Info | Checksum: 042b694a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 570.617 ; gain = 4.148
+
+Phase 3 Add Constraints
+Phase 3 Add Constraints | Checksum: 042b694a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 570.617 ; gain = 4.148
+
+Phase 4 Build Shapes
+Phase 4 Build Shapes | Checksum: a91c05da
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 570.617 ; gain = 4.148
+
+Phase 5 PrePlace DRC check
+Phase 5 PrePlace DRC check | Checksum: a91c05da
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 572.734 ; gain = 6.266
+
+Phase 6 PrePlace Elements
+Phase 6 PrePlace Elements | Checksum: a91c05da
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 572.734 ; gain = 6.266
+
+Phase 7 Placer Initialization
+
+Phase 7.1 IO & Clk Placer & Init
+
+Phase 7.1.1 IO / Clock Placer
+Phase 7.1.1 IO / Clock Placer | Checksum: a91c05da
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 574.852 ; gain = 8.383
+
+Phase 7.1.2 Build Placer Device
+
+Phase 7.1.2.1 Place Init Device
+Phase 7.1.2.1 Place Init Device | Checksum: a91c05da
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 587.883 ; gain = 21.414
+Phase 7.1.2 Build Placer Device | Checksum: a91c05da
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 587.883 ; gain = 21.414
+Phase 7.1 IO & Clk Placer & Init | Checksum: a91c05da
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 587.883 ; gain = 21.414
+
+Phase 7.2 Build Placer Netlist
+
+Phase 7.2.1 Place Init Design
+WARNING: [Timing 38-164] This design has multiple clocks. Inter clock paths are considered valid unless explicitly excluded by timing constraints such as set_clock_groups or set_false_path.
+Phase 7.2.1 Place Init Design | Checksum: b4ec1901
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 627.898 ; gain = 61.430
+Phase 7.2 Build Placer Netlist | Checksum: b4ec1901
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 627.898 ; gain = 61.430
+Phase 7 Placer Initialization | Checksum: b4ec1901
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 627.898 ; gain = 61.430
+
+Phase 8 Cleanup
+Phase 8 Cleanup | Checksum: b4ec1901
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 627.898 ; gain = 61.430
+INFO: [Place 30-281] No place-able instance is found; design doesn't contain any instance or all instances are placed
+Ending Placer Task | Checksum: a91c05da
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 627.898 ; gain = 61.430
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [Timing 38-163] DEBUG : Generate clock report | CPU: 0.13 secs 
+
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 627.898 ; gain = 0.000
+INFO: [Designutils 20-134] DEBUG : Generate Control Sets report | CPU: 0 secs 
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 627.898 ; gain = 0.000
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-290] Got license for Implementation
+INFO: [Common 17-291] Device 'xc7k325t' license available: Implementation
+Running DRC as a precondition to command route_design
+
+
+Starting Routing Task
+
+Effort Level for route_design : MEDIUM (Default)
+
+Starting Route Task
+
+Phase 1 Build RT Design
+
+Phase 1.1 Build Netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 627.898 ; gain = 0.000
+Phase 1.1 Build Netlist | Checksum: 0
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 627.898 ; gain = 0.000
+
+Phase 1.2 Build Node Graph
+/opt/Xilinx/Vivado/2012.2/bin/rdiArgs.sh: line 95:  6929 Killed                  "$RDI_PROG" "$@"

@@ -1,0 +1,54 @@
+Running: /opt/Xilinx/14.2/ISE_DS/ISE/bin/lin64/unwrapped/fuse -v 0 -o ./out.isim -prj /tmp/fuse.prj.c10035 -sourcelibdir . -sourcelibdir /opt/Bluespec/Bluespec-2012.01.A/lib/Libraries -sourcelibdir /opt/Bluespec/Bluespec-2012.01.A/lib/Verilog -sourcelibext .v -d TOP=mkFTop_kc705 -L unisims_ver -t worx_mkFTop_kc705.glbl -t worx_mkFTop_kc705.main 
+ISim P.28xd (signature 0x54af6ca1)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/main.v" into library worx_mkFTop_kc705
+Analyzing Verilog file "/home/cms/projects/blue7/bdw/mkFTop_kc705.v" into library worx_mkFTop_kc705
+WARNING:HDLCompiler:687 - "/home/cms/projects/blue7/bdw/mkFTop_kc705.v" Line 160: Illegal redeclaration of module <mkFTop_kc705>.
+Analyzing Verilog file "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/FIFO2.v" into library library 7
+      Resolving module FIFO2
+Analyzing Verilog file "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/Counter.v" into library library 7
+      Resolving module Counter
+Analyzing Verilog file "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/TriState.v" into library library 7
+      Resolving module TriState
+Analyzing Verilog file "/opt/Xilinx/14.2/ISE_DS/ISE/verilog/src/glbl.v" into library worx_mkFTop_kc705
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/main.v" Line 48: Port CLK_rxClk is not connected to this instance
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1032: Size mismatch in connection of port <ODATAIN>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1033: Size mismatch in connection of port <DATAIN>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1034: Size mismatch in connection of port <C>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1035: Size mismatch in connection of port <T>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1036: Size mismatch in connection of port <CE>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1037: Size mismatch in connection of port <INC>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1038: Size mismatch in connection of port <RST>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 95036 KB
+Fuse CPU Usage: 910 ms
+Compiling module glbl
+Compiling module SyncBit
+Compiling module BUFIO
+Compiling module IODELAY(IDELAY_TYPE="FIXED",IDEL...
+Compiling module SyncResetA(RSTDELAY=32'b0111)
+Compiling module BUFR_default
+Compiling module mkCRC32
+Compiling module SyncFIFO(dataWidth=32'b01010,dep...
+Compiling module SyncResetA(RSTDELAY=32'b01)
+Compiling module ODDR(DDR_CLK_EDGE="SAME_EDGE")
+Compiling module ResetInverter
+Compiling module SyncFIFO(dataWidth=32'b01010,dep...
+Compiling module mkGMAC
+Compiling module FIFO2(width=32'b011011,guarded=3...
+Compiling module FIFO2(width=32'b010001,guarded=3...
+Compiling module Counter(width=32'b01000,init=8'b...
+Compiling module Counter(width=32'b0100,init=4'b0...
+Compiling module TriState(width=32'b01)
+Compiling module mkFTop_kc705
+Compiling module main
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable ./out.isim
+Fuse Memory Usage: 193492 KB
+Fuse CPU Usage: 1150 ms
+GCC CPU Usage: 4850 ms

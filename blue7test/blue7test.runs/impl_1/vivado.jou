@@ -1,0 +1,9 @@
+#-----------------------------------------------------------
+# Vivado v2012.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:49:25 MDT 2012
+# Start of session at: Thu Sep 13 10:43:13 2012
+# Process ID: 6929
+# Log file: /home/cms/projects/blue7/blue7test/blue7test.runs/impl_1/fpgaTop.rdi
+# Journal file: /home/cms/projects/blue7/blue7test/blue7test.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source fpgaTop.tcl -notrace
