@@ -10,6 +10,7 @@ read_verilog {
   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/ResetInverter.v
   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/rtl/mkCRC32.v
   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/TriState.v
+  /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/MakeResetA.v
   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v
   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v
   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v

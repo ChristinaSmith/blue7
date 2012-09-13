@@ -56,6 +56,15 @@
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/MakeResetA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/MakeResetA.v"/>
+        <Attr Name="ImportTime" Val="1326913603"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/imports/Verilog/FIFO2.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../../../../opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/FIFO2.v"/>
@@ -77,7 +86,7 @@
     <File Path="$PSRCDIR/sources_1/imports/blue7/bdw/mkGMAC.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../bdw/mkGMAC.v"/>
-        <Attr Name="ImportTime" Val="1347477812"/>
+        <Attr Name="ImportTime" Val="1347565328"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
@@ -86,7 +95,7 @@
     <File Path="$PSRCDIR/sources_1/imports/blue7/bdw/mkFTop_kc705.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../bdw/mkFTop_kc705.v"/>
-        <Attr Name="ImportTime" Val="1347477813"/>
+        <Attr Name="ImportTime" Val="1347563820"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
@@ -446,15 +455,6 @@
     <File Path="$PSRCDIR/sources_1/imports/Verilog/FIFO20.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../../../../opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/FIFO20.v"/>
-        <Attr Name="ImportTime" Val="1326913603"/>
-        <Attr Name="UsedInSynthesis" Val="1"/>
-        <Attr Name="UsedInImplementation" Val="1"/>
-        <Attr Name="UsedInSimulation" Val="1"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/Verilog/MakeResetA.v">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/MakeResetA.v"/>
         <Attr Name="ImportTime" Val="1326913603"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>

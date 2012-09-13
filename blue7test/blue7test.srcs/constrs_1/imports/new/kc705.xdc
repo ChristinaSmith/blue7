@@ -12,6 +12,7 @@ set_property LOC G7 [get_ports sys1_clkn]
 
 ## Timing Exceptions Section
 create_clock -name sys0_clkp -period 5 -waveform {0 2.5} [get_ports sys0_clkp]
+create_clock -name sys1_clkp -period 8 -waveform {0 4} [get_ports sys1_clkp]
 
 ## Physical Constraints Section
 
@@ -115,12 +116,12 @@ set_property IOSTANDARD LVCMOS25 [get_ports gmii_rx_clk]
 set_property LOC U27 [get_ports gmii_rx_clk]
 #
 #
-#set_property IOSTANDARD LVCMOS25 [get_ports gmii_col]
-#set_property LOC W19 [get_ports gmii_col]
-#set_property IOSTANDARD LVCMOS25 [get_ports gmii_crs]
-#set_property LOC R30 [get_ports gmii_crs]
-#set_property IOSTANDARD LVCMOS25 [get_ports gmii_int]
-#set_property LOC N30 [get_ports gmii_int]
+set_property IOSTANDARD LVCMOS25 [get_ports gmii_col]
+set_property LOC W19 [get_ports gmii_col]
+set_property IOSTANDARD LVCMOS25 [get_ports gmii_crs]
+set_property LOC R30 [get_ports gmii_crs]
+set_property IOSTANDARD LVCMOS25 [get_ports gmii_int]
+set_property LOC N30 [get_ports gmii_int]
 set_property IOSTANDARD LVCMOS25 [get_ports mdio_mdc]
 set_property LOC R23 [get_ports mdio_mdc]
 set_property IOSTANDARD LVCMOS25 [get_ports mdio_mdd]

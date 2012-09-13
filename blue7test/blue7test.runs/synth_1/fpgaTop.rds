@@ -1,8 +1,8 @@
 #-----------------------------------------------------------
 # Vivado v2012.2 (64-bit)
 # Build 194362 by xbuild on Fri Jul 20 18:49:25 MDT 2012
-# Start of session at: Thu Sep 13 10:53:03 2012
-# Process ID: 7247
+# Start of session at: Thu Sep 13 15:42:46 2012
+# Process ID: 9018
 # Log file: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/fpgaTop.rds
 # Journal file: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
@@ -21,6 +21,7 @@ source fpgaTop.tcl
 #   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/ResetInverter.v
 #   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/rtl/mkCRC32.v
 #   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/TriState.v
+#   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/MakeResetA.v
 #   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v
 #   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v
 #   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v
@@ -42,18 +43,18 @@ Using Coregen IP in: /opt/Xilinx/14.2/ISE_DS/ISE/coregen/ip/xilinx/primary/com/x
 starting Rtl Elaboration : Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 169.891 ; gain = 70.688
 INFO: [Synth 8-638] synthesizing module 'fpgaTop' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v:5]
 
-INFO: [Synth 8-638] synthesizing module 'mkFTop_kc705' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v:160]
+INFO: [Synth 8-638] synthesizing module 'mkFTop_kc705' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v:163]
 
 INFO: [Synth 8-638] synthesizing module 'mkGMAC' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v:377]
 
 INFO: [Synth 8-638] synthesizing module 'SyncBit' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncBit.v:33]
 
 	Parameter init bound to: 1'b0 
-INFO: [Synth 8-256] done synthesizing module 'SyncBit' (1#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncBit.v:33]
+INFO: [Synth 8-256] done synthesizing module 'SyncBit' (1#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncBit.v:33]
 
 INFO: [Synth 8-638] synthesizing module 'BUFIO' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:717]
 
-INFO: [Synth 8-256] done synthesizing module 'BUFIO' (2#15) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:717]
+INFO: [Synth 8-256] done synthesizing module 'BUFIO' (2#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:717]
 
 INFO: [Synth 8-638] synthesizing module 'IODELAY' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:14953]
 
@@ -64,22 +65,22 @@ INFO: [Synth 8-638] synthesizing module 'IODELAY' [/opt/Xilinx/14.2/ISE_DS/PlanA
 	Parameter IDELAY_VALUE bound to: 0 - type: integer 
 	Parameter ODELAY_VALUE bound to: 0 - type: integer 
 	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: float 
-INFO: [Synth 8-256] done synthesizing module 'IODELAY' (3#15) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:14953]
+INFO: [Synth 8-256] done synthesizing module 'IODELAY' (3#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:14953]
 
 INFO: [Synth 8-638] synthesizing module 'SyncResetA' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
 
 	Parameter RSTDELAY bound to: 7 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'SyncResetA' (4#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
+INFO: [Synth 8-256] done synthesizing module 'SyncResetA' (4#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
 
 INFO: [Synth 8-638] synthesizing module 'BUFR' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:856]
 
 	Parameter BUFR_DIVIDE bound to: BYPASS - type: string 
 	Parameter SIM_DEVICE bound to: VIRTEX4 - type: string 
-INFO: [Synth 8-256] done synthesizing module 'BUFR' (5#15) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:856]
+INFO: [Synth 8-256] done synthesizing module 'BUFR' (5#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:856]
 
 INFO: [Synth 8-638] synthesizing module 'mkCRC32' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/rtl/mkCRC32.v:47]
 
-INFO: [Synth 8-256] done synthesizing module 'mkCRC32' (6#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/rtl/mkCRC32.v:47]
+INFO: [Synth 8-256] done synthesizing module 'mkCRC32' (6#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/rtl/mkCRC32.v:47]
 
 INFO: [Synth 8-638] synthesizing module 'SyncFIFO' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:38]
 
@@ -88,23 +89,23 @@ INFO: [Synth 8-638] synthesizing module 'SyncFIFO' [/home/cms/projects/blue7/blu
 	Parameter indxWidth bound to: 3 - type: integer 
 INFO: [Synth 8-328] inferring memory (8x10 bits) for variable 'fifoMem' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:74]
 INFO: [Synth 8-284] extracting RAM hierarchy for 'fifoMem_reg'
-INFO: [Synth 8-256] done synthesizing module 'SyncFIFO' (7#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:38]
+INFO: [Synth 8-256] done synthesizing module 'SyncFIFO' (7#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:38]
 
 INFO: [Synth 8-638] synthesizing module 'SyncResetA__parameterized0' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
 
 	Parameter RSTDELAY bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'SyncResetA__parameterized0' (7#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
+INFO: [Synth 8-256] done synthesizing module 'SyncResetA__parameterized0' (7#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
 
 INFO: [Synth 8-638] synthesizing module 'ODDR' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:20991]
 
 	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
 	Parameter INIT bound to: 1'b0 
 	Parameter SRTYPE bound to: SYNC - type: string 
-INFO: [Synth 8-256] done synthesizing module 'ODDR' (8#15) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:20991]
+INFO: [Synth 8-256] done synthesizing module 'ODDR' (8#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:20991]
 
 INFO: [Synth 8-638] synthesizing module 'ResetInverter' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/ResetInverter.v:30]
 
-INFO: [Synth 8-256] done synthesizing module 'ResetInverter' (9#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/ResetInverter.v:30]
+INFO: [Synth 8-256] done synthesizing module 'ResetInverter' (9#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/ResetInverter.v:30]
 
 INFO: [Synth 8-638] synthesizing module 'SyncFIFO__parameterized0' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:38]
 
@@ -113,63 +114,92 @@ INFO: [Synth 8-638] synthesizing module 'SyncFIFO__parameterized0' [/home/cms/pr
 	Parameter indxWidth bound to: 4 - type: integer 
 INFO: [Synth 8-328] inferring memory (16x10 bits) for variable 'fifoMem' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:74]
 INFO: [Synth 8-284] extracting RAM hierarchy for 'fifoMem_reg'
-INFO: [Synth 8-256] done synthesizing module 'SyncFIFO__parameterized0' (9#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:38]
+INFO: [Synth 8-256] done synthesizing module 'SyncFIFO__parameterized0' (9#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:38]
 
-INFO: [Synth 8-256] done synthesizing module 'mkGMAC' (10#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v:377]
+INFO: [Synth 8-256] done synthesizing module 'mkGMAC' (10#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v:377]
+
+INFO: [Synth 8-638] synthesizing module 'IDELAYCTRL' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:12717]
+
+INFO: [Synth 8-256] done synthesizing module 'IDELAYCTRL' (11#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:12717]
+
+INFO: [Synth 8-638] synthesizing module 'MakeResetA' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/MakeResetA.v:31]
+
+	Parameter RSTDELAY bound to: 1 - type: integer 
+	Parameter init bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'MakeResetA' (12#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/MakeResetA.v:31]
 
 INFO: [Synth 8-638] synthesizing module 'FIFO2' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v:32]
 
 	Parameter width bound to: 27 - type: integer 
 	Parameter guarded bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'FIFO2' (11#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v:32]
+INFO: [Synth 8-256] done synthesizing module 'FIFO2' (13#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v:32]
 
 INFO: [Synth 8-638] synthesizing module 'FIFO2__parameterized0' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v:32]
 
 	Parameter width bound to: 17 - type: integer 
 	Parameter guarded bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'FIFO2__parameterized0' (11#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v:32]
+INFO: [Synth 8-256] done synthesizing module 'FIFO2__parameterized0' (13#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v:32]
 
 INFO: [Synth 8-638] synthesizing module 'Counter' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v:31]
 
 	Parameter width bound to: 8 - type: integer 
 	Parameter init bound to: 8'b00000000 
-INFO: [Synth 8-256] done synthesizing module 'Counter' (12#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v:31]
+INFO: [Synth 8-256] done synthesizing module 'Counter' (14#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v:31]
 
 INFO: [Synth 8-638] synthesizing module 'Counter__parameterized0' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v:31]
 
 	Parameter width bound to: 4 - type: integer 
 	Parameter init bound to: 4'b0110 
-INFO: [Synth 8-256] done synthesizing module 'Counter__parameterized0' (12#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v:31]
+INFO: [Synth 8-256] done synthesizing module 'Counter__parameterized0' (14#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v:31]
 
 INFO: [Synth 8-638] synthesizing module 'TriState' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/TriState.v:30]
 
 	Parameter width bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'TriState' (13#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/TriState.v:30]
+INFO: [Synth 8-256] done synthesizing module 'TriState' (15#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/TriState.v:30]
 
-INFO: [Synth 8-256] done synthesizing module 'mkFTop_kc705' (14#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v:160]
+INFO: [Synth 8-638] synthesizing module 'IBUFDS' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:10834]
 
-WARNING: [Synth 8-350] instance 'ftop' of module 'mkFTop_kc705' requires 20 connections, but only 13 given [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v:36]
-INFO: [Synth 8-256] done synthesizing module 'fpgaTop' (15#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v:5]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS' (16#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:10834]
 
-WARNING: [Synth 8-3331] design fpgaTop has unconnected port gmii_rstn
-WARNING: [Synth 8-3331] design fpgaTop has unconnected port sys0_clkp
-WARNING: [Synth 8-3331] design fpgaTop has unconnected port sys0_clkn
-WARNING: [Synth 8-3331] design fpgaTop has unconnected port sys0_rst
-WARNING: [Synth 8-3331] design fpgaTop has unconnected port sys1_clkp
-WARNING: [Synth 8-3331] design fpgaTop has unconnected port sys1_clkn
-finished Rtl Elaboration : Time (s): cpu = 00:01:07 ; elapsed = 00:01:07 . Memory (MB): peak = 413.609 ; gain = 314.406
+INFO: [Synth 8-638] synthesizing module 'SyncResetA__parameterized1' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
+
+	Parameter RSTDELAY bound to: 15 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SyncResetA__parameterized1' (16#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
+
+INFO: [Synth 8-638] synthesizing module 'BUFG' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:529]
+
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (17#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:529]
+
+INFO: [Synth 8-638] synthesizing module 'IBUFDS_GTE2' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:10935]
+
+	Parameter CLKCM_CFG bound to: TRUE - type: string 
+	Parameter CLKRCV_TRST bound to: TRUE - type: string 
+	Parameter CLKSWING_CFG bound to: 2'b11 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS_GTE2' (18#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:10935]
+
+INFO: [Synth 8-638] synthesizing module 'SyncResetA__parameterized2' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
+
+	Parameter RSTDELAY bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SyncResetA__parameterized2' (18#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
+
+INFO: [Synth 8-256] done synthesizing module 'mkFTop_kc705' (19#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v:163]
+
+WARNING: [Synth 8-350] instance 'ftop' of module 'mkFTop_kc705' requires 23 connections, but only 20 given [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v:39]
+INFO: [Synth 8-256] done synthesizing module 'fpgaTop' (20#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v:5]
+
+finished Rtl Elaboration : Time (s): cpu = 00:01:06 ; elapsed = 00:01:07 . Memory (MB): peak = 413.609 ; gain = 314.406
 Report Check Netlist: 
 -----+-----------------+------+--------+------+-----------------
      |Item             |Errors|Warnings|Status|Description      
 -----+-----------------+------+--------+------+-----------------
 1    |multi_driven_nets|     0|       0|Passed|Multi driven nets
 -----+-----------------+------+--------+------+-----------------
-WARNING: [Synth 8-3295] tying undriven pin ftop:CLK_txClk to constant 0
-WARNING: [Synth 8-3295] tying undriven pin ftop:CLK to constant 0
-WARNING: [Synth 8-3295] tying undriven pin ftop:RST_N to constant 0
-WARNING: [Synth 8-3295] tying undriven pin ftop:gmii_col_i to constant 0
-WARNING: [Synth 8-3295] tying undriven pin ftop:gmii_crs_i to constant 0
-WARNING: [Synth 8-3295] tying undriven pin ftop:gmii_intr_i to constant 0
 INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 Loading clock regions from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ClockRegion.xml
@@ -184,29 +214,30 @@ Loading list of drcs for the architecture : /opt/Xilinx/14.2/ISE_DS/PlanAhead/da
 Validating User XDC Constraints
 Parsing XDC File [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc]
 Finished Parsing XDC File [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc]
+INFO: [Project 1-258] One or more synthesis constraints were not read correctly while reading constraint file [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc]. These constraints will be passed to synthesis. Check the synthesis log file to verify that they were applied correctly.  
 Finished Validating User XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1 instances were transformed.
   IODELAY => IDELAYE2: 1 instances
 
-Phase 0 | Netlist Checksum: 41700ce9
+Phase 0 | Netlist Checksum: 752792d4
 Using Coregen IP in: /opt/Xilinx/14.2/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip
-starting synthesize : Time (s): cpu = 00:01:54 ; elapsed = 00:01:54 . Memory (MB): peak = 551.016 ; gain = 451.812
+starting synthesize : Time (s): cpu = 00:01:54 ; elapsed = 00:01:54 . Memory (MB): peak = 550.984 ; gain = 451.781
 INFO: [Synth 8-638] synthesizing module 'fpgaTop' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v:5]
 
-INFO: [Synth 8-638] synthesizing module 'mkFTop_kc705' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v:160]
+INFO: [Synth 8-638] synthesizing module 'mkFTop_kc705' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v:163]
 
 INFO: [Synth 8-638] synthesizing module 'mkGMAC' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v:377]
 
 INFO: [Synth 8-638] synthesizing module 'SyncBit' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncBit.v:33]
 
 	Parameter init bound to: 1'b0 
-INFO: [Synth 8-256] done synthesizing module 'SyncBit' (1#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncBit.v:33]
+INFO: [Synth 8-256] done synthesizing module 'SyncBit' (1#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncBit.v:33]
 
 INFO: [Synth 8-638] synthesizing module 'BUFIO' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:717]
 
-INFO: [Synth 8-256] done synthesizing module 'BUFIO' (2#15) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:717]
+INFO: [Synth 8-256] done synthesizing module 'BUFIO' (2#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:717]
 
 INFO: [Synth 8-638] synthesizing module 'IODELAY' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:14953]
 
@@ -217,22 +248,22 @@ INFO: [Synth 8-638] synthesizing module 'IODELAY' [/opt/Xilinx/14.2/ISE_DS/PlanA
 	Parameter IDELAY_VALUE bound to: 0 - type: integer 
 	Parameter ODELAY_VALUE bound to: 0 - type: integer 
 	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: float 
-INFO: [Synth 8-256] done synthesizing module 'IODELAY' (3#15) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:14953]
+INFO: [Synth 8-256] done synthesizing module 'IODELAY' (3#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:14953]
 
 INFO: [Synth 8-638] synthesizing module 'SyncResetA' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
 
 	Parameter RSTDELAY bound to: 7 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'SyncResetA' (4#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
+INFO: [Synth 8-256] done synthesizing module 'SyncResetA' (4#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
 
 INFO: [Synth 8-638] synthesizing module 'BUFR' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:856]
 
 	Parameter BUFR_DIVIDE bound to: BYPASS - type: string 
 	Parameter SIM_DEVICE bound to: VIRTEX4 - type: string 
-INFO: [Synth 8-256] done synthesizing module 'BUFR' (5#15) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:856]
+INFO: [Synth 8-256] done synthesizing module 'BUFR' (5#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:856]
 
 INFO: [Synth 8-638] synthesizing module 'mkCRC32' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/rtl/mkCRC32.v:47]
 
-INFO: [Synth 8-256] done synthesizing module 'mkCRC32' (6#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/rtl/mkCRC32.v:47]
+INFO: [Synth 8-256] done synthesizing module 'mkCRC32' (6#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/rtl/mkCRC32.v:47]
 
 INFO: [Synth 8-638] synthesizing module 'SyncFIFO' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:38]
 
@@ -241,23 +272,23 @@ INFO: [Synth 8-638] synthesizing module 'SyncFIFO' [/home/cms/projects/blue7/blu
 	Parameter indxWidth bound to: 3 - type: integer 
 INFO: [Synth 8-328] inferring memory (8x10 bits) for variable 'fifoMem' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:74]
 INFO: [Synth 8-284] extracting RAM hierarchy for 'fifoMem_reg'
-INFO: [Synth 8-256] done synthesizing module 'SyncFIFO' (7#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:38]
+INFO: [Synth 8-256] done synthesizing module 'SyncFIFO' (7#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:38]
 
 INFO: [Synth 8-638] synthesizing module 'SyncResetA__parameterized0' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
 
 	Parameter RSTDELAY bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'SyncResetA__parameterized0' (7#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
+INFO: [Synth 8-256] done synthesizing module 'SyncResetA__parameterized0' (7#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
 
 INFO: [Synth 8-638] synthesizing module 'ODDR' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:20991]
 
 	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
 	Parameter INIT bound to: 1'b0 
 	Parameter SRTYPE bound to: SYNC - type: string 
-INFO: [Synth 8-256] done synthesizing module 'ODDR' (8#15) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:20991]
+INFO: [Synth 8-256] done synthesizing module 'ODDR' (8#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:20991]
 
 INFO: [Synth 8-638] synthesizing module 'ResetInverter' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/ResetInverter.v:30]
 
-INFO: [Synth 8-256] done synthesizing module 'ResetInverter' (9#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/ResetInverter.v:30]
+INFO: [Synth 8-256] done synthesizing module 'ResetInverter' (9#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/ResetInverter.v:30]
 
 INFO: [Synth 8-638] synthesizing module 'SyncFIFO__parameterized0' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:38]
 
@@ -266,51 +297,94 @@ INFO: [Synth 8-638] synthesizing module 'SyncFIFO__parameterized0' [/home/cms/pr
 	Parameter indxWidth bound to: 4 - type: integer 
 INFO: [Synth 8-328] inferring memory (16x10 bits) for variable 'fifoMem' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:74]
 INFO: [Synth 8-284] extracting RAM hierarchy for 'fifoMem_reg'
-INFO: [Synth 8-256] done synthesizing module 'SyncFIFO__parameterized0' (9#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:38]
+INFO: [Synth 8-256] done synthesizing module 'SyncFIFO__parameterized0' (9#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncFIFO.v:38]
 
-INFO: [Synth 8-256] done synthesizing module 'mkGMAC' (10#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v:377]
+INFO: [Synth 8-256] done synthesizing module 'mkGMAC' (10#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v:377]
+
+INFO: [Synth 8-638] synthesizing module 'IDELAYCTRL' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:12717]
+
+INFO: [Synth 8-256] done synthesizing module 'IDELAYCTRL' (11#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:12717]
+
+INFO: [Synth 8-638] synthesizing module 'MakeResetA' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/MakeResetA.v:31]
+
+	Parameter RSTDELAY bound to: 1 - type: integer 
+	Parameter init bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'MakeResetA' (12#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/MakeResetA.v:31]
 
 INFO: [Synth 8-638] synthesizing module 'FIFO2' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v:32]
 
 	Parameter width bound to: 27 - type: integer 
 	Parameter guarded bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'FIFO2' (11#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v:32]
+INFO: [Synth 8-256] done synthesizing module 'FIFO2' (13#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v:32]
 
 INFO: [Synth 8-638] synthesizing module 'FIFO2__parameterized0' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v:32]
 
 	Parameter width bound to: 17 - type: integer 
 	Parameter guarded bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'FIFO2__parameterized0' (11#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v:32]
+INFO: [Synth 8-256] done synthesizing module 'FIFO2__parameterized0' (13#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/FIFO2.v:32]
 
 INFO: [Synth 8-638] synthesizing module 'Counter' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v:31]
 
 	Parameter width bound to: 8 - type: integer 
 	Parameter init bound to: 8'b00000000 
-INFO: [Synth 8-256] done synthesizing module 'Counter' (12#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v:31]
+INFO: [Synth 8-256] done synthesizing module 'Counter' (14#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v:31]
 
 INFO: [Synth 8-638] synthesizing module 'Counter__parameterized0' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v:31]
 
 	Parameter width bound to: 4 - type: integer 
 	Parameter init bound to: 4'b0110 
-INFO: [Synth 8-256] done synthesizing module 'Counter__parameterized0' (12#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v:31]
+INFO: [Synth 8-256] done synthesizing module 'Counter__parameterized0' (14#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/Counter.v:31]
 
 INFO: [Synth 8-638] synthesizing module 'TriState' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/TriState.v:30]
 
 	Parameter width bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'TriState' (13#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/TriState.v:30]
+INFO: [Synth 8-256] done synthesizing module 'TriState' (15#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/TriState.v:30]
 
-INFO: [Synth 8-256] done synthesizing module 'mkFTop_kc705' (14#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v:160]
+INFO: [Synth 8-638] synthesizing module 'IBUFDS' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:10834]
 
-WARNING: [Synth 8-350] instance 'ftop' of module 'mkFTop_kc705' requires 20 connections, but only 13 given [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v:36]
-INFO: [Synth 8-256] done synthesizing module 'fpgaTop' (15#15) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v:5]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS' (16#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:10834]
 
-finished synthesize : Time (s): cpu = 00:02:27 ; elapsed = 00:02:28 . Memory (MB): peak = 551.016 ; gain = 451.812
+INFO: [Synth 8-638] synthesizing module 'SyncResetA__parameterized1' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
+
+	Parameter RSTDELAY bound to: 15 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SyncResetA__parameterized1' (16#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
+
+INFO: [Synth 8-638] synthesizing module 'BUFG' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:529]
+
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (17#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:529]
+
+INFO: [Synth 8-638] synthesizing module 'IBUFDS_GTE2' [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:10935]
+
+	Parameter CLKCM_CFG bound to: TRUE - type: string 
+	Parameter CLKRCV_TRST bound to: TRUE - type: string 
+	Parameter CLKSWING_CFG bound to: 2'b11 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS_GTE2' (18#20) [/opt/Xilinx/14.2/ISE_DS/PlanAhead/scripts/rt/data/unisim_comp.v:10935]
+
+INFO: [Synth 8-638] synthesizing module 'SyncResetA__parameterized2' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
+
+	Parameter RSTDELAY bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SyncResetA__parameterized2' (18#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/Verilog/SyncResetA.v:34]
+
+INFO: [Synth 8-256] done synthesizing module 'mkFTop_kc705' (19#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v:163]
+
+WARNING: [Synth 8-350] instance 'ftop' of module 'mkFTop_kc705' requires 23 connections, but only 20 given [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v:39]
+INFO: [Synth 8-256] done synthesizing module 'fpgaTop' (20#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v:5]
+
+finished synthesize : Time (s): cpu = 00:02:28 ; elapsed = 00:02:28 . Memory (MB): peak = 550.984 ; gain = 451.781
 
 ---------------------------------------------------------------------------------
 Applying 'set_property' XDC Constraints...
 ---------------------------------------------------------------------------------
+WARNING: set_property IOSTANDARD for '': could not find object (constraint file  /home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc, line 123).
+WARNING: set_property LOC for '': could not find object (constraint file  /home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc, line 124).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:27 ; elapsed = 00:02:28 . Memory (MB): peak = 551.016 ; gain = 451.812
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:28 ; elapsed = 00:02:29 . Memory (MB): peak = 550.984 ; gain = 451.781
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -334,7 +408,7 @@ Part Resources:
 DSPs: 840 (col length:140)
 BRAMs: 890 (col length: RAMB8 0 RAMB16 0 RAMB18 140 RAMB36 70
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:02:48 ; elapsed = 00:02:49 . Memory (MB): peak = 551.016 ; gain = 451.812
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:49 ; elapsed = 00:02:50 . Memory (MB): peak = 550.984 ; gain = 451.781
 ---------------------------------------------------------------------------------
 
 
@@ -347,7 +421,7 @@ Detailed RTL Component Info :
 	   3 Input      8 Bit       Adders := 1     
 	   2 Input      5 Bit       Adders := 3     
 	   3 Input      4 Bit       Adders := 1     
-	   2 Input      4 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 3     
 	   2 Input      3 Bit       Adders := 1     
 +---XORs : 
 	   2 Input     32 Bit         XORs := 2     
@@ -360,16 +434,16 @@ Detailed RTL Component Info :
 	               32 Bit    Registers := 2     
 	               27 Bit    Registers := 2     
 	               17 Bit    Registers := 2     
-	               16 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
 	               12 Bit    Registers := 1     
 	               10 Bit    Registers := 2     
 	                8 Bit    Registers := 4     
 	                6 Bit    Registers := 4     
 	                5 Bit    Registers := 11    
-	                4 Bit    Registers := 6     
+	                4 Bit    Registers := 8     
 	                3 Bit    Registers := 1     
-	                2 Bit    Registers := 2     
-	                1 Bit    Registers := 65    
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 67    
 +---RAMs : 
 	              160 Bit         RAMs := 1     
 	               80 Bit         RAMs := 1     
@@ -377,14 +451,14 @@ Detailed RTL Component Info :
 	   2 Input    108 Bit        Muxes := 1     
 	   2 Input     32 Bit        Muxes := 18    
 	   2 Input     10 Bit        Muxes := 3     
-	   4 Input      8 Bit        Muxes := 1     
 	   2 Input      8 Bit        Muxes := 5     
+	   4 Input      8 Bit        Muxes := 1     
 	   5 Input      8 Bit        Muxes := 1     
 	   2 Input      5 Bit        Muxes := 2     
-	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 3     
 	   2 Input      3 Bit        Muxes := 1     
 	   4 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 20    
+	   2 Input      1 Bit        Muxes := 23    
 
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -393,41 +467,35 @@ Finished RTL Component Statistics
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-3332] Sequential element (\col_cc/sSyncReg_reg ) is unused and will be removed from module reg__107.
-INFO: [Synth 8-3332] Sequential element (\col_cc/dSyncReg1_reg ) is unused and will be removed from module reg__106.
-INFO: [Synth 8-3332] Sequential element (\col_cc/dSyncReg2_reg ) is unused and will be removed from module reg__105.
-INFO: [Synth 8-3332] Sequential element (\crs_cc/sSyncReg_reg ) is unused and will be removed from module reg__110.
-INFO: [Synth 8-3332] Sequential element (\crs_cc/dSyncReg1_reg ) is unused and will be removed from module reg__109.
-INFO: [Synth 8-3332] Sequential element (\crs_cc/dSyncReg2_reg ) is unused and will be removed from module reg__108.
+INFO: [Synth 8-3332] Sequential element (\col_cc/sSyncReg_reg ) is unused and will be removed from module reg__90.
+INFO: [Synth 8-3332] Sequential element (\col_cc/dSyncReg1_reg ) is unused and will be removed from module reg__89.
+INFO: [Synth 8-3332] Sequential element (\col_cc/dSyncReg2_reg ) is unused and will be removed from module reg__88.
+INFO: [Synth 8-3332] Sequential element (\crs_cc/sSyncReg_reg ) is unused and will be removed from module reg__93.
+INFO: [Synth 8-3332] Sequential element (\crs_cc/dSyncReg1_reg ) is unused and will be removed from module reg__92.
+INFO: [Synth 8-3332] Sequential element (\crs_cc/dSyncReg2_reg ) is unused and will be removed from module reg__91.
 INFO: [Synth 8-3332] Sequential element (\txRS_txF/dGDeqPtr_reg[0] ) is unused and will be removed from module reg__18.
 INFO: [Synth 8-3332] Sequential element (\txRS_txF/dGDeqPtr_reg_rep[5] ) is unused and will be removed from module mkGMAC.
 INFO: [Synth 8-3332] Sequential element (\txRS_txF/dGDeqPtr_reg_rep[4] ) is unused and will be removed from module mkGMAC.
 INFO: [Synth 8-3332] Sequential element (\txRS_txF/dGDeqPtr_reg[0] ) is unused and will be removed from module mkGMAC.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_reg) is unused and will be removed from module reg__57.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_1_reg) is unused and will be removed from module reg__58.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_2_reg) is unused and will be removed from module reg__59.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_3_reg) is unused and will be removed from module reg__60.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_4_reg) is unused and will be removed from module reg__61.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_5_reg) is unused and will be removed from module reg__62.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_6_reg) is unused and will be removed from module reg__63.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_7_reg) is unused and will be removed from module reg__64.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_8_reg) is unused and will be removed from module reg__65.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_9_reg) is unused and will be removed from module reg__66.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_10_reg) is unused and will be removed from module reg__67.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_11_reg) is unused and will be removed from module reg__68.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_12_reg) is unused and will be removed from module reg__69.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_13_reg) is unused and will be removed from module reg__70.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_14_reg) is unused and will be removed from module reg__71.
-INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_15_reg) is unused and will be removed from module reg__72.
-WARNING: [Synth 8-3331] design fpgaTop has unconnected port gmii_rstn
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_reg) is unused and will be removed from module reg__60.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_1_reg) is unused and will be removed from module reg__61.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_2_reg) is unused and will be removed from module reg__62.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_3_reg) is unused and will be removed from module reg__63.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_4_reg) is unused and will be removed from module reg__64.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_5_reg) is unused and will be removed from module reg__65.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_6_reg) is unused and will be removed from module reg__66.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_7_reg) is unused and will be removed from module reg__67.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_8_reg) is unused and will be removed from module reg__68.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_9_reg) is unused and will be removed from module reg__69.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_10_reg) is unused and will be removed from module reg__70.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_11_reg) is unused and will be removed from module reg__71.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_12_reg) is unused and will be removed from module reg__72.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_13_reg) is unused and will be removed from module reg__73.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_14_reg) is unused and will be removed from module reg__74.
+INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_15_reg) is unused and will be removed from module reg__75.
 -------> Message [OPT-118] suppressed 16 times
-WARNING: [Synth 8-3331] design fpgaTop has unconnected port sys0_clkp
-WARNING: [Synth 8-3331] design fpgaTop has unconnected port sys0_clkn
-WARNING: [Synth 8-3331] design fpgaTop has unconnected port sys0_rst
-WARNING: [Synth 8-3331] design fpgaTop has unconnected port sys1_clkp
-WARNING: [Synth 8-3331] design fpgaTop has unconnected port sys1_clkn
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:02:49 ; elapsed = 00:02:49 . Memory (MB): peak = 551.016 ; gain = 451.812
+Finished Cross Boundary Optimization : Time (s): cpu = 00:02:49 ; elapsed = 00:02:50 . Memory (MB): peak = 550.984 ; gain = 451.781
 ---------------------------------------------------------------------------------
 
 INFO: [Synth 8-284] extracting RAM hierarchy for 'ftop/gmac/rxRS_rxF/fifoMem_reg'
@@ -436,59 +504,41 @@ INFO: [Synth 8-284] extracting RAM hierarchy for 'ftop/gmac/txRS_txF/fifoMem_reg
 ---------------------------------------------------------------------------------
 Start Area Optimization
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/rxRS_rxOperateS/dSyncReg1_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/rxRS_rxOperateS/dSyncReg2_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/sSyncReg1_reg[3] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/sSyncReg1_reg[4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/sSyncReg1_reg[0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/sSyncReg1_reg[1] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/sSyncReg1_reg[2] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/rxRS_rxRst/reset_hold_reg[0] )
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (\ftop/gmac/txRS_txF/sGEnqPtr1_reg[0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/sGEnqPtr1_reg[4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/sGEnqPtr1_reg[5] )
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (\ftop/gmac/txRS_txF/sGEnqPtr1_reg[1] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/sGEnqPtr1_reg[2] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/sGEnqPtr1_reg[3] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/sDeqPtr_reg[2] )
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (\ftop/gmac/txRS_txF/dGDeqPtr1_reg[0] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txOperateD_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/sGEnqPtr_reg[1] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/sGEnqPtr_reg[3] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/dGDeqPtr_reg_rep[0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/sNotFullReg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/dGDeqPtr1_reg[4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/dGDeqPtr1_reg[5] )
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (\ftop/gmac/txRS_txF/dGDeqPtr1_reg[1] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/dGDeqPtr1_reg[2] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/dSyncReg1_reg[2] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/dGDeqPtr1_reg[3] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data1_reg_reg[4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/dGDeqPtr_reg[3] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txOperateS/dSyncReg1_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmaci_1/i_0/\ftop/gmac/txRS_txF/dDoutReg_reg[0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmaci_1/i_0/\ftop/gmac/txRS_txF/dDoutReg_reg[1] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmaci_1/i_0/\ftop/gmac/txRS_txF/dDoutReg_reg[2] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmaci_1/i_0/\ftop/gmac/txRS_txF/dDoutReg_reg[3] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmaci_1/i_0/\ftop/gmac/txRS_txF/dDoutReg_reg[4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmaci_1/i_0/\ftop/gmac/txRS_txF/dDoutReg_reg[5] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmaci_1/i_0/\ftop/gmac/txRS_txF/dDoutReg_reg[6] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmaci_1/i_0/\ftop/gmac/txRS_txF/dDoutReg_reg[7] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmaci_1/i_0/\ftop/gmac/txRS_txF/dDoutReg_reg[8] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmaci_1/i_0/\ftop/gmac/txRS_txF/dDoutReg_reg[9] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txF/dNotEmptyReg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txRst/reset_hold_reg[0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_rPlayIndex/q_state_reg[1] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_rPlayIndex/q_state_reg[0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_rPlayIndex/q_state_reg[2] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_rPlayIndex/q_state_reg[3] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_rPlayIndex/q_state_reg[4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_rPlayIndex/q_state_reg[5] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_rPlayIndex/q_state_reg[6] )
-WARNING: [Common 17-14] Message 'Synth 8-3333' appears 50 times and further instances of the messages will be disabled. Use the Tcl command set_msg_limit to change the current settings.
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_rPlayIndex/q_state_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/gmac/txRS_txER_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_fRequest/data0_reg_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ftop/mdi_rWriteData_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\ftop/mdi_rOutEn_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\ftop/mdi_rMDD_reg )
 INFO: [Synth 8-3332] Sequential element (\ftop/gmac/rxRS_rxF/dDoutReg_reg[9] ) is unused and will be removed from module extram__3.
--------> Message [OPT-119] suppressed 51 times
+-------> Message [OPT-119] suppressed 23 times
 INFO: [Synth 8-3332] Sequential element (\ftop/gmac/rxRS_rxF/dDoutReg_reg[8] ) is unused and will be removed from module extram__3.
 INFO: [Synth 8-3332] Sequential element (\ftop/gmac/rxRS_rxF/dDoutReg_reg[7] ) is unused and will be removed from module extram__3.
 INFO: [Synth 8-3332] Sequential element (\ftop/gmac/rxRS_rxF/dDoutReg_reg[6] ) is unused and will be removed from module extram__3.
@@ -513,120 +563,17 @@ INFO: [Synth 8-3332] Sequential element (\ftop/gmac/txRS_txF/dDoutReg_reg[8] ) i
 INFO: [Synth 8-3332] Sequential element (\ftop/gmac/txRS_txF/dDoutReg_reg[7] ) is unused and will be removed from module extram__5.
 WARNING: [Common 17-14] Message 'Synth 8-3332' appears 50 times and further instances of the messages will be disabled. Use the Tcl command set_msg_limit to change the current settings.
 INFO: [Synth 8-3332] Sequential element (\ftop/gmac/txRS_txF/dDoutReg_reg[6] ) is unused and will be removed from module extram__5.
--------> Message [OPT-118] suppressed 437 times
+-------> Message [OPT-118] suppressed 435 times
+info: Area reduced by  8.0%
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:02:49 ; elapsed = 00:02:50 . Memory (MB): peak = 551.016 ; gain = 451.812
+Finished Area Optimization : Time (s): cpu = 00:02:50 ; elapsed = 00:02:50 . Memory (MB): peak = 559.020 ; gain = 459.816
 ---------------------------------------------------------------------------------
 
 
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------
-Applying XDC Timing Constraints
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:49 ; elapsed = 00:02:50 . Memory (MB): peak = 551.016 ; gain = 451.812
----------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:49 ; elapsed = 00:02:50 . Memory (MB): peak = 551.016 ; gain = 451.812
----------------------------------------------------------------------------------
-
-
----------------------------------------------------------------------------------
-Start Technology Mapping
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:49 ; elapsed = 00:02:50 . Memory (MB): peak = 551.016 ; gain = 451.812
----------------------------------------------------------------------------------
-
-
----------------------------------------------------------------------------------
-Start IO Insertion
----------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------
-Start Flattening Before IO Insertion
----------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------
-Finished Flattening Before IO Insertion
----------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------
-Final Netlist Cleanup
----------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------
-Finished Final Netlist Cleanup
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:50 ; elapsed = 00:02:51 . Memory (MB): peak = 551.016 ; gain = 451.812
----------------------------------------------------------------------------------
-
-Report Check Netlist: 
------+-----------------+------+--------+------+-----------------
-     |Item             |Errors|Warnings|Status|Description      
------+-----------------+------+--------+------+-----------------
-1    |multi_driven_nets|     0|       0|Passed|Multi driven nets
------+-----------------+------+--------+------+-----------------
-
----------------------------------------------------------------------------------
-Rebuilding User Hierarchy
----------------------------------------------------------------------------------
-Rebuild netlist hierarchy Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 551.016 ; gain = 0.000
-
----------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy
----------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------
-Writing Synthesis Report
----------------------------------------------------------------------------------
-Report BlackBoxes: 
------+-------------+---------
-     |BlackBox name|Instances
------+-------------+---------
------+-------------+---------
-Report Cell Usage: 
------+-------+-----
-     |Cell   |Count
------+-------+-----
-1    |BUFIO  |    1
-2    |BUFR_1 |    1
-3    |INV    |    1
-4    |IODELAY|    1
-5    |ODDR_1 |   11
-6    |IBUF   |    1
-7    |OBUF   |   12
-8    |OBUFT  |    1
------+-------+-----
-Report Instance Areas: 
------+--------+------------+-----
-     |Instance|Module      |Cells
------+--------+------------+-----
-1    |top     |            |   29
-2    |  ftop  |mkFTop_kc705|   14
-3    |    gmac|mkGMAC      |   14
------+--------+------------+-----
----------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:50 ; elapsed = 00:02:51 . Memory (MB): peak = 551.016 ; gain = 451.812
----------------------------------------------------------------------------------
-
-Synthesis Optimization Complete: Time (s): cpu = 00:02:47 ; elapsed = 00:02:48 . Memory (MB): peak = 551.016 ; gain = 401.438
-INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 2 instances were transformed.
-  INV => LUT1: 1 instances
-  IODELAY => IDELAYE2: 1 instances
-
-Phase 0 | Netlist Checksum: 2b16daaa
+can't read "O": no such variable
 INFO: [Common 17-83] Releasing license: Synthesis
-synth_design: Time (s): cpu = 00:02:53 ; elapsed = 00:02:53 . Memory (MB): peak = 693.766 ; gain = 544.188
-# write_checkpoint fpgaTop.dcp
-# report_utilization -file fpgaTop_utilization_synth.rpt
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 693.766 ; gain = 0.000
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
 INFO: [Common 17-206] Exiting Vivado...

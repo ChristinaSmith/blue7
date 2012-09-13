@@ -24,47 +24,49 @@ module fpgaTop (
   input  wire        gmii_rx_dv,
   input  wire        gmii_rx_er,
   output wire        mdio_mdc,       // Alaska MDIO...
-  inout  wire        mdio_mdd 
+  inout  wire        mdio_mdd,
+  input  wire        gmii_col,
+  input  wire        gmii_crs,
+  input  wire        gmii_intr
 
 );
 
 //ECO here
 //wire sys0_clk;
 //IBUFGDS clock_buf( .O(sys0_clk), .I(sys0_clkp), .IB(sys0_clkn));
-
+wire gmii_led;
 // Instance and connect mkFTop...
  mkFTop_kc705 ftop(
-//  .sys0_clkp          (sys0_clkp),
-//  .sys0_clkn          (sys0_clkn),
-//  .sys0_rstn          (!sys0_rst),   // Invert to make active-low
-//  .sys1_clkp          (sys1_clkp),
-//  .sys1_clkn          (sys1_clkn),
+  .sys0_clkp          (sys0_clkp),
+  .sys0_clkn          (sys0_clkn),
+  .sys0_rstn          (!sys0_rst),   // Invert to make active-low
+  .sys1_clkp          (sys1_clkp),
+  .sys1_clkn          (sys1_clkn),
 
 //  .lcd_db            (lcd_db),
 //  .lcd_e             (lcd_e),
 //  .lcd_rs            (lcd_rs),
 //  .lcd_rw            (lcd_rw),
 
-//  .gmii_rstn         (gmii_rstn),
+  .gmii_rstn          (gmii_rstn),
   .gmii_tx_txd        (gmii_txd),
   .gmii_tx_tx_en      (gmii_tx_en),
   .gmii_tx_tx_er      (gmii_tx_er),
-  .CLK_gmii_tx_tx_clk (gmii_gtx_clk),
+  .gmii_tx_tx_clk     (gmii_gtx_clk),
   
   .gmii_rx_rxd_i     (gmii_rxd),
   .gmii_rx_rx_dv_i   (gmii_rx_dv),
   .gmii_rx_rx_er_i   (gmii_rx_er),
-  .CLK_rxClk         (gmii_rx_clk),    //could rename bsv clock input
+  .gmii_rx_clk         (gmii_rx_clk),    //could rename bsv clock input
   
   .gmii_col_i         (gmii_col),
-  
   .gmii_crs_i          (gmii_crs),
-  
   .gmii_intr_i        (gmii_intr),
   
-  
   .mdio_mdc          (mdio_mdc),
-  .mdio_mdd          (mdio_mdd)
+  .mdio_mdd          (mdio_mdd),
+  
+  .gmii_led          (gmii_led)
 );
 
 endmodule

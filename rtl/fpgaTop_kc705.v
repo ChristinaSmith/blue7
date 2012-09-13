@@ -44,7 +44,7 @@ IBUFGDS clock_buf( .O(sys0_clk), .I(sys0_clkp), .IB(sys0_clkn));
   .gmii_tx_txd       (gmii_txd),
   .gmii_tx_tx_en     (gmii_tx_en),
   .gmii_tx_tx_er     (gmii_tx_er),
-  .gmii_tx_rxd_i     (gmii_rxd),
+  .gmii_rx_rxd_i     (gmii_rxd),
   .gmii_rx_rx_dv_i   (gmii_rx_dv),
   .gmii_rx_rx_er_i   (gmii_rx_er),
   .gmii_tx_tx_clk    (gmii_gtx_clk),

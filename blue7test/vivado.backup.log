@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2012.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:49:25 MDT 2012
+# Start of session at: Thu Sep 13 16:11:27 2012
+# Process ID: 9144
+# Log file: /home/cms/projects/blue7/blue7test/vivado.log
+# Journal file: /home/cms/projects/blue7/blue7test/vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Common 17-81] Feature available: Synthesis
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+
+start_gui
+open_project /home/cms/projects/blue7/blue7test/blue7test.xpr
+Scanning sources...
+Finished scanning sources
+Parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/verilog.xml].
+Finished parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/verilog.xml].
+Parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/vhdl.xml].
+Finished parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/vhdl.xml].
+Parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/xdc.xml].
+Finished parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/xdc.xml].
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado...
