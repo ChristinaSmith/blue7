@@ -113,14 +113,14 @@ set_property IOSTANDARD LVCMOS25 [get_ports gmii_rx_er]
 set_property LOC V26 [get_ports gmii_rx_er]
 set_property IOSTANDARD LVCMOS25 [get_ports gmii_rx_clk]
 set_property LOC U27 [get_ports gmii_rx_clk]
-
-
-set_property IOSTANDARD LVCMOS25 [get_ports gmii_col]
-set_property LOC W19 [get_ports gmii_col]
-set_property IOSTANDARD LVCMOS25 [get_ports gmii_crs]
-set_property LOC R30 [get_ports gmii_crs]
-set_property IOSTANDARD LVCMOS25 [get_ports gmii_int]
-set_property LOC N30 [get_ports gmii_int]
+#
+#
+#set_property IOSTANDARD LVCMOS25 [get_ports gmii_col]
+#set_property LOC W19 [get_ports gmii_col]
+#set_property IOSTANDARD LVCMOS25 [get_ports gmii_crs]
+#set_property LOC R30 [get_ports gmii_crs]
+#set_property IOSTANDARD LVCMOS25 [get_ports gmii_int]
+#set_property LOC N30 [get_ports gmii_int]
 set_property IOSTANDARD LVCMOS25 [get_ports mdio_mdc]
 set_property LOC R23 [get_ports mdio_mdc]
 set_property IOSTANDARD LVCMOS25 [get_ports mdio_mdd]
@@ -139,7 +139,7 @@ set_input_delay -clock GMII_RX_CLK -max 5.5 [get_ports gmii_rx_er]
 set_input_delay -clock GMII_RX_CLK -min 0.5 [get_ports gmii_rx_er]
 
 create_clock -name GMII_GTX_CLK -period 8 -waveform {0 4} [get_ports sys1_clkp]
-set_output_delay -clock gmii_gtx_clk 2 [get_ports gmii_txd*]
-set_output_delay -clock gmii_gtx_clk 2 [get_ports gmii_tx_en]
-set_output_delay -clock gmii_gtx_clk 2 [get_ports gmii_tx_er]
+set_output_delay -clock GMII_GTX_CLK 2 [get_ports gmii_txd*]
+set_output_delay -clock GMII_GTX_CLK 2 [get_ports gmii_tx_en]
+set_output_delay -clock GMII_GTX_CLK 2 [get_ports gmii_tx_er]
 

@@ -1,0 +1,120 @@
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: Vivado v2012.2 by xbuild
+          on  Fri Jul 20 18:49:25 MDT 2012
+  Report: by cms on host core980, pid 7302
+          on Thu Sep 13 10:57:59 2012
+
+REPORT SUMMARY
+            Netlist: netlist
+          Floorplan: checkpoint_fpgaTop
+      Design limits: <entire design considered>
+             Checks: DCI Cascade Checks
+                     DCI Cascade with part compatibility
+                     DCI Cascade IO standard
+                     Bank IO standard Vcc
+                     Bank IO standard Support
+                     Bank IO standard Termination
+                     Bank IO standard Vref
+                     Bank IO standard Vref utilization
+                     Bank IO standard internal Vref conflict
+                     Bank IO standard limits
+                     Bank IO standard VRN/VRP Occupied
+                     Inconsistent Diff pair IOStandards
+                     Inconsistent Diff pair IOStandards
+                     Inconsistent Diff pair IOStandards
+                     Vccaux voltage requirement for LVCMOS25
+                     Vccaux voltage requirement for LVPECL_33 and TMDS_33
+                     Inconsistent port properties
+                     Differential IO pads
+                     IOStandard Type
+                     Number of IOs
+                     IOs placed on disallowed sites
+                     Part compatibility implied prohibits not respected
+                     MGT not allowed for part compatibility
+                     IOs crosstalk to MGT
+                     IO Bus SLR Crossings
+                     Part compatibility between monolithic and multi-die devices.
+                     Incompatible BUFGs among compatible parts.
+                     Directionless IOs
+                     Bidirection LVDS IOs
+                     IN_TERM / OUT_TERM requirements
+                     Configuration Mode
+                     INTERNAL_VREF
+                     VCCAUX
+                     VCCAUX_IO unsupported with I/O Standard
+                     VCCAUX_IO unsupported on Bank Type
+                     VCCAUX_IO Group conflicts
+                     Part compatibility for differing bank types.
+                     Placement Constraints Check for Clock Region(s)
+                     Placement Constraints Check for Design Lock
+                     Placement Constraints Check for IO constraints
+                     IOSTANDARD violations
+                     Clock Placer Checks
+                     DSP Connectivity Checks
+                     Design Connectivity Checks
+                     IDELAYCTRL DRC Checks
+                     ODELAY Check for 3.3 V standard
+                     Dangling IBUFDS output inside IOBUFDS_DIFF_OUT macro 
+                     DRC check between IO and buffer(IBUF/OBUF)
+                     Unroutable connections to BUFG
+                     Non-Optimal connections to BUFG
+                     Unroutable connection between IOB and IDDR
+                     Non-Optimal connections which could lead to hold violations
+                     Unroutable connections to GTH instance
+                     DRC check of BUFIO loads
+                     Unspecified I/O Standard
+                     Unconstrained Logical Port
+                     Driverless Nets
+                     Multiple Driver Nets
+                     Black Box Instances
+                     Longest carry chain height
+                     Pblock overlap
+                     Pblock partition
+                     Resource utilization
+                     IOB clock sharing
+                     IOB set reset sharing
+                     DSP output registers
+                     DSP input registers
+                     DSP output pipelining
+                     DSP input pipelining
+                     RAMB output registers
+                     Area group tile alignment
+                     Invalid attribute value
+                     Attribute not defined
+                     Required Pin
+                     Clock restrictions for READ_FIRST mode
+                     Built-in Error Correction mode
+                     DSP48 Cascade
+                     DSP48 Buffering
+                     DSP48 asynchronous feedback
+                     FIFO synchronous
+                     Physical design rule
+                     Physical Design Attribute Defined
+                     Physical Design Attribute Format
+                     Physical Design Connection Required
+                     Unrouted net
+           Max violations: <unlimited>
+         Violations found: 4
+
+REPORT DETAILS
+IOSTDTYPE-1#1 Critical Warning
+IOStandard Type  
+I/O port sys0_clkn is Single-Ended but has an IOStandard of LVDS which can only support Differential
+Related violations: <none>
+
+IOSTDTYPE-1#2 Critical Warning
+IOStandard Type  
+I/O port sys0_clkp is Single-Ended but has an IOStandard of LVDS which can only support Differential
+Related violations: <none>
+
+NSTD-1#1 Critical Warning
+Unspecified I/O Standard  
+2 out of 30 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use set_property BITSTREAM.General.UnconstrainedPins {Allow} on the current design. Problem ports: sys1_clkp, sys1_clkn.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+16 out of 58 nets have no routable loads. The first 16 problem nets are xlnx_opt__29, xlnx_opt__31, xlnx_opt__25, xlnx_opt__27, xlnx_opt__23, xlnx_opt__9, xlnx_opt__11, xlnx_opt__13, xlnx_opt__15, xlnx_opt__17, xlnx_opt__19, xlnx_opt__21, xlnx_opt__3, xlnx_opt__1, xlnx_opt__5, xlnx_opt__7
+Related violations: <none>
+

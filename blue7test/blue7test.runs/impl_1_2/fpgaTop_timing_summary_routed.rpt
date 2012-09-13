@@ -1,0 +1,122 @@
+------------------------------------------------------------------------------------------------
+| Report   :  timing summary
+| Design   :  fpgaTop
+| Part     :  Device=7k325t  Package=fbg900  Speed=-1 (PRELIMINARY 1.06 2012-07-13)
+| Version  :  Vivado v2012.2 (64-bit)  Build 194362 by xbuild on Fri Jul 20 18:49:25 MDT 2012
+| Date     :  Thu Sep 13 10:58:00 2012
+| Command  :  report_timing_summary -file fpgaTop_timing_summary_routed.rpt
+------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Constraints Type                           :  XDC
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+------------------------------------------------------------------------------------------------
+| Check Timing
+| ------------
+------------------------------------------------------------------------------------------------
+
+
+Checking 'no_clock'.
+ There are 0 register/latch pins with no clock.
+ There are 0 register/latch pins with constant_clock.
+
+Checking 'unconstrained_endpoints'.
+ There are 0 pins that are not constrained for maximum delay.
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+Checking 'no_input_delay'.
+ There are 0 input ports with no input delay specified.
+
+Checking 'no_output_delay'.
+ There are 4 ports with no output delay specified.
+
+Checking 'multiple_clock'.
+ There are 0 register/latch pins with multiple clocks.
+
+Checking 'generated_clocks'.
+ There are 0 generated clocks that are not connected to a clock source.
+
+Checking 'loops'.
+ There are 0 combinational loops in the design.
+
+Checking 'partial_input_delay'.
+ There are 0 input ports with partial input delay specified.
+
+Checking 'partial_output_delay'.
+ There are 0 ports with partial output delay specified.
+
+Checking 'unexpandable_clocks'.
+ There are 0 clock sets for which periods were not expandable.
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  Failing Endpoints      WHS(ns)      THS(ns)  Failing Endpoints     WPWS(ns)     TPWS(ns)  Failing Endpoints  
+    -------      -------  -----------------      -------      -------  -----------------     --------     --------  -----------------  
+                                                                                                                                       
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock         Waveform(ns)         Period(ns)      Frequency(MHz)
+-----         ------------         ----------      --------------
+GMII_GTX_CLK  {0.000 4.000}        8.000           125.000         
+GMII_RX_CLK   {0.000 4.000}        8.000           125.000         
+sys0_clkp     {0.000 2.500}        5.000           200.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  Failing Endpoints      WHS(ns)      THS(ns)  Failing Endpoints     WPWS(ns)     TPWS(ns)  Failing Endpoints  
+-----             -------      -------  -----------------      -------      -------  -----------------     --------     --------  -----------------  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  Failing Endpoints      WHS(ns)      THS(ns)  Failing Endpoints
+----------    --------          -------      -------  -----------------      -------      -------  -----------------
+
+
+------------------------------------------------------------------------------------------------
+| Path Group Table
+| ----------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  Failing Endpoints      WHS(ns)      THS(ns)  Failing Endpoints
+----------    ----------    --------          -------      -------  -----------------      -------      -------  -----------------
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+

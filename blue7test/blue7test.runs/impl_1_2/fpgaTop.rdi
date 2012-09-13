@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2012.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:49:25 MDT 2012
+# Start of session at: Thu Sep 13 10:58:26 2012
+# Process ID: 7397
+# Log file: /home/cms/projects/blue7/blue7test/blue7test.runs/impl_1_2/fpgaTop.rdi
+# Journal file: /home/cms/projects/blue7/blue7test/blue7test.runs/impl_1_2/vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Common 17-81] Feature available: Synthesis
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+
+source fpgaTop.tcl -notrace
+Parsing EDIF File [./.Xil/Vivado-7397-core980/dcp/fpgaTop_routed.edf]
+Finished Parsing EDIF File [./.Xil/Vivado-7397-core980/dcp/fpgaTop_routed.edf]
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ClockBuffers.xml
+Loading clock placement rules from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/ClockPlacerRules.xml
+Loading package pin functions from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/PinFunctions.xml...
+Loading package from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/fbg900/Package.xml
+Loading io standards from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/./parts/xilinx/kintex7/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/ConfigModes.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/./parts/xilinx/kintex7/drc.xml
+Parsing XDC File [/home/cms/projects/blue7/blue7test/blue7test.runs/impl_1_2/.Xil/Vivado-7397-core980/dcp/fpgaTop_routed.xdc]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set site property of ports, Site location is not valid [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:10]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc:134]
+set_input_delay: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 562.469 ; gain = 32.734
+Finished Parsing XDC File [/home/cms/projects/blue7/blue7test/blue7test.runs/impl_1_2/.Xil/Vivado-7397-core980/dcp/fpgaTop_routed.xdc]
+Reading XDEF placement.
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 563.469 ; gain = 1.000
+Restoring placement.
+Restored 41 out of 41 XDEF sites from archive | CPU: 0.010000 secs | Memory: 0.291946 MB |
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: c37e431c
+read_checkpoint: Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 563.469 ; gain = 419.891
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-290] Got license for Implementation
+INFO: [Common 17-291] Device 'xc7k325t' license available: Implementation
+Running DRC as a precondition to command write_bitstream
+ERROR: [Drc 23-20] Rule violation (IOSTDTYPE-1) IOStandard Type - I/O port sys0_clkn is Single-Ended but has an IOStandard of LVDS which can only support Differential
+ERROR: [Drc 23-20] Rule violation (IOSTDTYPE-1) IOStandard Type - I/O port sys0_clkp is Single-Ended but has an IOStandard of LVDS which can only support Differential
+ERROR: [Drc 23-20] Rule violation (NSTD-1) Unspecified I/O Standard - 2 out of 30 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use set_property BITSTREAM.General.UnconstrainedPins {Allow} on the current design. Problem ports: sys1_clkn, sys1_clkp.
+ERROR: [Vivado 12-1345] Error(s) found during DRC. Bitgen not run.
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [Common 17-206] Exiting Vivado...
