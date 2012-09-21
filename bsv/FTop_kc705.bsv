@@ -14,6 +14,7 @@ import XilinxCells     ::*;
 import GMAC            ::*;
 import MDIO            ::*;
 import XilinxExtra     ::*;
+import Swap            ::*;
 
 // Interface
 interface FTop_kc705Ifc;
@@ -40,12 +41,18 @@ Reset           sys1_rst   <- mkAsyncReset(1, sys0_rst, sys1_clk);
 //LCDController lcd_ctrl   <- mkLCDController(clocked_by sys0_clk, reset_by sys0_rst);
 GMACIfc         gmac       <- mkGMAC(gmii_rx_clk, sys1_clk, clocked_by sys1_clk, reset_by sys1_rst);
 MDIO            mdi        <- mkMDIO(6, clocked_by sys1_clk, reset_by sys1_rst);
+SwapIfc         swap       <- mkSwap(clocked_by sys1_clk, reset_by sys1_rst);
 
 // Rules
-
+rule gmacOperate;
+  gmac.txOperate;
+  gmac.rxOperate;
+endrule
 
 // Connections
-mkConnection(gmac.tx, gmac.rx);
+mkConnection(gmac.tx, swap.out);
+mkConnection(swap.in, gmac.rx);
+
 
 // interfaces provided here
 //interface LCD       lcd         = lcd_ctrl.ifc;

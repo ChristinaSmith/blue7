@@ -17,10 +17,6 @@ read_verilog {
   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v
   /home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v
 }
-read_xdc /home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc
-
-set_property used_in_implementation false [get_files /home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc]
-set_param synth.vivado.isSynthRun true
 set_property webtalk.parent_dir /home/cms/projects/blue7/blue7test/blue7test.data/wt [current_project]
 synth_design -top fpgaTop -part xc7k325tfbg900-1
 write_checkpoint fpgaTop.dcp

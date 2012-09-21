@@ -86,7 +86,7 @@
     <File Path="$PSRCDIR/sources_1/imports/blue7/bdw/mkGMAC.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../bdw/mkGMAC.v"/>
-        <Attr Name="ImportTime" Val="1347565328"/>
+        <Attr Name="ImportTime" Val="1347890870"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
@@ -95,7 +95,7 @@
     <File Path="$PSRCDIR/sources_1/imports/blue7/bdw/mkFTop_kc705.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../bdw/mkFTop_kc705.v"/>
-        <Attr Name="ImportTime" Val="1347563820"/>
+        <Attr Name="ImportTime" Val="1347890852"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>

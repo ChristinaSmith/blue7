@@ -1,9 +1,11 @@
 #-----------------------------------------------------------
-# Vivado v2012.2 (64-bit)
-# Build 194362 by xbuild on Fri Jul 20 18:49:25 MDT 2012
-# Start of session at: Thu Sep 13 16:30:01 2012
-# Process ID: 9286
+# Vivado v2012.2.1 (64-bit)
+# Build 200253 by xbuild on Wed Aug 29 11:42:44 MDT 2012
+# Start of session at: Tue Sep 18 13:06:37 2012
+# Process ID: 8309
 # Log file: /home/cms/projects/blue7/blue7test/vivado.log
 # Journal file: /home/cms/projects/blue7/blue7test/vivado.jou
 #-----------------------------------------------------------
 start_gui
+open_project /home/cms/projects/blue7/blue7test/blue7test.xpr
+update_compile_order -fileset sources_1

@@ -6,7 +6,7 @@
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../LED705/vivadov1/vivadov1.srcs/constrs_1/new/kc705.xdc"/>
         <Attr Name="ImportTime" Val="1346442377"/>
-        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSynthesis" Val="0"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>

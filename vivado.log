@@ -1,8 +1,8 @@
 #-----------------------------------------------------------
-# Vivado v2012.2 (64-bit)
-# Build 194362 by xbuild on Fri Jul 20 18:49:25 MDT 2012
-# Start of session at: Thu Sep 13 09:44:44 2012
-# Process ID: 5441
+# Vivado v2012.2.1 (64-bit)
+# Build 200253 by xbuild on Wed Aug 29 11:42:44 MDT 2012
+# Start of session at: Fri Sep 21 16:15:45 2012
+# Process ID: 14417
 # Log file: /home/cms/projects/blue7/vivado.log
 # Journal file: /home/cms/projects/blue7/vivado.jou
 #-----------------------------------------------------------
@@ -13,67 +13,5 @@ Parsing RTL primitives file [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx
 Finished parsing RTL primitives file [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
 
 start_gui
-open_project /home/cms/projects/blue7/blue7test/blue7test.xpr
-Scanning sources...
-Finished scanning sources
-Parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/verilog.xml].
-Finished parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/verilog.xml].
-Parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/vhdl.xml].
-Finished parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/vhdl.xml].
-Parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/xdc.xml].
-Finished parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/xdc.xml].
-update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs synth_1
-[Thu Sep 13 09:45:27 2012] Launched synth_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1
-[Thu Sep 13 09:52:16 2012] Launched synth_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/runme.log
-launch_runs impl_1
-[Thu Sep 13 09:55:20 2012] Launched impl_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs synth_1
-[Thu Sep 13 10:08:52 2012] Launched synth_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/runme.log
-launch_runs impl_1
-[Thu Sep 13 10:11:55 2012] Launched impl_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs synth_1
-[Thu Sep 13 10:20:33 2012] Launched synth_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/runme.log
-launch_runs impl_1
-[Thu Sep 13 10:23:35 2012] Launched impl_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs synth_1
-[Thu Sep 13 10:37:06 2012] Launched synth_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1
-[Thu Sep 13 10:40:10 2012] Launched synth_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/runme.log
-launch_runs impl_1
-[Thu Sep 13 10:43:12 2012] Launched impl_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/impl_1/runme.log
-reset_run impl_1 -noclean_dir
-reset_run synth_1
-launch_runs synth_1
-[Thu Sep 13 10:44:43 2012] Launched synth_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/runme.log
-launch_runs impl_1
-[Thu Sep 13 10:47:44 2012] Launched impl_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/impl_1_2/runme.log
-reset_run synth_1
-launch_runs synth_1
-[Thu Sep 13 10:53:03 2012] Launched synth_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/runme.log
-launch_runs impl_1
-[Thu Sep 13 10:56:05 2012] Launched impl_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/impl_1_2/runme.log
-launch_runs impl_1 -to_step write_bitstream
-[Thu Sep 13 10:58:26 2012] Launched impl_1...
-Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/impl_1_2/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado...
