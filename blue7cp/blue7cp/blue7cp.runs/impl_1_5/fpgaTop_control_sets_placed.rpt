@@ -1,0 +1,155 @@
+Control Set Information: 
+Number of unique control sets: 148
+Minimum Number of register sites lost to control set restrictions: 459
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Clock Signal                           | Enable Signal                                                    | Set/Reset Signal                               | Slice Load Count   | Bel Load Count |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_isReset_isInReset$EN                        | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 1                  | 1
+| sys0_clk$O                             | ftop/cp/timeServ_setRefF/timeServ_timeSetSticky$EN               | ftop/sys0_rst/O1                               | 1                  | 1
+| sys0_clk$O                             | ftop/lcdWrk/lcd_ctrl/WILL_FIRE_RL_init_fsm_action_l228c51        | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 1                  | 1
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/gmac/WILL_FIRE_RL_txRS_egress_EOF                | ftop/gbe/qbgmac/gmac/txRS_txRst/O1[0]          | 1                  | 1
+| ftop/gbe/qbgmac/gmac/n_3557_rxClk_BUFR | ftop/gbe/qbgmac/gmac/rxRS_rxOperateS/rxRS_rxOperateS$dD_OUT      | ftop/gbe/qbgmac/gmac/rxRS_rxRst/SR[0]          | 1                  | 1
+| sys0_clk$O                             | ftop/cp/adminRespF/WILL_FIRE_RL_cpDispatch_F_T_T_F_F             |                                                | 1                  | 1
+| ftop/sys1_clk$O                        |                                                                  | ftop/gbe/qbgmac/gmac/txRS_txRst/O1[0]          | 1                  | 1
+| sys0_clk$O                             | ftop/gbe/mdi_fRequest/CAN_FIRE_RL_phy_mdio_init                  | ftop/sys0_rst/O1                               | 1                  | 1
+| sys0_clk$O                             | ftop/lcdWrk/lcd_ctrl/active_line$EN                              | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 2                  | 2
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_cState$EN                                   | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 1                  | 2
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/rxfun_inF/E[0]                                   | ftop/sys1_rst/SR[0]                            | 1                  | 2
+| sys0_clk$O                             | ftop/cp/rom_serverAdapter_outDataCore/ring_empty                 | ftop/sys0_rst/O1                               | 1                  | 2
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/txfun_inF/E[0]                                   | ftop/sys1_rst/SR[0]                            | 1                  | 2
+| sys0_clk$O                             |                                                                  | ftop/idc_idcRst/rstSync/n_3557_i_3555          | 1                  | 2
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/O17[0]                                 | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 1                  | 2
+| sys0_clk$O                             | ftop/cp/wci_reqPend$EN                                           | ftop/sys0_rst/O1                               | 1                  | 2
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/O6[0]                                  | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 1                  | 2
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/ring_empty                             | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 1                  | 2
+| sys0_clk$O                             | ftop/cp/E[0]                                                     | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 1                  | 2
+| sys0_clk$O                             | ftop/edcp/ecpRespF/E[0]                                          | ftop/sys0_rst/O1                               | 1                  | 3
+| sys0_clk$O                             |                                                                  | ftop/cp/n_3557_948                             | 1                  | 3
+| sys0_clk$O                             | ftop/gbe/mdi_rPrescaler/WILL_FIRE_RL_mdi_run_frame               | ftop/sys0_rst/O1                               | 3                  | 3
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/gmac/txRS_txF/O19[0]                             | ftop/gbe/qbgmac/gmac/txRS_txRst/O1[0]          | 1                  | 3
+| sys0_clk$O                             | ftop/cp/rom_serverAdapter_outDataCore/E[0]                       | ftop/sys0_rst/O1                               | 1                  | 3
+| sys0_clk$O                             | ftop/edcp/ecpReqF/O4[0]                                          | ftop/sys0_rst/O1                               | 1                  | 4
+| sys0_clk$O                             | ftop/lcdWrk/lcd_ctrl/line1_fsm_state_mkFSMstate$EN               | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 2                  | 4
+| sys0_clk$O                             | ftop/lcdWrk/lcd_ctrl/do_write_fsm_state_mkFSMstate$EN            | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 2                  | 4
+| sys0_clk$O                             | ftop/idc_idcRst/sel                                              | ftop/sys0_rst/O1                               | 1                  | 4
+| sys0_clk$O                             | ftop/lcdWrk/lcd_ctrl/line2_fsm_state_mkFSMstate$EN               | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 3                  | 4
+| sys0_clk$O                             | ftop/lcdWrk/lcd_ctrl/row$EN                                      |                                                | 1                  | 4
+| sys0_clk$O                             |                                                                  | ftop/cp/n_3557_1079                            | 2                  | 4
+| ftop/gbe/qbgmac/gmac/n_3557_rxClk_BUFR | ftop/gbe/qbgmac/gmac/n_3557_i_1133_2327                          | ftop/gbe/qbgmac/gmac/rxRS_rxRst/SR[0]          | 1                  | 4
+| sys0_clk$O                             | ftop/cp/WILL_FIRE_RL_cpDispatch_F_F_F_F_F_T_F_T_T                | ftop/sys0_rst/O1                               | 2                  | 4
+| sys0_clk$O                             | ftop/cp/wrkAct$EN                                                | ftop/sys0_rst/O1                               | 2                  | 4
+| ftop/gbe/qbgmac/gmac/n_3557_rxClk_BUFR |                                                                  | ftop/sys1_rst/SR[0]                            | 3                  | 4
+| sys0_clk$O                             | ftop/n_3557_3566                                                 | ftop/sys0_rst/O1                               | 1                  | 4
+| sys0_clk$O                             | ftop/cp/timeServ_rplTimeControl$EN                               | ftop/sys0_rst/O1                               | 4                  | 5
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/gmac/n_3557_i_1133_2068                          | ftop/gbe/qbgmac/gmac/txRS_txRst/O1[0]          | 2                  | 5
+| sys0_clk$O                             | ftop/lcdWrk/lcd_ctrl/idx$EN                                      |                                                | 2                  | 5
+| sys0_clk$O                             | ftop/lcdWrk/lcd_ctrl/active$D_IN                                 | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 3                  | 5
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/gmac/txRS_txOperateS/E[0]                        | ftop/gbe/qbgmac/gmac/txRS_txRst/O1[0]          | 2                  | 5
+| sys0_clk$O                             | ftop/cp/wci_respF/wci_wReset_n$EN                                | ftop/sys0_rst/O1                               | 3                  | 6
+| sys0_clk$O                             | ftop/cp/timeServ_setRefF/WILL_FIRE_RL_cpDispatch_T_F_F_F_F_F_F_T | ftop/sys0_rst/O1                               | 1                  | 6
+| ftop/gbe/qbgmac/gmac/n_3557_rxClk_BUFR | ftop/gbe/qbgmac/gmac/rxRS_rxF/E[0]                               | ftop/gbe/qbgmac/gmac/rxRS_rxRst/SR[0]          | 3                  | 6
+| sys0_clk$O                             | ftop/cp/timeServ_setRefF/dNextNotEmpty                           | ftop/sys0_rst/O1                               | 1                  | 6
+| sys0_clk$O                             | ftop/cp/adminRespF/O9[0]                                         |                                                | 2                  | 8
+| sys0_clk$O                             | ftop/lcdWrk/lcd_ctrl/init_fsm_state_mkFSMstate$EN                | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 5                  | 8
+| ftop/sys1_clk$O                        |                                                                  | ftop/gbe/qbgmac/gmac/txRS_txOperateS/O4[0]     | 3                  | 8
+| sys0_clk$O                             | ftop/lcdWrk/lcd_ctrl/counter$EN                                  | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 3                  | 8
+| sys0_clk$O                             | ftop/edcp/dcpReqF/E[0]                                           | ftop/sys0_rst/O1                               | 3                  | 9
+| ftop/sys1_clk$O                        |                                                                  | ftop/gbe/qbgmac/gmac/rxRS_rxRst/SR[0]          | 4                  | 9
+| sys0_clk$O                             | ftop/lcdWrk/lcd_ctrl/data_val$EN                                 |                                                | 6                  | 9
+| sys0_clk$O                             |                                                                  | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 9                  | 9
+| sys0_clk$O                             |                                                                  | ftop/sys1_rst/SR[0]                            | 3                  | 9
+| sys0_clk$O                             | ftop/gbe/qbgmac/txF/CAN_FIRE_RL_tx_pump                          | ftop/sys0_rst/O1                               | 3                  | 10
+| sys0_clk$O                             | ftop/gbe/qbgmac/rxF/p_3_out                                      | ftop/sys1_rst/SR[0]                            | 2                  | 10
+| ftop/gbe/qbgmac/gmac/n_3557_rxClk_BUFR |                                                                  |                                                | 8                  | 10
+| ftop/gbe/qbgmac/gmac/n_3557_rxClk_BUFR | ftop/gbe/qbgmac/gmac/rxRS_rxF$sENQ                               | ftop/gbe/qbgmac/gmac/rxRS_rxRst/SR[0]          | 2                  | 10
+| ftop/sys1_clk$O                        | ftop/sys1_rst/E[0]                                               |                                                | 2                  | 10
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/rxfun_inF/n_3557_3761                            |                                                | 3                  | 10
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/txF/p_3_out                                      | ftop/sys0_rst/O1                               | 2                  | 10
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/txfun_outF/n_3557_3758                           |                                                | 4                  | 10
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/gmac/rxRS_rxF/n_3557_4021                        |                                                | 2                  | 10
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/gmac/rxRS_rxF/p_3_out                            | ftop/gbe/qbgmac/gmac/rxRS_rxRst/SR[0]          | 2                  | 10
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/rxF/CAN_FIRE_RL_mkConnectionGetPut_1             | ftop/sys1_rst/SR[0]                            | 4                  | 10
+| ftop/gbe/qbgmac/gmac/n_3557_rxClk_BUFR |                                                                  | ftop/gbe/qbgmac/gmac/rxRS_rxRst/SR[0]          | 5                  | 11
+| sys0_clk$O                             | ftop/cp/wci_respF/WILL_FIRE_RL_cpDispatch_F_F_T_F_T_F_F_F_T      | ftop/sys0_rst/O1                               | 7                  | 12
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/gmac/txRS_txF/O21[0]                             | ftop/gbe/qbgmac/gmac/txRS_txRst/O1[0]          | 5                  | 12
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/gmac/txRS_txF/E[0]                               | ftop/sys1_rst/SR[0]                            | 3                  | 12
+| ftop/sys1_clk$O                        |                                                                  | ftop/sys0_rst/O1                               | 5                  | 12
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/txfun_outF/E[0]                                  | ftop/sys1_rst/SR[0]                            | 2                  | 12
+| sys0_clk$O                             | ftop/edcp/ecpReqF/O7[0]                                          |                                                | 7                  | 15
+| ftop/gbe/qbgmac/gmac/n_3557_rxClk_BUFR | ftop/gbe/qbgmac/gmac/rxRS_rxF$sENQ                               |                                                | 2                  | 16
+| sys0_clk$O                             |                                                                  | sys0_rst_IBUF                                  | 7                  | 16
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/txfun_outF/E[0]                                  |                                                | 1                  | 16
+| sys0_clk$O                             |                                                                  | ftop/cp/wci_mReset_1/rstSync/n_3557_i_1886_184 | 4                  | 17
+| sys0_clk$O                             | ftop/edcp/ecpReqF/O8[0]                                          |                                                | 11                 | 22
+| sys0_clk$O                             | ftop/lcdWrk/lcd_ctrl/countdown$EN                                | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 12                 | 24
+| sys0_clk$O                             | ftop/cp/wci_lastConfigAddr$EN                                    | ftop/sys0_rst/O1                               | 7                  | 26
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_respF_q_1$EN                                | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 9                  | 27
+| sys0_clk$O                             | ftop/gbe/mdi_fRequest/E[0]                                       |                                                | 6                  | 27
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/rxfun_inF/E[0]                                   |                                                | 5                  | 30
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/gmac/txRS_txF/O2[0]                              | ftop/gbe/qbgmac/gmac/txRS_txRst/O1[0]          | 11                 | 32
+| sys0_clk$O                             | ftop/cp/timeServ_setRefF/timeServ_refSecCount$EN                 | ftop/sys0_rst/O1                               | 9                  | 32
+| sys0_clk$O                             | ftop/edcp/ecpReqF/O2[0]                                          |                                                | 6                  | 32
+| sys0_clk$O                             | ftop/cp/wci_respF/ENQ                                            |                                                | 11                 | 32
+| sys0_clk$O                             | ftop/cp/WILL_FIRE_RL_cpDispatch_T_T                              | ftop/sys0_rst/O1                               | 12                 | 32
+| sys0_clk$O                             | ftop/cp/wci_respF/E[0]                                           | ftop/sys0_rst/O1                               | 10                 | 32
+| sys0_clk$O                             | ftop/cp/adminRespF/readCntReg$EN                                 | ftop/sys0_rst/O1                               | 9                  | 32
+| sys0_clk$O                             | ftop/cp/td$EN                                                    |                                                | 6                  | 32
+| sys0_clk$O                             | ftop/cp/rom_serverAdapter_outDataCore/n_3557_148                 |                                                | 11                 | 32
+| sys0_clk$O                             | ftop/cp/rom_serverAdapter_outDataCore/O1                         |                                                | 13                 | 32
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/O18[0]                                 | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 22                 | 32
+| sys0_clk$O                             | ftop/edcp/ecpReqF/O6[0]                                          |                                                | 10                 | 32
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/O7[0]                                  | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 17                 | 32
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/O19[0]                                 | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 15                 | 32
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/E[0]                                   | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 22                 | 32
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/O2[0]                                  | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 18                 | 32
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/O14[0]                                 | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 19                 | 32
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/O8[0]                                  | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 22                 | 32
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/O20[0]                                 | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 21                 | 32
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/O9[0]                                  | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 7                  | 32
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/O3[0]                                  | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 9                  | 32
+| ftop/gbe/qbgmac/gmac/n_3557_rxClk_BUFR | ftop/gbe/qbgmac/gmac/rxRS_rxOperateS/E[0]                        | ftop/gbe/qbgmac/gmac/rxRS_rxRst/SR[0]          | 11                 | 32
+| sys0_clk$O                             | ftop/cp/WILL_FIRE_RL_cpDispatch_T_F_T                            | ftop/sys0_rst/O1                               | 12                 | 32
+| sys0_clk$O                             | ftop/cp/WILL_FIRE_RL_cpDispatch_T_F_F_T                          | ftop/sys0_rst/O1                               | 12                 | 32
+| sys0_clk$O                             | ftop/edcp/dcpRespF/O2[0]                                         |                                                | 11                 | 32
+| sys0_clk$O                             | ftop/cp/adminRespF/E[0]                                          |                                                | 13                 | 33
+| sys0_clk$O                             | ftop/cp/adminRespF/ENQ                                           |                                                | 13                 | 33
+| sys0_clk$O                             | ftop/cp/adminRespF/adminResp2F$ENQ                               |                                                | 15                 | 33
+| sys0_clk$O                             | ftop/edcp/ecpRespF/d1di                                          |                                                | 12                 | 34
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/O4[0]                                  | ftop/cp/wci_mReset_1/rstSync/p_0_in            | 12                 | 34
+| ftop/sys1_clk$O                        |                                                                  | ftop/sys1_rst/SR[0]                            | 17                 | 37
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/txfun_inF/d1di                                   |                                                | 11                 | 40
+| sys0_clk$O                             | ftop/gbe/eRespF/d1di                                             |                                                | 9                  | 40
+| sys0_clk$O                             | ftop/gbe/qbgmac/rxF/n_3557_3981                                  |                                                | 11                 | 40
+| sys0_clk$O                             | ftop/gbe/eReqF/d1di                                              |                                                | 7                  | 40
+| sys0_clk$O                             | ftop/edcp/ecpReqF/d1di                                           |                                                | 8                  | 40
+| sys0_clk$O                             | ftop/cp/cpRespF/d1di                                             |                                                | 12                 | 40
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/rxfun_inF/O4[0]                                  |                                                | 8                  | 40
+| sys0_clk$O                             | ftop/edcp/cpRespF/d1di                                           |                                                | 10                 | 40
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/txF/n_3557_3985                                  |                                                | 9                  | 40
+| sys0_clk$O                             | ftop/edcp/dcpRespF/E[0]                                          |                                                | 13                 | 41
+| sys0_clk$O                             | ftop/edcp/dcpRespF/d1di                                          |                                                | 14                 | 43
+| sys0_clk$O                             | ftop/cp/rom_serverAdapter_outDataCore/p_0_out                    |                                                | 6                  | 48
+| sys0_clk$O                             | ftop/edcp/ecpReqF/E[0]                                           |                                                | 14                 | 48
+| sys0_clk$O                             | ftop/edcp/eMAddrF/d1di                                           |                                                | 11                 | 48
+| sys0_clk$O                             | ftop/edcp/ecpReqF/O3[0]                                          |                                                | 17                 | 48
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/n_3557_2787                            |                                                | 15                 | 48
+| ftop/gbe/qbgmac/gmac/n_3557_rxClk_BUFR | ftop/gbe/qbgmac/gmac/WILL_FIRE_RL_rxRS_ingress_advance           |                                                | 10                 | 48
+| sys0_clk$O                             | ftop/cp/wci_reqF_q_0$EN                                          | ftop/sys0_rst/O1                               | 18                 | 52
+| sys0_clk$O                             | ftop/gbe/qbgmac/txF/CAN_FIRE_RL_tx_pump                          |                                                | 7                  | 56
+| ftop/sys1_clk$O                        | ftop/gbe/qbgmac/rxF/CAN_FIRE_RL_mkConnectionGetPut_1             |                                                | 7                  | 56
+| sys0_clk$O                             | ftop/edcp/dcpRespF/CAN_FIRE_RL_ecp_egress                        |                                                | 21                 | 59
+| sys0_clk$O                             | ftop/cp/cpReqF/d1di                                              |                                                | 14                 | 59
+| sys0_clk$O                             | ftop/edcp/cpReqF/d1di                                            |                                                | 24                 | 59
+| sys0_clk$O                             | ftop/cp/cpReq$EN                                                 | ftop/sys0_rst/O1                               | 20                 | 64
+| sys0_clk$O                             | ftop/cp/timeServ_setRefF/n_3557_156                              |                                                | 11                 | 64
+| sys0_clk$O                             | ftop/cp/WILL_FIRE_RL_cpDispatch_T_F_F_F_F_F_F_F_F_T              | ftop/sys0_rst/O1                               | 17                 | 64
+| sys0_clk$O                             | ftop/cp/timeServ_nowInCC/sync/O1[0]                              | ftop/sys0_rst/O1                               | 14                 | 64
+| sys0_clk$O                             | ftop/cp/timeServ_nowInCC/sync/E[0]                               | ftop/sys0_rst/O1                               | 17                 | 65
+| sys0_clk$O                             | ftop/edcp/dcpReqF/n_3557_3678                                    |                                                | 20                 | 69
+| sys0_clk$O                             | ftop/lcdWrk/wci_wslv_reqF/p_0_out                                |                                                | 9                  | 72
+| sys0_clk$O                             | ftop/cp/timeServ_setRefF/WILL_FIRE_RL_cpDispatch_T_F_F_F_F_F_F_T |                                                | 1                  | 88
+| sys0_clk$O                             |                                                                  | ftop/sys0_rst/O1                               | 35                 | 97
+| ftop/sys1_clk$O                        |                                                                  |                                                | 37                 | 110
+| sys0_clk$O                             | ftop/lcdWrk/lcd_ctrl/EN_setLine1                                 |                                                | 81                 | 256
+| sys0_clk$O                             |                                                                  |                                                | 239                | 679
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

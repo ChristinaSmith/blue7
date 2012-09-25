@@ -1,0 +1,75 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Fri Sep 14 11:57:33 2012
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "gmii_rstn" LOCATE = SITE "L20" LEVEL 1;
+COMP "gmii_gtx_clk" LOCATE = SITE "K30" LEVEL 1;
+COMP "gmii_intr" LOCATE = SITE "N30" LEVEL 1;
+COMP "mdio_mdc" LOCATE = SITE "R23" LEVEL 1;
+COMP "mdio_mdd" LOCATE = SITE "J21" LEVEL 1;
+COMP "gmii_col" LOCATE = SITE "W19" LEVEL 1;
+COMP "gmii_rxd(0)" LOCATE = SITE "U30" LEVEL 1;
+COMP "gmii_rxd(1)" LOCATE = SITE "U25" LEVEL 1;
+COMP "gmii_rxd(2)" LOCATE = SITE "T25" LEVEL 1;
+COMP "sys0_clkn" LOCATE = SITE "AD11" LEVEL 1;
+COMP "gmii_rxd(3)" LOCATE = SITE "U28" LEVEL 1;
+COMP "sys0_clkp" LOCATE = SITE "AD12" LEVEL 1;
+COMP "gmii_rxd(4)" LOCATE = SITE "R19" LEVEL 1;
+COMP "gmii_rxd(5)" LOCATE = SITE "T27" LEVEL 1;
+COMP "gmii_crs" LOCATE = SITE "R30" LEVEL 1;
+COMP "gmii_rxd(6)" LOCATE = SITE "T26" LEVEL 1;
+COMP "gmii_rxd(7)" LOCATE = SITE "T28" LEVEL 1;
+COMP "gmii_txd[0]" LOCATE = SITE "N27" LEVEL 1;
+COMP "gmii_txd[1]" LOCATE = SITE "N25" LEVEL 1;
+COMP "gmii_txd[2]" LOCATE = SITE "M29" LEVEL 1;
+COMP "gmii_txd[3]" LOCATE = SITE "L28" LEVEL 1;
+COMP "gmii_txd[4]" LOCATE = SITE "J26" LEVEL 1;
+COMP "gmii_txd[5]" LOCATE = SITE "K26" LEVEL 1;
+COMP "gmii_txd[6]" LOCATE = SITE "L30" LEVEL 1;
+COMP "gmii_txd[7]" LOCATE = SITE "J28" LEVEL 1;
+COMP "gmii_rx_er" LOCATE = SITE "V26" LEVEL 1;
+COMP "gmii_rx_dv" LOCATE = SITE "R28" LEVEL 1;
+COMP "sys1_clkn" LOCATE = SITE "G7" LEVEL 1;
+COMP "sys1_clkp" LOCATE = SITE "G8" LEVEL 1;
+COMP "gmii_tx_en" LOCATE = SITE "M27" LEVEL 1;
+COMP "gmii_tx_er" LOCATE = SITE "N29" LEVEL 1;
+COMP "sys0_rst" LOCATE = SITE "AB7" LEVEL 1;
+TIMEGRP GMII_GTX_CLK = BEL "ftop/sys1_clk" BEL "ftop/sys1_clki" BEL
+        "ftop/sys1_rst/reset_hold_0" BEL "ftop/sys1_rst/reset_hold_0_1" BEL
+        "ftop/gmac/txRS_iobTxErr" BEL "ftop/gmac/txRS_iobTxEna" BEL
+        "ftop/gmac/txRS_iobTxData_7" BEL "ftop/gmac/txRS_iobTxData_6" BEL
+        "ftop/gmac/txRS_iobTxData_5" BEL "ftop/gmac/txRS_iobTxData_4" BEL
+        "ftop/gmac/txRS_iobTxData_3" BEL "ftop/gmac/txRS_iobTxData_2" BEL
+        "ftop/gmac/txRS_iobTxData_1" BEL "ftop/gmac/txRS_iobTxData" BEL
+        "ftop/gmac/txRS_iobTxClk" BEL "ftop/gmac/txRS_txRst/reset_hold_0" BEL
+        "ftop/gmac/txRS_txRst/reset_hold_1";
+TIMEGRP SYS0CLK = BEL "ftop/idc_preResetCount_3" BEL
+        "ftop/idc_preResetCount_2" BEL "ftop/idc_preResetCount_1" BEL
+        "ftop/idc_preResetCount_0" BEL "ftop/idc_doResetCount_3" BEL
+        "ftop/idc_doResetCount_2" BEL "ftop/idc_doResetCount_1" BEL
+        "ftop/sys0_clk$O_BUFG" BEL "ftop/idc_doResetCount_0" BEL
+        "ftop/sys0_rst/reset_hold_15" BEL "ftop/sys0_rst/reset_hold_14" BEL
+        "ftop/sys0_rst/reset_hold_13" BEL "ftop/sys0_rst/reset_hold_12" BEL
+        "ftop/sys0_rst/reset_hold_11" BEL "ftop/sys0_rst/reset_hold_10" BEL
+        "ftop/sys0_rst/reset_hold_9" BEL "ftop/sys0_rst/reset_hold_8" BEL
+        "ftop/sys0_rst/reset_hold_7" BEL "ftop/sys0_rst/reset_hold_6" BEL
+        "ftop/sys0_rst/reset_hold_5" BEL "ftop/sys0_rst/reset_hold_4" BEL
+        "ftop/sys0_rst/reset_hold_3" BEL "ftop/sys0_rst/reset_hold_2" BEL
+        "ftop/sys0_rst/reset_hold_1" BEL "ftop/sys0_rst/reset_hold_0" BEL
+        "ftop/idc_idcRst/rstSync/reset_hold_1" BEL
+        "ftop/idc_idcRst/rstSync/reset_hold_0" BEL "ftop/idc_idcRst/rst";
+TS_GMII_GTX_CLK = PERIOD TIMEGRP "GMII_GTX_CLK" 125 MHz HIGH 50%;
+TS_SYS0CLK = PERIOD TIMEGRP "SYS0CLK" 200 MHz HIGH 50%;
+COMP "gmii_txd[7]" OFFSET = OUT 6 ns AFTER COMP "gmii_gtx_clk";
+COMP "gmii_txd[6]" OFFSET = OUT 6 ns AFTER COMP "gmii_gtx_clk";
+COMP "gmii_txd[5]" OFFSET = OUT 6 ns AFTER COMP "gmii_gtx_clk";
+COMP "gmii_txd[4]" OFFSET = OUT 6 ns AFTER COMP "gmii_gtx_clk";
+COMP "gmii_txd[3]" OFFSET = OUT 6 ns AFTER COMP "gmii_gtx_clk";
+COMP "gmii_txd[2]" OFFSET = OUT 6 ns AFTER COMP "gmii_gtx_clk";
+COMP "gmii_txd[1]" OFFSET = OUT 6 ns AFTER COMP "gmii_gtx_clk";
+COMP "gmii_txd[0]" OFFSET = OUT 6 ns AFTER COMP "gmii_gtx_clk";
+COMP "gmii_tx_en" OFFSET = OUT 6 ns AFTER COMP "gmii_gtx_clk";
+COMP "gmii_tx_er" OFFSET = OUT 6 ns AFTER COMP "gmii_gtx_clk";
+SCHEMATIC END;
+

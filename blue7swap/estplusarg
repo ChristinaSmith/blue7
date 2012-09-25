@@ -1,0 +1,1 @@
+/opt/Bluespec/Bluespec-2012.01.A/lib/bin/linux64/bsc -u -verilog -elab -vdir . -bdir . -info-dir . -keep-fires -p %/Prelude:%/Libraries:../../ocpi/bsv/eth:../../ocpi/bsv/utl -g mkFTop_Swap FTop_Swap.bsv +RTS -H256m -K10m -testplusarg bscvcd 

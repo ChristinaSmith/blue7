@@ -1,0 +1,32 @@
+// FTop_Swap.bsv - the top level module to swap L2 destination addr with source addr
+// Copyright (c) 2012 Atomic Rules LLC - ALL RIGHTS RESERVED
+// Christina Smith
+// 2012.09.17
+
+// BSV imports
+import GetPut      ::*;
+import Connectable ::*;
+import FIFO        ::*;
+import Clocks      ::*;
+// Other imports
+import E8023       ::*;
+
+// Interface
+interface FTop_SwapIfc;
+  interface Put#(ABS)  out;
+  interface Get#(ABS)  in;
+endinterface: FTop_SwapIfc
+// Module
+module mkFTop_Swap (FTop_SwapIfc);
+FIFO#(ABS)  inOut    <- mkFIFO;
+
+// State
+
+// Rules
+
+// Connections
+mkConnection(in, out);
+
+// Interfaces provided
+
+endmodule: mkFTop_Swap

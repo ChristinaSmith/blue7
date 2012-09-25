@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="gmii_txd">
+			<Port Id="0" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="7" Dir="OUT"/>
+		</Bus>
+		<Bus Id="gmii_rxd">
+			<Port Id="0" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="7" Dir="IN"/>
+		</Bus>
+		<Port Id="sys0_clkp" Dir="IN"/>
+		<Port Id="sys0_clkn" Dir="IN"/>
+		<Port Id="sys0_rst" Dir="IN"/>
+		<Port Id="sys1_clkp" Dir="IN"/>
+		<Port Id="sys1_clkn" Dir="IN"/>
+		<Port Id="gmii_rstn" Dir="OUT"/>
+		<Port Id="gmii_gtx_clk" Dir="OUT"/>
+		<Port Id="gmii_tx_en" Dir="OUT"/>
+		<Port Id="gmii_tx_er" Dir="OUT"/>
+		<Port Id="gmii_rx_clk" Dir="IN"/>
+		<Port Id="gmii_rx_dv" Dir="IN"/>
+		<Port Id="gmii_rx_er" Dir="IN"/>
+		<Port Id="mdio_mdc" Dir="OUT"/>
+		<Port Id="mdio_mdd" Dir="INOUT"/>
+		<Port Id="gmii_col" Dir="IN"/>
+		<Port Id="gmii_crs" Dir="IN"/>
+		<Port Id="gmii_intr" Dir="IN"/>
+		<DiffPair Pos="sys0_clkp" Neg="sys0_clkn"/>
+		<DiffPair Pos="sys1_clkp" Neg="sys1_clkn"/>
+	</Ifc>
+</Interface>
+

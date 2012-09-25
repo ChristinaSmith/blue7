@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2012.2.1 (64-bit)
+# Build 200253 by xbuild on Wed Aug 29 11:42:44 MDT 2012
+# Start of session at: Mon Sep 24 13:09:45 2012
+# Process ID: 7553
+# Log file: /home/cms/projects/blue7/blue7cp/blue7cp/vivado.log
+# Journal file: /home/cms/projects/blue7/blue7cp/blue7cp/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/cms/projects/blue7/blue7cp/blue7cp/blue7cp.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name netlist_1
+set_delay_model -interconnect estimated
+report_timing_summary -delay_type max -path_type full_clock_expanded -report_unconstrained -check_timing_verbose -max_paths 10 -nworst 1 -significant_digits 3 -input_pins -name timing_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1

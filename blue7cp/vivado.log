@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2012.2.1 (64-bit)
+# Build 200253 by xbuild on Wed Aug 29 11:42:44 MDT 2012
+# Start of session at: Tue Sep 25 14:17:51 2012
+# Process ID: 5361
+# Log file: /home/cms/projects/blue7/blue7cp/vivado.log
+# Journal file: /home/cms/projects/blue7/blue7cp/vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Common 17-81] Feature available: Synthesis
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+
+start_gui
+open_project /home/cms/projects/blue7/blue7cp/blue7cp/blue7cp.xpr
+Scanning sources...
+Finished scanning sources
+Parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/verilog.xml].
+Finished parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/verilog.xml].
+Parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/vhdl.xml].
+Finished parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/vhdl.xml].
+Parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/xdc.xml].
+Finished parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/xdc.xml].
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1
+Parsing EDIF File [./.Xil/Vivado-5361-core980/dcp/fpgaTop.edf]
+Finished Parsing EDIF File [./.Xil/Vivado-5361-core980/dcp/fpgaTop.edf]
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ClockBuffers.xml
+Loading clock placement rules from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/ClockPlacerRules.xml
+Loading package pin functions from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/PinFunctions.xml...
+Loading package from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ffg900/Package.xml
+Loading io standards from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/./parts/xilinx/kintex7/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/ConfigModes.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/./parts/xilinx/kintex7/drc.xml
+INFO: [Constraints 18-510] IO constraint IOSTANDARD with a setting of GTE2 for cell ftop/sys1_clki will not be propagated through the buffer.  The constraint should be associated with the net that is connected to the top level port.
+Parsing XDC File [/home/cms/projects/blue7/blue7cp/blue7cp/blue7cp.srcs/constrs_1/imports/blue7cp/kc705.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/cms/projects/blue7/blue7cp/blue7cp/blue7cp.srcs/constrs_1/imports/blue7cp/kc705.xdc:135]
+set_input_delay: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3099.695 ; gain = 40.441
+Finished Parsing XDC File [/home/cms/projects/blue7/blue7cp/blue7cp/blue7cp.srcs/constrs_1/imports/blue7cp/kc705.xdc]
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3111.727 ; gain = 4.000
+[Tue Sep 25 14:19:53 2012] Launched impl_1...
+Run output will be captured here: /home/cms/projects/blue7/blue7cp/blue7cp/blue7cp.runs/impl_1_5/runme.log
+launch_runs: Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 3121.758 ; gain = 388.547
+open_run impl_1
+Parsing EDIF File [./.Xil/Vivado-5361-core980/dcp/fpgaTop_routed.edf]
+Finished Parsing EDIF File [./.Xil/Vivado-5361-core980/dcp/fpgaTop_routed.edf]
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ClockBuffers.xml
+Loading clock placement rules from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/ClockPlacerRules.xml
+Loading package pin functions from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/PinFunctions.xml...
+Loading package from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ffg900/Package.xml
+Loading io standards from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/./parts/xilinx/kintex7/IOStandards.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/./parts/xilinx/kintex7/drc.xml
+INFO: [Constraints 18-510] IO constraint IOSTANDARD with a setting of GTE2 for cell ftop/sys1_clki will not be propagated through the buffer.  The constraint should be associated with the net that is connected to the top level port.
+Parsing XDC File [/home/cms/projects/blue7/blue7cp/.Xil/Vivado-5361-core980/dcp/fpgaTop_routed.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/cms/projects/blue7/blue7cp/blue7cp/blue7cp.srcs/constrs_1/imports/blue7cp/kc705.xdc:135]
+set_input_delay: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 3121.758 ; gain = 0.000
+Finished Parsing XDC File [/home/cms/projects/blue7/blue7cp/.Xil/Vivado-5361-core980/dcp/fpgaTop_routed.xdc]
+Reading XDEF placement.
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3121.758 ; gain = 0.000
+Restoring placement.
+Restored 1700 out of 1700 XDEF sites from archive | CPU: 1.470000 secs | Memory: 12.488663 MB |
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2852 instances were transformed.
+  FD => FDCE: 799 instances
+  FDC => FDCE: 139 instances
+  FDE => FDCE: 1768 instances
+  FDP => FDPE: 2 instances
+  FDR => FDRE: 88 instances
+  FDS => FDSE: 10 instances
+  INV => LUT1: 1 instances
+  IODELAY => IDELAYE2: 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 44 instances
+
+Phase 0 | Netlist Checksum: 919a8b61
+open_run: Time (s): cpu = 00:00:41 ; elapsed = 00:00:31 . Memory (MB): peak = 3301.902 ; gain = 180.145
+exit
+INFO: [Common 17-206] Exiting Vivado...

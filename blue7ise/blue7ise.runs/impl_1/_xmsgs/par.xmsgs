@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Timing" num="3175" delta="new" ><arg fmt="%s" index="1">gmii_gtx_clk</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">gmii_txd[7]</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;gmii_txd[7]&quot; OFFSET = OUT 6 ns AFTER COMP &quot;gmii_gtx_clk&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="new" ><arg fmt="%s" index="1">gmii_gtx_clk</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">gmii_txd[6]</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;gmii_txd[6]&quot; OFFSET = OUT 6 ns AFTER COMP &quot;gmii_gtx_clk&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="new" ><arg fmt="%s" index="1">gmii_gtx_clk</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">gmii_txd[5]</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;gmii_txd[5]&quot; OFFSET = OUT 6 ns AFTER COMP &quot;gmii_gtx_clk&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="new" ><arg fmt="%s" index="1">gmii_gtx_clk</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">gmii_txd[4]</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;gmii_txd[4]&quot; OFFSET = OUT 6 ns AFTER COMP &quot;gmii_gtx_clk&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="new" ><arg fmt="%s" index="1">gmii_gtx_clk</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">gmii_txd[3]</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;gmii_txd[3]&quot; OFFSET = OUT 6 ns AFTER COMP &quot;gmii_gtx_clk&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="new" ><arg fmt="%s" index="1">gmii_gtx_clk</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">gmii_txd[2]</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;gmii_txd[2]&quot; OFFSET = OUT 6 ns AFTER COMP &quot;gmii_gtx_clk&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="new" ><arg fmt="%s" index="1">gmii_gtx_clk</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">gmii_txd[1]</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;gmii_txd[1]&quot; OFFSET = OUT 6 ns AFTER COMP &quot;gmii_gtx_clk&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="new" ><arg fmt="%s" index="1">gmii_gtx_clk</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">gmii_txd[0]</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;gmii_txd[0]&quot; OFFSET = OUT 6 ns AFTER COMP &quot;gmii_gtx_clk&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="new" ><arg fmt="%s" index="1">gmii_gtx_clk</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">gmii_tx_en</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;gmii_tx_en&quot; OFFSET = OUT 6 ns AFTER COMP &quot;gmii_gtx_clk&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="new" ><arg fmt="%s" index="1">gmii_gtx_clk</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">gmii_tx_er</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;gmii_tx_er&quot; OFFSET = OUT 6 ns AFTER COMP &quot;gmii_gtx_clk&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">gmii_intr_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">gmii_col_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">gmii_rxd(0)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">gmii_rxd(1)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">gmii_rxd(2)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">gmii_rxd(3)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">gmii_rxd(4)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">gmii_rxd(5)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">gmii_crs_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">gmii_rxd(6)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">gmii_rxd(7)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">gmii_rx_er_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">gmii_rx_dv_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ftop/idc_resetP$RESET_OUT</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="info" file="Timing" num="2761" delta="new" >N/A entries in the Constraints List may indicate that the constraint is not analyzed due to the following: No paths covered by this constraint; Other constraints intersect with this constraint; or This constraint was disabled by a Path Tracing Control. Please run the Timespec Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.</msg>
+
+<msg type="warning" file="ParHelpers" num="361" delta="new" >There are <arg fmt="%d" index="1">14</arg> loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+</msg>
+
+<msg type="warning" file="Par" num="283" delta="new" >There are <arg fmt="%d" index="1">14</arg> loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+</msg>
+
+</messages>
+

@@ -1,0 +1,545 @@
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: Vivado v2012.2.1 by xbuild
+          on  Wed Aug 29 11:42:44 MDT 2012
+  Report: by cms on host core980, pid 5504
+          on Tue Sep 25 14:22:56 2012
+
+REPORT SUMMARY
+            Netlist: netlist
+          Floorplan: checkpoint_fpgaTop
+      Design limits: <entire design considered>
+             Checks: DCI Cascade Checks
+                     DCI Cascade with part compatibility
+                     DCI Cascade IO standard
+                     Bank IO standard Vcc
+                     Bank IO standard Support
+                     Bank IO standard Termination
+                     Bank IO standard Vref
+                     Bank IO standard Vref utilization
+                     Bank IO standard internal Vref conflict
+                     Bank IO standard limits
+                     Bank IO standard VRN/VRP Occupied
+                     Inconsistent Diff pair IOStandards
+                     Inconsistent Diff pair IOStandards
+                     Inconsistent Diff pair IOStandards
+                     Vccaux voltage requirement for LVCMOS25
+                     Vccaux voltage requirement for LVPECL_33 and TMDS_33
+                     Inconsistent port properties
+                     Differential IO pads
+                     IOStandard Type
+                     Number of IOs
+                     IOs placed on disallowed sites
+                     Part compatibility implied prohibits not respected
+                     MGT not allowed for part compatibility
+                     IOs crosstalk to MGT
+                     IO Bus SLR Crossings
+                     Part compatibility between monolithic and multi-die devices.
+                     Incompatible BUFGs among compatible parts.
+                     Directionless IOs
+                     Bidirection LVDS IOs
+                     IN_TERM / OUT_TERM requirements
+                     Configuration Mode
+                     INTERNAL_VREF
+                     VCCAUX
+                     VCCAUX_IO unsupported with I/O Standard
+                     VCCAUX_IO unsupported on Bank Type
+                     VCCAUX_IO Group conflicts
+                     Part compatibility for differing bank types.
+                     Placement Constraints Check for Clock Region(s)
+                     Placement Constraints Check for Design Lock
+                     Placement Constraints Check for IO constraints
+                     IOSTANDARD violations
+                     Clock Placer Checks
+                     DSP Connectivity Checks
+                     Design Connectivity Checks
+                     IDELAYCTRL DRC Checks
+                     ODELAY Check for 3.3 V standard
+                     Dangling IBUFDS output inside IOBUFDS_DIFF_OUT macro 
+                     DRC check between IO and buffer(IBUF/OBUF)
+                     Unroutable connections to BUFG
+                     Non-Optimal connections to BUFG
+                     Unroutable connection between IOB and IDDR
+                     Non-Optimal connections which could lead to hold violations
+                     Unroutable connections to GTH instance
+                     DRC check of BUFIO loads
+                     Unspecified I/O Standard
+                     Unconstrained Logical Port
+                     Driverless Nets
+                     Multiple Driver Nets
+                     Black Box Instances
+                     Longest carry chain height
+                     Pblock overlap
+                     Pblock partition
+                     Resource utilization
+                     IOB clock sharing
+                     IOB set reset sharing
+                     DSP output registers
+                     DSP input registers
+                     DSP output pipelining
+                     DSP input pipelining
+                     RAMB output registers
+                     Area group tile alignment
+                     Invalid attribute value
+                     Attribute not defined
+                     Required Pin
+                     Clock restrictions for READ_FIRST mode
+                     Built-in Error Correction mode
+                     DSP48 Cascade
+                     DSP48 Buffering
+                     DSP48 asynchronous feedback
+                     FIFO synchronous
+                     Physical design rule
+                     Physical Design Attribute Defined
+                     Physical Design Attribute Format
+                     Physical Design Connection Required
+                     Unrouted net
+           Max violations: <unlimited>
+         Violations found: 89
+
+REPORT DETAILS
+RTSTAT-10#1 Warning
+No routable loads  
+113 out of 8783 nets have no routable loads. The first 17 problem nets are ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_60_65/DOD0, ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_60_65/DOB0, ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_60_65/DOB1, ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_60_65/DOA1, ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_60_65/DOA0, ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_60_65/DOD1, ftop/lcdWrk/lcd_ctrl/O93[0], ftop/gbe/O72[0], ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_0_5/DOD1, ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_0_5/DOD0, ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_6_11/DOD1, ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_6_11/DOD0, ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_12_17/DOD0, ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_12_17/DOD1, ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_18_23/DOD1, ftop/lcdWrk/wci_wslv_reqF/arr_reg_0_1_18_23/DOD0
+Related violations: <none>
+
+PDRC-60#1 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y122:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#2 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y123:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#3 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y152:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#4 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y153:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#5 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y154:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#6 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y155:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#7 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y157:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#8 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y158:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#9 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y159:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#10 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y161:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#11 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y162:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#12 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y163:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#13 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y164:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#14 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y175:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#15 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y176:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#16 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X22Y177:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#17 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X38Y127:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#18 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X38Y128:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#19 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X38Y129:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#20 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X38Y130:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#21 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X38Y131:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#22 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X38Y132:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#23 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X38Y140:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#24 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X38Y141:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#25 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X38Y175:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#26 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X38Y176:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#27 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X38Y177:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#28 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X42Y130:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#29 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X42Y138:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#30 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X42Y139:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#31 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X42Y140:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#32 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X42Y141:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#33 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X42Y142:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#34 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X56Y164:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#35 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X56Y165:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#36 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X56Y166:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#37 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X56Y167:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#38 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X56Y173:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#39 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X56Y174:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#40 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X56Y175:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#41 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X58Y132:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#42 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X58Y133:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#43 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X58Y165:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#44 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X58Y172:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#1 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y122:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#2 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y123:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#3 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y152:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#4 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y153:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#5 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y154:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#6 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y155:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#7 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y157:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#8 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y158:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#9 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y159:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#10 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y161:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#11 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y162:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#12 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y163:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#13 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y164:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#14 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y175:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#15 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y176:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#16 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X22Y177:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#17 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X38Y127:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#18 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X38Y128:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#19 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X38Y129:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#20 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X38Y130:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#21 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X38Y131:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#22 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X38Y132:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#23 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X38Y140:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#24 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X38Y141:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#25 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X38Y175:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#26 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X38Y176:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#27 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X38Y177:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#28 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X42Y130:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#29 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X42Y138:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#30 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X42Y139:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#31 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X42Y140:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#32 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X42Y141:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#33 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X42Y142:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#34 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X56Y164:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#35 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X56Y165:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#36 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X56Y166:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#37 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X56Y167:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#38 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X56Y173:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#39 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X56Y174:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#40 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X56Y175:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#41 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X58Y132:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#42 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X58Y133:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#43 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X58Y165:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#44 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X58Y172:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+

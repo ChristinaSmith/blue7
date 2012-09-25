@@ -1,0 +1,18 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac471aa89]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so(JVM_handle_linux_signal+0xa7) [0x2aaac471f5e7]
+/lib64/libpthread.so.0 [0x365760ebe0]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac4661781]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac4668799]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac43b8270]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac43b91ac]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac432cf22]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac43be4cd]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac43bedfd]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac48335fa]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac471d0a0]
+/lib64/libpthread.so.0 [0x365760677d]
+/lib64/libc.so.6(clone+0x6d) [0x36566d3c1d]

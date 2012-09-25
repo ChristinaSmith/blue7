@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2012.2.1 (64-bit)
+# Build 200253 by xbuild on Wed Aug 29 11:42:44 MDT 2012
+# Start of session at: Tue Sep 25 14:10:29 2012
+# Process ID: 8661
+# Log file: /home/cms/projects/blue7/blue7cp/vivado.log
+# Journal file: /home/cms/projects/blue7/blue7cp/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/cms/projects/blue7/blue7cp/blue7cp/blue7cp.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1
+wait_on_run impl_1

@@ -1,0 +1,2222 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.2/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -o
+fpgaTop.twr -v 30 -l 30 fpgaTop_routed.ncd fpgaTop.pcf
+
+Design file:              fpgaTop_routed.ncd
+Physical constraint file: fpgaTop.pcf
+Device,package,speed:     xc7k325t,ffg900,C,-1 (PRELIMINARY 1.06 2012-07-14)
+Report level:             verbose report, limited to 30 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+WARNING:Timing:3175 - gmii_gtx_clk does not clock data to gmii_txd[7]
+WARNING:Timing:3225 - Timing constraint COMP "gmii_txd[7]" OFFSET = OUT 6 ns 
+   AFTER COMP "gmii_gtx_clk"; ignored during timing analysis
+WARNING:Timing:3175 - gmii_gtx_clk does not clock data to gmii_txd[6]
+WARNING:Timing:3225 - Timing constraint COMP "gmii_txd[6]" OFFSET = OUT 6 ns 
+   AFTER COMP "gmii_gtx_clk"; ignored during timing analysis
+WARNING:Timing:3175 - gmii_gtx_clk does not clock data to gmii_txd[5]
+WARNING:Timing:3225 - Timing constraint COMP "gmii_txd[5]" OFFSET = OUT 6 ns 
+   AFTER COMP "gmii_gtx_clk"; ignored during timing analysis
+WARNING:Timing:3175 - gmii_gtx_clk does not clock data to gmii_txd[4]
+WARNING:Timing:3225 - Timing constraint COMP "gmii_txd[4]" OFFSET = OUT 6 ns 
+   AFTER COMP "gmii_gtx_clk"; ignored during timing analysis
+WARNING:Timing:3175 - gmii_gtx_clk does not clock data to gmii_txd[3]
+WARNING:Timing:3225 - Timing constraint COMP "gmii_txd[3]" OFFSET = OUT 6 ns 
+   AFTER COMP "gmii_gtx_clk"; ignored during timing analysis
+WARNING:Timing:3175 - gmii_gtx_clk does not clock data to gmii_txd[2]
+WARNING:Timing:3225 - Timing constraint COMP "gmii_txd[2]" OFFSET = OUT 6 ns 
+   AFTER COMP "gmii_gtx_clk"; ignored during timing analysis
+WARNING:Timing:3175 - gmii_gtx_clk does not clock data to gmii_txd[1]
+WARNING:Timing:3225 - Timing constraint COMP "gmii_txd[1]" OFFSET = OUT 6 ns 
+   AFTER COMP "gmii_gtx_clk"; ignored during timing analysis
+WARNING:Timing:3175 - gmii_gtx_clk does not clock data to gmii_txd[0]
+WARNING:Timing:3225 - Timing constraint COMP "gmii_txd[0]" OFFSET = OUT 6 ns 
+   AFTER COMP "gmii_gtx_clk"; ignored during timing analysis
+WARNING:Timing:3175 - gmii_gtx_clk does not clock data to gmii_tx_en
+WARNING:Timing:3225 - Timing constraint COMP "gmii_tx_en" OFFSET = OUT 6 ns 
+   AFTER COMP "gmii_gtx_clk"; ignored during timing analysis
+WARNING:Timing:3175 - gmii_gtx_clk does not clock data to gmii_tx_er
+WARNING:Timing:3225 - Timing constraint COMP "gmii_tx_er" OFFSET = OUT 6 ns 
+   AFTER COMP "gmii_gtx_clk"; ignored during timing analysis
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_GMII_GTX_CLK = PERIOD TIMEGRP "GMII_GTX_CLK" 125 MHz HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 14 paths analyzed, 14 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   2.719ns.
+--------------------------------------------------------------------------------
+Slack:                  5.281ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/gmac/txRS_txRst/reset_hold_1 (FF)
+  Destination:          ftop/gmac/txRS_iobTxClk (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      2.791ns (Levels of Logic = 1)
+  Clock Path Skew:      0.107ns (0.858 - 0.751)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/gmac/txRS_txRst/reset_hold_1 to ftop/gmac/txRS_iobTxClk
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y166.AQ      Tcko                  0.269   ftop/gmac/txRS_txRst$OUT_RST_N
+                                                       ftop/gmac/txRS_txRst/reset_hold_1
+    SLICE_X8Y166.D1      net (fanout=1)        0.468   ftop/gmac/txRS_txRst$OUT_RST_N
+    SLICE_X8Y166.D       Tilo                  0.053   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+                                                       ftop/gmac/txRS_iobTxClk_reset$RESET_OUT1_INV_0
+    OLOGIC_X0Y181.SR     net (fanout=11)       1.301   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+    OLOGIC_X0Y181.CLK    Tosrck                0.700   gmii_gtx_clk_OBUF
+                                                       ftop/gmac/txRS_iobTxClk
+    -------------------------------------------------  ---------------------------
+    Total                                      2.791ns (1.022ns logic, 1.769ns route)
+                                                       (36.6% logic, 63.4% route)
+
+--------------------------------------------------------------------------------
+Slack:                  5.381ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/gmac/txRS_txRst/reset_hold_1 (FF)
+  Destination:          ftop/gmac/txRS_iobTxData_5 (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      2.688ns (Levels of Logic = 1)
+  Clock Path Skew:      0.104ns (0.855 - 0.751)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/gmac/txRS_txRst/reset_hold_1 to ftop/gmac/txRS_iobTxData_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y166.AQ      Tcko                  0.269   ftop/gmac/txRS_txRst$OUT_RST_N
+                                                       ftop/gmac/txRS_txRst/reset_hold_1
+    SLICE_X8Y166.D1      net (fanout=1)        0.468   ftop/gmac/txRS_txRst$OUT_RST_N
+    SLICE_X8Y166.D       Tilo                  0.053   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+                                                       ftop/gmac/txRS_iobTxClk_reset$RESET_OUT1_INV_0
+    OLOGIC_X0Y180.SR     net (fanout=11)       1.198   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+    OLOGIC_X0Y180.CLK    Tosrck                0.700   gmii_txd_5_OBUF
+                                                       ftop/gmac/txRS_iobTxData_5
+    -------------------------------------------------  ---------------------------
+    Total                                      2.688ns (1.022ns logic, 1.666ns route)
+                                                       (38.0% logic, 62.0% route)
+
+--------------------------------------------------------------------------------
+Slack:                  5.451ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/gmac/txRS_txRst/reset_hold_1 (FF)
+  Destination:          ftop/gmac/txRS_iobTxData_7 (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      2.623ns (Levels of Logic = 1)
+  Clock Path Skew:      0.109ns (0.860 - 0.751)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/gmac/txRS_txRst/reset_hold_1 to ftop/gmac/txRS_iobTxData_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y166.AQ      Tcko                  0.269   ftop/gmac/txRS_txRst$OUT_RST_N
+                                                       ftop/gmac/txRS_txRst/reset_hold_1
+    SLICE_X8Y166.D1      net (fanout=1)        0.468   ftop/gmac/txRS_txRst$OUT_RST_N
+    SLICE_X8Y166.D       Tilo                  0.053   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+                                                       ftop/gmac/txRS_iobTxClk_reset$RESET_OUT1_INV_0
+    OLOGIC_X0Y183.SR     net (fanout=11)       1.133   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+    OLOGIC_X0Y183.CLK    Tosrck                0.700   gmii_txd_7_OBUF
+                                                       ftop/gmac/txRS_iobTxData_7
+    -------------------------------------------------  ---------------------------
+    Total                                      2.623ns (1.022ns logic, 1.601ns route)
+                                                       (39.0% logic, 61.0% route)
+
+--------------------------------------------------------------------------------
+Slack:                  5.492ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/gmac/txRS_txRst/reset_hold_1 (FF)
+  Destination:          ftop/gmac/txRS_iobTxData_4 (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      2.577ns (Levels of Logic = 1)
+  Clock Path Skew:      0.104ns (0.855 - 0.751)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/gmac/txRS_txRst/reset_hold_1 to ftop/gmac/txRS_iobTxData_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y166.AQ      Tcko                  0.269   ftop/gmac/txRS_txRst$OUT_RST_N
+                                                       ftop/gmac/txRS_txRst/reset_hold_1
+    SLICE_X8Y166.D1      net (fanout=1)        0.468   ftop/gmac/txRS_txRst$OUT_RST_N
+    SLICE_X8Y166.D       Tilo                  0.053   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+                                                       ftop/gmac/txRS_iobTxClk_reset$RESET_OUT1_INV_0
+    OLOGIC_X0Y179.SR     net (fanout=11)       1.087   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+    OLOGIC_X0Y179.CLK    Tosrck                0.700   gmii_txd_4_OBUF
+                                                       ftop/gmac/txRS_iobTxData_4
+    -------------------------------------------------  ---------------------------
+    Total                                      2.577ns (1.022ns logic, 1.555ns route)
+                                                       (39.7% logic, 60.3% route)
+
+--------------------------------------------------------------------------------
+Slack:                  5.552ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/gmac/txRS_txRst/reset_hold_1 (FF)
+  Destination:          ftop/gmac/txRS_iobTxData_6 (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      2.520ns (Levels of Logic = 1)
+  Clock Path Skew:      0.107ns (0.858 - 0.751)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/gmac/txRS_txRst/reset_hold_1 to ftop/gmac/txRS_iobTxData_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y166.AQ      Tcko                  0.269   ftop/gmac/txRS_txRst$OUT_RST_N
+                                                       ftop/gmac/txRS_txRst/reset_hold_1
+    SLICE_X8Y166.D1      net (fanout=1)        0.468   ftop/gmac/txRS_txRst$OUT_RST_N
+    SLICE_X8Y166.D       Tilo                  0.053   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+                                                       ftop/gmac/txRS_iobTxClk_reset$RESET_OUT1_INV_0
+    OLOGIC_X0Y182.SR     net (fanout=11)       1.030   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+    OLOGIC_X0Y182.CLK    Tosrck                0.700   gmii_txd_6_OBUF
+                                                       ftop/gmac/txRS_iobTxData_6
+    -------------------------------------------------  ---------------------------
+    Total                                      2.520ns (1.022ns logic, 1.498ns route)
+                                                       (40.6% logic, 59.4% route)
+
+--------------------------------------------------------------------------------
+Slack:                  5.607ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/gmac/txRS_txRst/reset_hold_1 (FF)
+  Destination:          ftop/gmac/txRS_iobTxData_1 (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      2.468ns (Levels of Logic = 1)
+  Clock Path Skew:      0.110ns (0.861 - 0.751)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/gmac/txRS_txRst/reset_hold_1 to ftop/gmac/txRS_iobTxData_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y166.AQ      Tcko                  0.269   ftop/gmac/txRS_txRst$OUT_RST_N
+                                                       ftop/gmac/txRS_txRst/reset_hold_1
+    SLICE_X8Y166.D1      net (fanout=1)        0.468   ftop/gmac/txRS_txRst$OUT_RST_N
+    SLICE_X8Y166.D       Tilo                  0.053   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+                                                       ftop/gmac/txRS_iobTxClk_reset$RESET_OUT1_INV_0
+    OLOGIC_X0Y164.SR     net (fanout=11)       0.978   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+    OLOGIC_X0Y164.CLK    Tosrck                0.700   gmii_txd_1_OBUF
+                                                       ftop/gmac/txRS_iobTxData_1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.468ns (1.022ns logic, 1.446ns route)
+                                                       (41.4% logic, 58.6% route)
+
+--------------------------------------------------------------------------------
+Slack:                  5.644ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/gmac/txRS_txRst/reset_hold_1 (FF)
+  Destination:          ftop/gmac/txRS_iobTxData (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      2.428ns (Levels of Logic = 1)
+  Clock Path Skew:      0.107ns (0.858 - 0.751)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/gmac/txRS_txRst/reset_hold_1 to ftop/gmac/txRS_iobTxData
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y166.AQ      Tcko                  0.269   ftop/gmac/txRS_txRst$OUT_RST_N
+                                                       ftop/gmac/txRS_txRst/reset_hold_1
+    SLICE_X8Y166.D1      net (fanout=1)        0.468   ftop/gmac/txRS_txRst$OUT_RST_N
+    SLICE_X8Y166.D       Tilo                  0.053   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+                                                       ftop/gmac/txRS_iobTxClk_reset$RESET_OUT1_INV_0
+    OLOGIC_X0Y168.SR     net (fanout=11)       0.938   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+    OLOGIC_X0Y168.CLK    Tosrck                0.700   gmii_txd_0_OBUF
+                                                       ftop/gmac/txRS_iobTxData
+    -------------------------------------------------  ---------------------------
+    Total                                      2.428ns (1.022ns logic, 1.406ns route)
+                                                       (42.1% logic, 57.9% route)
+
+--------------------------------------------------------------------------------
+Slack:                  5.747ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/gmac/txRS_txRst/reset_hold_1 (FF)
+  Destination:          ftop/gmac/txRS_iobTxEna (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      2.325ns (Levels of Logic = 1)
+  Clock Path Skew:      0.107ns (0.858 - 0.751)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/gmac/txRS_txRst/reset_hold_1 to ftop/gmac/txRS_iobTxEna
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y166.AQ      Tcko                  0.269   ftop/gmac/txRS_txRst$OUT_RST_N
+                                                       ftop/gmac/txRS_txRst/reset_hold_1
+    SLICE_X8Y166.D1      net (fanout=1)        0.468   ftop/gmac/txRS_txRst$OUT_RST_N
+    SLICE_X8Y166.D       Tilo                  0.053   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+                                                       ftop/gmac/txRS_iobTxClk_reset$RESET_OUT1_INV_0
+    OLOGIC_X0Y167.SR     net (fanout=11)       0.835   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+    OLOGIC_X0Y167.CLK    Tosrck                0.700   gmii_tx_en_OBUF
+                                                       ftop/gmac/txRS_iobTxEna
+    -------------------------------------------------  ---------------------------
+    Total                                      2.325ns (1.022ns logic, 1.303ns route)
+                                                       (44.0% logic, 56.0% route)
+
+--------------------------------------------------------------------------------
+Slack:                  5.788ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/gmac/txRS_txRst/reset_hold_1 (FF)
+  Destination:          ftop/gmac/txRS_iobTxData_2 (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      2.281ns (Levels of Logic = 1)
+  Clock Path Skew:      0.104ns (0.855 - 0.751)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/gmac/txRS_txRst/reset_hold_1 to ftop/gmac/txRS_iobTxData_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y166.AQ      Tcko                  0.269   ftop/gmac/txRS_txRst$OUT_RST_N
+                                                       ftop/gmac/txRS_txRst/reset_hold_1
+    SLICE_X8Y166.D1      net (fanout=1)        0.468   ftop/gmac/txRS_txRst$OUT_RST_N
+    SLICE_X8Y166.D       Tilo                  0.053   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+                                                       ftop/gmac/txRS_iobTxClk_reset$RESET_OUT1_INV_0
+    OLOGIC_X0Y170.SR     net (fanout=11)       0.791   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+    OLOGIC_X0Y170.CLK    Tosrck                0.700   gmii_txd_2_OBUF
+                                                       ftop/gmac/txRS_iobTxData_2
+    -------------------------------------------------  ---------------------------
+    Total                                      2.281ns (1.022ns logic, 1.259ns route)
+                                                       (44.8% logic, 55.2% route)
+
+--------------------------------------------------------------------------------
+Slack:                  5.798ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/gmac/txRS_txRst/reset_hold_1 (FF)
+  Destination:          ftop/gmac/txRS_iobTxData_3 (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      2.270ns (Levels of Logic = 1)
+  Clock Path Skew:      0.103ns (0.854 - 0.751)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/gmac/txRS_txRst/reset_hold_1 to ftop/gmac/txRS_iobTxData_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y166.AQ      Tcko                  0.269   ftop/gmac/txRS_txRst$OUT_RST_N
+                                                       ftop/gmac/txRS_txRst/reset_hold_1
+    SLICE_X8Y166.D1      net (fanout=1)        0.468   ftop/gmac/txRS_txRst$OUT_RST_N
+    SLICE_X8Y166.D       Tilo                  0.053   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+                                                       ftop/gmac/txRS_iobTxClk_reset$RESET_OUT1_INV_0
+    OLOGIC_X0Y171.SR     net (fanout=11)       0.780   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+    OLOGIC_X0Y171.CLK    Tosrck                0.700   gmii_txd_3_OBUF
+                                                       ftop/gmac/txRS_iobTxData_3
+    -------------------------------------------------  ---------------------------
+    Total                                      2.270ns (1.022ns logic, 1.248ns route)
+                                                       (45.0% logic, 55.0% route)
+
+--------------------------------------------------------------------------------
+Slack:                  5.859ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/gmac/txRS_txRst/reset_hold_1 (FF)
+  Destination:          ftop/gmac/txRS_iobTxErr (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      2.215ns (Levels of Logic = 1)
+  Clock Path Skew:      0.109ns (0.860 - 0.751)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/gmac/txRS_txRst/reset_hold_1 to ftop/gmac/txRS_iobTxErr
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y166.AQ      Tcko                  0.269   ftop/gmac/txRS_txRst$OUT_RST_N
+                                                       ftop/gmac/txRS_txRst/reset_hold_1
+    SLICE_X8Y166.D1      net (fanout=1)        0.468   ftop/gmac/txRS_txRst$OUT_RST_N
+    SLICE_X8Y166.D       Tilo                  0.053   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+                                                       ftop/gmac/txRS_iobTxClk_reset$RESET_OUT1_INV_0
+    OLOGIC_X0Y166.SR     net (fanout=11)       0.725   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+    OLOGIC_X0Y166.CLK    Tosrck                0.700   gmii_tx_er_OBUF
+                                                       ftop/gmac/txRS_iobTxErr
+    -------------------------------------------------  ---------------------------
+    Total                                      2.215ns (1.022ns logic, 1.193ns route)
+                                                       (46.1% logic, 53.9% route)
+
+--------------------------------------------------------------------------------
+Slack:                  6.162ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/sys1_rst/reset_hold_0 (FF)
+  Destination:          ftop/gmac/txRS_txRst/reset_hold_1 (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      1.774ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.029ns (0.726 - 0.755)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/sys1_rst/reset_hold_0 to ftop/gmac/txRS_txRst/reset_hold_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X17Y162.DMUX   Tshcko                0.349   ftop/sys1_rst$OUT_RST_N
+                                                       ftop/sys1_rst/reset_hold_0
+    SLICE_X16Y162.A2     net (fanout=1)        0.443   ftop/sys1_rst$OUT_RST_N
+    SLICE_X16Y162.A      Tilo                  0.053   ftop/gmac/sRST_N_inv
+                                                       ftop/gmac/rxRS_rxOperateS/sRST_N_inv1_INV_0
+    SLICE_X9Y166.SR      net (fanout=2)        0.674   ftop/gmac/sRST_N_inv
+    SLICE_X9Y166.CLK     Trck                  0.255   ftop/gmac/txRS_txRst$OUT_RST_N
+                                                       ftop/gmac/txRS_txRst/reset_hold_1
+    -------------------------------------------------  ---------------------------
+    Total                                      1.774ns (0.657ns logic, 1.117ns route)
+                                                       (37.0% logic, 63.0% route)
+
+--------------------------------------------------------------------------------
+Slack:                  6.189ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/sys1_rst/reset_hold_0 (FF)
+  Destination:          ftop/gmac/txRS_txRst/reset_hold_0 (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      1.747ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.029ns (0.726 - 0.755)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/sys1_rst/reset_hold_0 to ftop/gmac/txRS_txRst/reset_hold_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X17Y162.DMUX   Tshcko                0.349   ftop/sys1_rst$OUT_RST_N
+                                                       ftop/sys1_rst/reset_hold_0
+    SLICE_X16Y162.A2     net (fanout=1)        0.443   ftop/sys1_rst$OUT_RST_N
+    SLICE_X16Y162.A      Tilo                  0.053   ftop/gmac/sRST_N_inv
+                                                       ftop/gmac/rxRS_rxOperateS/sRST_N_inv1_INV_0
+    SLICE_X8Y166.SR      net (fanout=2)        0.674   ftop/gmac/sRST_N_inv
+    SLICE_X8Y166.CLK     Trck                  0.228   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+                                                       ftop/gmac/txRS_txRst/reset_hold_0
+    -------------------------------------------------  ---------------------------
+    Total                                      1.747ns (0.630ns logic, 1.117ns route)
+                                                       (36.1% logic, 63.9% route)
+
+--------------------------------------------------------------------------------
+Slack:                  7.137ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/gmac/txRS_txRst/reset_hold_0 (FF)
+  Destination:          ftop/gmac/txRS_txRst/reset_hold_1 (FF)
+  Requirement:          8.000ns
+  Data Path Delay:      0.810ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys1_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys1_clk$O rising at 8.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/gmac/txRS_txRst/reset_hold_0 to ftop/gmac/txRS_txRst/reset_hold_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X8Y166.DMUX    Tshcko                0.385   ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+                                                       ftop/gmac/txRS_txRst/reset_hold_0
+    SLICE_X9Y166.AX      net (fanout=1)        0.391   ftop/gmac/txRS_txRst/reset_hold[0]
+    SLICE_X9Y166.CLK     Tdick                 0.034   ftop/gmac/txRS_txRst$OUT_RST_N
+                                                       ftop/gmac/txRS_txRst/reset_hold_1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.810ns (0.419ns logic, 0.391ns route)
+                                                       (51.7% logic, 48.3% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_GMII_GTX_CLK = PERIOD TIMEGRP "GMII_GTX_CLK" 125 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 6.400ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.600ns (625.000MHz) (Tbcper_I(Fmax))
+  Physical resource: ftop/sys1_clk/I0
+  Logical resource: ftop/sys1_clk/I0
+  Location pin: BUFGCTRL_X0Y31.I0
+  Clock network: ftop/sys1_clki$O
+--------------------------------------------------------------------------------
+Slack: 6.462ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.538ns (650.195MHz) (Tibiper)
+  Physical resource: ftop/sys1_clki/I
+  Logical resource: ftop/sys1_clki/I
+  Location pin: IBUFDS_GTE2_X0Y4.I
+  Clock network: sys1_clkp_IBUF
+--------------------------------------------------------------------------------
+Slack: 6.462ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.538ns (650.195MHz) (Tibibper)
+  Physical resource: ftop/sys1_clki/IB
+  Logical resource: ftop/sys1_clki/IB
+  Location pin: IBUFDS_GTE2_X0Y4.IB
+  Clock network: sys1_clkn_IBUF
+--------------------------------------------------------------------------------
+Slack: 6.750ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.625ns (Tospwh)
+  Physical resource: gmii_gtx_clk_OBUF/SR
+  Logical resource: ftop/gmac/txRS_iobTxClk/SR
+  Location pin: OLOGIC_X0Y181.SR
+  Clock network: ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+--------------------------------------------------------------------------------
+Slack: 6.750ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.625ns (Tospwh)
+  Physical resource: gmii_txd_0_OBUF/SR
+  Logical resource: ftop/gmac/txRS_iobTxData/SR
+  Location pin: OLOGIC_X0Y168.SR
+  Clock network: ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+--------------------------------------------------------------------------------
+Slack: 6.750ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.625ns (Tospwh)
+  Physical resource: gmii_txd_1_OBUF/SR
+  Logical resource: ftop/gmac/txRS_iobTxData_1/SR
+  Location pin: OLOGIC_X0Y164.SR
+  Clock network: ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+--------------------------------------------------------------------------------
+Slack: 6.750ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.625ns (Tospwh)
+  Physical resource: gmii_txd_2_OBUF/SR
+  Logical resource: ftop/gmac/txRS_iobTxData_2/SR
+  Location pin: OLOGIC_X0Y170.SR
+  Clock network: ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+--------------------------------------------------------------------------------
+Slack: 6.750ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.625ns (Tospwh)
+  Physical resource: gmii_txd_3_OBUF/SR
+  Logical resource: ftop/gmac/txRS_iobTxData_3/SR
+  Location pin: OLOGIC_X0Y171.SR
+  Clock network: ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+--------------------------------------------------------------------------------
+Slack: 6.750ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.625ns (Tospwh)
+  Physical resource: gmii_txd_4_OBUF/SR
+  Logical resource: ftop/gmac/txRS_iobTxData_4/SR
+  Location pin: OLOGIC_X0Y179.SR
+  Clock network: ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+--------------------------------------------------------------------------------
+Slack: 6.750ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.625ns (Tospwh)
+  Physical resource: gmii_txd_5_OBUF/SR
+  Logical resource: ftop/gmac/txRS_iobTxData_5/SR
+  Location pin: OLOGIC_X0Y180.SR
+  Clock network: ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+--------------------------------------------------------------------------------
+Slack: 6.750ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.625ns (Tospwh)
+  Physical resource: gmii_txd_6_OBUF/SR
+  Logical resource: ftop/gmac/txRS_iobTxData_6/SR
+  Location pin: OLOGIC_X0Y182.SR
+  Clock network: ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+--------------------------------------------------------------------------------
+Slack: 6.750ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.625ns (Tospwh)
+  Physical resource: gmii_txd_7_OBUF/SR
+  Logical resource: ftop/gmac/txRS_iobTxData_7/SR
+  Location pin: OLOGIC_X0Y183.SR
+  Clock network: ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+--------------------------------------------------------------------------------
+Slack: 6.750ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.625ns (Tospwh)
+  Physical resource: gmii_tx_en_OBUF/SR
+  Logical resource: ftop/gmac/txRS_iobTxEna/SR
+  Location pin: OLOGIC_X0Y167.SR
+  Clock network: ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+--------------------------------------------------------------------------------
+Slack: 6.750ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.625ns (Tospwh)
+  Physical resource: gmii_tx_er_OBUF/SR
+  Logical resource: ftop/gmac/txRS_iobTxErr/SR
+  Location pin: OLOGIC_X0Y166.SR
+  Clock network: ftop/gmac/txRS_iobTxClk_reset$RESET_OUT
+--------------------------------------------------------------------------------
+Slack: 6.750ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.625ns (Tospwh)
+  Physical resource: reset_hold_0_1/SR
+  Logical resource: ftop/sys1_rst/reset_hold_0_1/SR
+  Location pin: OLOGIC_X0Y187.SR
+  Clock network: ftop/RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 6.751ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tockper)
+  Physical resource: gmii_gtx_clk_OBUF/CLK
+  Logical resource: ftop/gmac/txRS_iobTxClk/CK
+  Location pin: OLOGIC_X0Y181.CLK
+  Clock network: ftop/sys1_clk$O
+--------------------------------------------------------------------------------
+Slack: 6.751ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tockper)
+  Physical resource: gmii_txd_0_OBUF/CLK
+  Logical resource: ftop/gmac/txRS_iobTxData/CK
+  Location pin: OLOGIC_X0Y168.CLK
+  Clock network: ftop/sys1_clk$O
+--------------------------------------------------------------------------------
+Slack: 6.751ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tockper)
+  Physical resource: gmii_txd_1_OBUF/CLK
+  Logical resource: ftop/gmac/txRS_iobTxData_1/CK
+  Location pin: OLOGIC_X0Y164.CLK
+  Clock network: ftop/sys1_clk$O
+--------------------------------------------------------------------------------
+Slack: 6.751ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tockper)
+  Physical resource: gmii_txd_2_OBUF/CLK
+  Logical resource: ftop/gmac/txRS_iobTxData_2/CK
+  Location pin: OLOGIC_X0Y170.CLK
+  Clock network: ftop/sys1_clk$O
+--------------------------------------------------------------------------------
+Slack: 6.751ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tockper)
+  Physical resource: gmii_txd_3_OBUF/CLK
+  Logical resource: ftop/gmac/txRS_iobTxData_3/CK
+  Location pin: OLOGIC_X0Y171.CLK
+  Clock network: ftop/sys1_clk$O
+--------------------------------------------------------------------------------
+Slack: 6.751ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tockper)
+  Physical resource: gmii_txd_4_OBUF/CLK
+  Logical resource: ftop/gmac/txRS_iobTxData_4/CK
+  Location pin: OLOGIC_X0Y179.CLK
+  Clock network: ftop/sys1_clk$O
+--------------------------------------------------------------------------------
+Slack: 6.751ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tockper)
+  Physical resource: gmii_txd_5_OBUF/CLK
+  Logical resource: ftop/gmac/txRS_iobTxData_5/CK
+  Location pin: OLOGIC_X0Y180.CLK
+  Clock network: ftop/sys1_clk$O
+--------------------------------------------------------------------------------
+Slack: 6.751ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tockper)
+  Physical resource: gmii_txd_6_OBUF/CLK
+  Logical resource: ftop/gmac/txRS_iobTxData_6/CK
+  Location pin: OLOGIC_X0Y182.CLK
+  Clock network: ftop/sys1_clk$O
+--------------------------------------------------------------------------------
+Slack: 6.751ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tockper)
+  Physical resource: gmii_txd_7_OBUF/CLK
+  Logical resource: ftop/gmac/txRS_iobTxData_7/CK
+  Location pin: OLOGIC_X0Y183.CLK
+  Clock network: ftop/sys1_clk$O
+--------------------------------------------------------------------------------
+Slack: 6.751ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tockper)
+  Physical resource: gmii_tx_en_OBUF/CLK
+  Logical resource: ftop/gmac/txRS_iobTxEna/CK
+  Location pin: OLOGIC_X0Y167.CLK
+  Clock network: ftop/sys1_clk$O
+--------------------------------------------------------------------------------
+Slack: 6.751ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tockper)
+  Physical resource: gmii_tx_er_OBUF/CLK
+  Logical resource: ftop/gmac/txRS_iobTxErr/CK
+  Location pin: OLOGIC_X0Y166.CLK
+  Clock network: ftop/sys1_clk$O
+--------------------------------------------------------------------------------
+Slack: 6.751ns (period - min period limit)
+  Period: 8.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tockper)
+  Physical resource: reset_hold_0_1/CLK
+  Logical resource: ftop/sys1_rst/reset_hold_0_1/CK
+  Location pin: OLOGIC_X0Y187.CLK
+  Clock network: ftop/sys1_clk$O
+--------------------------------------------------------------------------------
+Slack: 7.200ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 8.000ns
+  Low pulse: 4.000ns
+  Low pulse limit: 0.400ns (Tcl)
+  Physical resource: ftop/gmac/txRS_iobTxClk_reset$RESET_OUT/CLK
+  Logical resource: ftop/gmac/txRS_txRst/reset_hold_0/CK
+  Location pin: SLICE_X8Y166.CLK
+  Clock network: ftop/sys1_clk$O
+--------------------------------------------------------------------------------
+Slack: 7.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/gmac/txRS_iobTxClk_reset$RESET_OUT/SR
+  Logical resource: ftop/gmac/txRS_txRst/reset_hold_0/SR
+  Location pin: SLICE_X8Y166.SR
+  Clock network: ftop/gmac/sRST_N_inv
+--------------------------------------------------------------------------------
+Slack: 7.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 8.000ns
+  High pulse: 4.000ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/gmac/txRS_txRst$OUT_RST_N/SR
+  Logical resource: ftop/gmac/txRS_txRst/reset_hold_1/SR
+  Location pin: SLICE_X9Y166.SR
+  Clock network: ftop/gmac/sRST_N_inv
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_SYS0CLK = PERIOD TIMEGRP "SYS0CLK" 200 MHz HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 93 paths analyzed, 71 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   2.959ns.
+--------------------------------------------------------------------------------
+Slack:                  2.041ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/sys0_rst/reset_hold_15 (FF)
+  Destination:          ftop/idc_idcRst/rst (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      2.824ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.100ns (0.653 - 0.753)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/sys0_rst/reset_hold_15 to ftop/idc_idcRst/rst
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X124Y112.AQ    Tcko                  0.269   ftop/sys0_rst$OUT_RST_N
+                                                       ftop/sys0_rst/reset_hold_15
+    SLICE_X88Y129.D5     net (fanout=1)        1.535   ftop/sys0_rst$OUT_RST_N
+    SLICE_X88Y129.D      Tilo                  0.053   ftop/RST_N_inv
+                                                       ftop/idc_idcRst/RST_N_inv1_INV_0
+    SLICE_X82Y134.SR     net (fanout=5)        0.775   ftop/RST_N_inv
+    SLICE_X82Y134.CLK    Trck                  0.192   ftop/idc_idcRst/rst
+                                                       ftop/idc_idcRst/rst
+    -------------------------------------------------  ---------------------------
+    Total                                      2.824ns (0.514ns logic, 2.310ns route)
+                                                       (18.2% logic, 81.8% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.089ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/sys0_rst/reset_hold_15 (FF)
+  Destination:          ftop/idc_preResetCount_0 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      2.775ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.101ns (0.652 - 0.753)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/sys0_rst/reset_hold_15 to ftop/idc_preResetCount_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X124Y112.AQ    Tcko                  0.269   ftop/sys0_rst$OUT_RST_N
+                                                       ftop/sys0_rst/reset_hold_15
+    SLICE_X88Y129.D5     net (fanout=1)        1.535   ftop/sys0_rst$OUT_RST_N
+    SLICE_X88Y129.D      Tilo                  0.053   ftop/RST_N_inv
+                                                       ftop/idc_idcRst/RST_N_inv1_INV_0
+    SLICE_X83Y133.SR     net (fanout=5)        0.551   ftop/RST_N_inv
+    SLICE_X83Y133.CLK    Tsrck                 0.367   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_0
+    -------------------------------------------------  ---------------------------
+    Total                                      2.775ns (0.689ns logic, 2.086ns route)
+                                                       (24.8% logic, 75.2% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.089ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/sys0_rst/reset_hold_15 (FF)
+  Destination:          ftop/idc_preResetCount_1 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      2.775ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.101ns (0.652 - 0.753)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/sys0_rst/reset_hold_15 to ftop/idc_preResetCount_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X124Y112.AQ    Tcko                  0.269   ftop/sys0_rst$OUT_RST_N
+                                                       ftop/sys0_rst/reset_hold_15
+    SLICE_X88Y129.D5     net (fanout=1)        1.535   ftop/sys0_rst$OUT_RST_N
+    SLICE_X88Y129.D      Tilo                  0.053   ftop/RST_N_inv
+                                                       ftop/idc_idcRst/RST_N_inv1_INV_0
+    SLICE_X83Y133.SR     net (fanout=5)        0.551   ftop/RST_N_inv
+    SLICE_X83Y133.CLK    Tsrck                 0.367   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.775ns (0.689ns logic, 2.086ns route)
+                                                       (24.8% logic, 75.2% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.089ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/sys0_rst/reset_hold_15 (FF)
+  Destination:          ftop/idc_preResetCount_3 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      2.775ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.101ns (0.652 - 0.753)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/sys0_rst/reset_hold_15 to ftop/idc_preResetCount_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X124Y112.AQ    Tcko                  0.269   ftop/sys0_rst$OUT_RST_N
+                                                       ftop/sys0_rst/reset_hold_15
+    SLICE_X88Y129.D5     net (fanout=1)        1.535   ftop/sys0_rst$OUT_RST_N
+    SLICE_X88Y129.D      Tilo                  0.053   ftop/RST_N_inv
+                                                       ftop/idc_idcRst/RST_N_inv1_INV_0
+    SLICE_X83Y133.SR     net (fanout=5)        0.551   ftop/RST_N_inv
+    SLICE_X83Y133.CLK    Tsrck                 0.367   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_3
+    -------------------------------------------------  ---------------------------
+    Total                                      2.775ns (0.689ns logic, 2.086ns route)
+                                                       (24.8% logic, 75.2% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.089ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/sys0_rst/reset_hold_15 (FF)
+  Destination:          ftop/idc_preResetCount_2 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      2.775ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.101ns (0.652 - 0.753)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/sys0_rst/reset_hold_15 to ftop/idc_preResetCount_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X124Y112.AQ    Tcko                  0.269   ftop/sys0_rst$OUT_RST_N
+                                                       ftop/sys0_rst/reset_hold_15
+    SLICE_X88Y129.D5     net (fanout=1)        1.535   ftop/sys0_rst$OUT_RST_N
+    SLICE_X88Y129.D      Tilo                  0.053   ftop/RST_N_inv
+                                                       ftop/idc_idcRst/RST_N_inv1_INV_0
+    SLICE_X83Y133.SR     net (fanout=5)        0.551   ftop/RST_N_inv
+    SLICE_X83Y133.CLK    Tsrck                 0.367   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_2
+    -------------------------------------------------  ---------------------------
+    Total                                      2.775ns (0.689ns logic, 2.086ns route)
+                                                       (24.8% logic, 75.2% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.112ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/sys0_rst/reset_hold_15 (FF)
+  Destination:          ftop/idc_doResetCount_0 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      2.752ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.101ns (0.652 - 0.753)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/sys0_rst/reset_hold_15 to ftop/idc_doResetCount_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X124Y112.AQ    Tcko                  0.269   ftop/sys0_rst$OUT_RST_N
+                                                       ftop/sys0_rst/reset_hold_15
+    SLICE_X88Y129.D5     net (fanout=1)        1.535   ftop/sys0_rst$OUT_RST_N
+    SLICE_X88Y129.D      Tilo                  0.053   ftop/RST_N_inv
+                                                       ftop/idc_idcRst/RST_N_inv1_INV_0
+    SLICE_X82Y133.SR     net (fanout=5)        0.551   ftop/RST_N_inv
+    SLICE_X82Y133.CLK    Tsrck                 0.344   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_0
+    -------------------------------------------------  ---------------------------
+    Total                                      2.752ns (0.666ns logic, 2.086ns route)
+                                                       (24.2% logic, 75.8% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.112ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/sys0_rst/reset_hold_15 (FF)
+  Destination:          ftop/idc_doResetCount_1 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      2.752ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.101ns (0.652 - 0.753)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/sys0_rst/reset_hold_15 to ftop/idc_doResetCount_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X124Y112.AQ    Tcko                  0.269   ftop/sys0_rst$OUT_RST_N
+                                                       ftop/sys0_rst/reset_hold_15
+    SLICE_X88Y129.D5     net (fanout=1)        1.535   ftop/sys0_rst$OUT_RST_N
+    SLICE_X88Y129.D      Tilo                  0.053   ftop/RST_N_inv
+                                                       ftop/idc_idcRst/RST_N_inv1_INV_0
+    SLICE_X82Y133.SR     net (fanout=5)        0.551   ftop/RST_N_inv
+    SLICE_X82Y133.CLK    Tsrck                 0.344   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.752ns (0.666ns logic, 2.086ns route)
+                                                       (24.2% logic, 75.8% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.112ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/sys0_rst/reset_hold_15 (FF)
+  Destination:          ftop/idc_doResetCount_2 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      2.752ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.101ns (0.652 - 0.753)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/sys0_rst/reset_hold_15 to ftop/idc_doResetCount_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X124Y112.AQ    Tcko                  0.269   ftop/sys0_rst$OUT_RST_N
+                                                       ftop/sys0_rst/reset_hold_15
+    SLICE_X88Y129.D5     net (fanout=1)        1.535   ftop/sys0_rst$OUT_RST_N
+    SLICE_X88Y129.D      Tilo                  0.053   ftop/RST_N_inv
+                                                       ftop/idc_idcRst/RST_N_inv1_INV_0
+    SLICE_X82Y133.SR     net (fanout=5)        0.551   ftop/RST_N_inv
+    SLICE_X82Y133.CLK    Tsrck                 0.344   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_2
+    -------------------------------------------------  ---------------------------
+    Total                                      2.752ns (0.666ns logic, 2.086ns route)
+                                                       (24.2% logic, 75.8% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.112ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/sys0_rst/reset_hold_15 (FF)
+  Destination:          ftop/idc_doResetCount_3 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      2.752ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.101ns (0.652 - 0.753)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/sys0_rst/reset_hold_15 to ftop/idc_doResetCount_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X124Y112.AQ    Tcko                  0.269   ftop/sys0_rst$OUT_RST_N
+                                                       ftop/sys0_rst/reset_hold_15
+    SLICE_X88Y129.D5     net (fanout=1)        1.535   ftop/sys0_rst$OUT_RST_N
+    SLICE_X88Y129.D      Tilo                  0.053   ftop/RST_N_inv
+                                                       ftop/idc_idcRst/RST_N_inv1_INV_0
+    SLICE_X82Y133.SR     net (fanout=5)        0.551   ftop/RST_N_inv
+    SLICE_X82Y133.CLK    Tsrck                 0.344   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_3
+    -------------------------------------------------  ---------------------------
+    Total                                      2.752ns (0.666ns logic, 2.086ns route)
+                                                       (24.2% logic, 75.8% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.432ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_0 (FF)
+  Destination:          ftop/idc_preResetCount_1 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.533ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_0 to ftop/idc_preResetCount_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.AQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_0
+    SLICE_X83Y134.B1     net (fanout=9)        0.724   ftop/idc_preResetCount[0]
+    SLICE_X83Y134.B      Tilo                  0.053   ftop/idc_idcRst/rstSync/reset_hold[0]
+                                                       ftop/CAN_FIRE_RL_idc_do_reset_inv1
+    SLICE_X83Y133.CE     net (fanout=1)        0.243   ftop/CAN_FIRE_RL_idc_do_reset_inv
+    SLICE_X83Y133.CLK    Tceck                 0.244   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_1
+    -------------------------------------------------  ---------------------------
+    Total                                      1.533ns (0.566ns logic, 0.967ns route)
+                                                       (36.9% logic, 63.1% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.432ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_0 (FF)
+  Destination:          ftop/idc_preResetCount_3 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.533ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_0 to ftop/idc_preResetCount_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.AQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_0
+    SLICE_X83Y134.B1     net (fanout=9)        0.724   ftop/idc_preResetCount[0]
+    SLICE_X83Y134.B      Tilo                  0.053   ftop/idc_idcRst/rstSync/reset_hold[0]
+                                                       ftop/CAN_FIRE_RL_idc_do_reset_inv1
+    SLICE_X83Y133.CE     net (fanout=1)        0.243   ftop/CAN_FIRE_RL_idc_do_reset_inv
+    SLICE_X83Y133.CLK    Tceck                 0.244   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_3
+    -------------------------------------------------  ---------------------------
+    Total                                      1.533ns (0.566ns logic, 0.967ns route)
+                                                       (36.9% logic, 63.1% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.432ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_0 (FF)
+  Destination:          ftop/idc_preResetCount_0 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.533ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_0 to ftop/idc_preResetCount_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.AQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_0
+    SLICE_X83Y134.B1     net (fanout=9)        0.724   ftop/idc_preResetCount[0]
+    SLICE_X83Y134.B      Tilo                  0.053   ftop/idc_idcRst/rstSync/reset_hold[0]
+                                                       ftop/CAN_FIRE_RL_idc_do_reset_inv1
+    SLICE_X83Y133.CE     net (fanout=1)        0.243   ftop/CAN_FIRE_RL_idc_do_reset_inv
+    SLICE_X83Y133.CLK    Tceck                 0.244   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_0
+    -------------------------------------------------  ---------------------------
+    Total                                      1.533ns (0.566ns logic, 0.967ns route)
+                                                       (36.9% logic, 63.1% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.432ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_0 (FF)
+  Destination:          ftop/idc_preResetCount_2 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.533ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_0 to ftop/idc_preResetCount_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.AQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_0
+    SLICE_X83Y134.B1     net (fanout=9)        0.724   ftop/idc_preResetCount[0]
+    SLICE_X83Y134.B      Tilo                  0.053   ftop/idc_idcRst/rstSync/reset_hold[0]
+                                                       ftop/CAN_FIRE_RL_idc_do_reset_inv1
+    SLICE_X83Y133.CE     net (fanout=1)        0.243   ftop/CAN_FIRE_RL_idc_do_reset_inv
+    SLICE_X83Y133.CLK    Tceck                 0.244   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_2
+    -------------------------------------------------  ---------------------------
+    Total                                      1.533ns (0.566ns logic, 0.967ns route)
+                                                       (36.9% logic, 63.1% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.457ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_1 (FF)
+  Destination:          ftop/idc_doResetCount_3 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.490ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_1 to ftop/idc_doResetCount_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.BQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_1
+    SLICE_X82Y134.B4     net (fanout=4)        0.449   ftop/idc_preResetCount[1]
+    SLICE_X82Y134.B      Tilo                  0.053   ftop/idc_idcRst/rst
+                                                       ftop/_n0695_SW0
+    SLICE_X82Y133.D1     net (fanout=5)        0.739   ftop/N2
+    SLICE_X82Y133.CLK    Tas                  -0.020   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_3_rstpot
+                                                       ftop/idc_doResetCount_3
+    -------------------------------------------------  ---------------------------
+    Total                                      1.490ns (0.302ns logic, 1.188ns route)
+                                                       (20.3% logic, 79.7% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.468ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_1 (FF)
+  Destination:          ftop/idc_doResetCount_2 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.479ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_1 to ftop/idc_doResetCount_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.BQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_1
+    SLICE_X82Y134.B4     net (fanout=4)        0.449   ftop/idc_preResetCount[1]
+    SLICE_X82Y134.B      Tilo                  0.053   ftop/idc_idcRst/rst
+                                                       ftop/_n0695_SW0
+    SLICE_X82Y133.C1     net (fanout=5)        0.728   ftop/N2
+    SLICE_X82Y133.CLK    Tas                  -0.020   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_2_rstpot
+                                                       ftop/idc_doResetCount_2
+    -------------------------------------------------  ---------------------------
+    Total                                      1.479ns (0.302ns logic, 1.177ns route)
+                                                       (20.4% logic, 79.6% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.479ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_1 (FF)
+  Destination:          ftop/idc_doResetCount_0 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.468ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_1 to ftop/idc_doResetCount_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.BQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_1
+    SLICE_X82Y134.B4     net (fanout=4)        0.449   ftop/idc_preResetCount[1]
+    SLICE_X82Y134.B      Tilo                  0.053   ftop/idc_idcRst/rst
+                                                       ftop/_n0695_SW0
+    SLICE_X82Y133.A2     net (fanout=5)        0.715   ftop/N2
+    SLICE_X82Y133.CLK    Tas                  -0.018   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_0_rstpot
+                                                       ftop/idc_doResetCount_0
+    -------------------------------------------------  ---------------------------
+    Total                                      1.468ns (0.304ns logic, 1.164ns route)
+                                                       (20.7% logic, 79.3% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.496ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_3 (FF)
+  Destination:          ftop/idc_doResetCount_3 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.451ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_3 to ftop/idc_doResetCount_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.CMUX   Tshcko                0.348   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_3
+    SLICE_X82Y134.B5     net (fanout=3)        0.331   ftop/idc_preResetCount[3]
+    SLICE_X82Y134.B      Tilo                  0.053   ftop/idc_idcRst/rst
+                                                       ftop/_n0695_SW0
+    SLICE_X82Y133.D1     net (fanout=5)        0.739   ftop/N2
+    SLICE_X82Y133.CLK    Tas                  -0.020   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_3_rstpot
+                                                       ftop/idc_doResetCount_3
+    -------------------------------------------------  ---------------------------
+    Total                                      1.451ns (0.381ns logic, 1.070ns route)
+                                                       (26.3% logic, 73.7% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.507ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_3 (FF)
+  Destination:          ftop/idc_doResetCount_2 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.440ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_3 to ftop/idc_doResetCount_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.CMUX   Tshcko                0.348   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_3
+    SLICE_X82Y134.B5     net (fanout=3)        0.331   ftop/idc_preResetCount[3]
+    SLICE_X82Y134.B      Tilo                  0.053   ftop/idc_idcRst/rst
+                                                       ftop/_n0695_SW0
+    SLICE_X82Y133.C1     net (fanout=5)        0.728   ftop/N2
+    SLICE_X82Y133.CLK    Tas                  -0.020   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_2_rstpot
+                                                       ftop/idc_doResetCount_2
+    -------------------------------------------------  ---------------------------
+    Total                                      1.440ns (0.381ns logic, 1.059ns route)
+                                                       (26.5% logic, 73.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.518ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_3 (FF)
+  Destination:          ftop/idc_doResetCount_0 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.429ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_3 to ftop/idc_doResetCount_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.CMUX   Tshcko                0.348   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_3
+    SLICE_X82Y134.B5     net (fanout=3)        0.331   ftop/idc_preResetCount[3]
+    SLICE_X82Y134.B      Tilo                  0.053   ftop/idc_idcRst/rst
+                                                       ftop/_n0695_SW0
+    SLICE_X82Y133.A2     net (fanout=5)        0.715   ftop/N2
+    SLICE_X82Y133.CLK    Tas                  -0.018   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_0_rstpot
+                                                       ftop/idc_doResetCount_0
+    -------------------------------------------------  ---------------------------
+    Total                                      1.429ns (0.383ns logic, 1.046ns route)
+                                                       (26.8% logic, 73.2% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.641ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_1 (FF)
+  Destination:          ftop/idc_doResetCount_1 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.306ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_1 to ftop/idc_doResetCount_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.BQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_1
+    SLICE_X82Y134.B4     net (fanout=4)        0.449   ftop/idc_preResetCount[1]
+    SLICE_X82Y134.B      Tilo                  0.053   ftop/idc_idcRst/rst
+                                                       ftop/_n0695_SW0
+    SLICE_X82Y133.B4     net (fanout=5)        0.554   ftop/N2
+    SLICE_X82Y133.CLK    Tas                  -0.019   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_1_rstpot
+                                                       ftop/idc_doResetCount_1
+    -------------------------------------------------  ---------------------------
+    Total                                      1.306ns (0.303ns logic, 1.003ns route)
+                                                       (23.2% logic, 76.8% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.648ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_2 (FF)
+  Destination:          ftop/idc_doResetCount_3 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.299ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_2 to ftop/idc_doResetCount_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.CQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_2
+    SLICE_X82Y134.B6     net (fanout=3)        0.258   ftop/idc_preResetCount[2]
+    SLICE_X82Y134.B      Tilo                  0.053   ftop/idc_idcRst/rst
+                                                       ftop/_n0695_SW0
+    SLICE_X82Y133.D1     net (fanout=5)        0.739   ftop/N2
+    SLICE_X82Y133.CLK    Tas                  -0.020   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_3_rstpot
+                                                       ftop/idc_doResetCount_3
+    -------------------------------------------------  ---------------------------
+    Total                                      1.299ns (0.302ns logic, 0.997ns route)
+                                                       (23.2% logic, 76.8% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.659ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_2 (FF)
+  Destination:          ftop/idc_doResetCount_2 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.288ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_2 to ftop/idc_doResetCount_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.CQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_2
+    SLICE_X82Y134.B6     net (fanout=3)        0.258   ftop/idc_preResetCount[2]
+    SLICE_X82Y134.B      Tilo                  0.053   ftop/idc_idcRst/rst
+                                                       ftop/_n0695_SW0
+    SLICE_X82Y133.C1     net (fanout=5)        0.728   ftop/N2
+    SLICE_X82Y133.CLK    Tas                  -0.020   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_2_rstpot
+                                                       ftop/idc_doResetCount_2
+    -------------------------------------------------  ---------------------------
+    Total                                      1.288ns (0.302ns logic, 0.986ns route)
+                                                       (23.4% logic, 76.6% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.670ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_2 (FF)
+  Destination:          ftop/idc_doResetCount_0 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.277ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_2 to ftop/idc_doResetCount_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.CQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_2
+    SLICE_X82Y134.B6     net (fanout=3)        0.258   ftop/idc_preResetCount[2]
+    SLICE_X82Y134.B      Tilo                  0.053   ftop/idc_idcRst/rst
+                                                       ftop/_n0695_SW0
+    SLICE_X82Y133.A2     net (fanout=5)        0.715   ftop/N2
+    SLICE_X82Y133.CLK    Tas                  -0.018   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_0_rstpot
+                                                       ftop/idc_doResetCount_0
+    -------------------------------------------------  ---------------------------
+    Total                                      1.277ns (0.304ns logic, 0.973ns route)
+                                                       (23.8% logic, 76.2% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.680ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_3 (FF)
+  Destination:          ftop/idc_doResetCount_1 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.267ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_3 to ftop/idc_doResetCount_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.CMUX   Tshcko                0.348   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_3
+    SLICE_X82Y134.B5     net (fanout=3)        0.331   ftop/idc_preResetCount[3]
+    SLICE_X82Y134.B      Tilo                  0.053   ftop/idc_idcRst/rst
+                                                       ftop/_n0695_SW0
+    SLICE_X82Y133.B4     net (fanout=5)        0.554   ftop/N2
+    SLICE_X82Y133.CLK    Tas                  -0.019   ftop/idc_doResetCount[3]
+                                                       ftop/idc_doResetCount_1_rstpot
+                                                       ftop/idc_doResetCount_1
+    -------------------------------------------------  ---------------------------
+    Total                                      1.267ns (0.382ns logic, 0.885ns route)
+                                                       (30.1% logic, 69.9% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.721ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_1 (FF)
+  Destination:          ftop/idc_preResetCount_2 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.244ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_1 to ftop/idc_preResetCount_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.BQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_1
+    SLICE_X83Y134.B4     net (fanout=4)        0.435   ftop/idc_preResetCount[1]
+    SLICE_X83Y134.B      Tilo                  0.053   ftop/idc_idcRst/rstSync/reset_hold[0]
+                                                       ftop/CAN_FIRE_RL_idc_do_reset_inv1
+    SLICE_X83Y133.CE     net (fanout=1)        0.243   ftop/CAN_FIRE_RL_idc_do_reset_inv
+    SLICE_X83Y133.CLK    Tceck                 0.244   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_2
+    -------------------------------------------------  ---------------------------
+    Total                                      1.244ns (0.566ns logic, 0.678ns route)
+                                                       (45.5% logic, 54.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.721ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_1 (FF)
+  Destination:          ftop/idc_preResetCount_3 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.244ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_1 to ftop/idc_preResetCount_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.BQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_1
+    SLICE_X83Y134.B4     net (fanout=4)        0.435   ftop/idc_preResetCount[1]
+    SLICE_X83Y134.B      Tilo                  0.053   ftop/idc_idcRst/rstSync/reset_hold[0]
+                                                       ftop/CAN_FIRE_RL_idc_do_reset_inv1
+    SLICE_X83Y133.CE     net (fanout=1)        0.243   ftop/CAN_FIRE_RL_idc_do_reset_inv
+    SLICE_X83Y133.CLK    Tceck                 0.244   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_3
+    -------------------------------------------------  ---------------------------
+    Total                                      1.244ns (0.566ns logic, 0.678ns route)
+                                                       (45.5% logic, 54.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.721ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_1 (FF)
+  Destination:          ftop/idc_preResetCount_0 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.244ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_1 to ftop/idc_preResetCount_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.BQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_1
+    SLICE_X83Y134.B4     net (fanout=4)        0.435   ftop/idc_preResetCount[1]
+    SLICE_X83Y134.B      Tilo                  0.053   ftop/idc_idcRst/rstSync/reset_hold[0]
+                                                       ftop/CAN_FIRE_RL_idc_do_reset_inv1
+    SLICE_X83Y133.CE     net (fanout=1)        0.243   ftop/CAN_FIRE_RL_idc_do_reset_inv
+    SLICE_X83Y133.CLK    Tceck                 0.244   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_0
+    -------------------------------------------------  ---------------------------
+    Total                                      1.244ns (0.566ns logic, 0.678ns route)
+                                                       (45.5% logic, 54.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.721ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_preResetCount_1 (FF)
+  Destination:          ftop/idc_preResetCount_1 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.244ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_preResetCount_1 to ftop/idc_preResetCount_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X83Y133.BQ     Tcko                  0.269   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_1
+    SLICE_X83Y134.B4     net (fanout=4)        0.435   ftop/idc_preResetCount[1]
+    SLICE_X83Y134.B      Tilo                  0.053   ftop/idc_idcRst/rstSync/reset_hold[0]
+                                                       ftop/CAN_FIRE_RL_idc_do_reset_inv1
+    SLICE_X83Y133.CE     net (fanout=1)        0.243   ftop/CAN_FIRE_RL_idc_do_reset_inv
+    SLICE_X83Y133.CLK    Tceck                 0.244   ftop/idc_preResetCount[2]
+                                                       ftop/idc_preResetCount_1
+    -------------------------------------------------  ---------------------------
+    Total                                      1.244ns (0.566ns logic, 0.678ns route)
+                                                       (45.5% logic, 54.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.732ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_idcRst/rst (FF)
+  Destination:          ftop/idc_idcRst/rstSync/reset_hold_1 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.215ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_idcRst/rst to ftop/idc_idcRst/rstSync/reset_hold_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X82Y134.AQ     Tcko                  0.308   ftop/idc_idcRst/rst
+                                                       ftop/idc_idcRst/rst
+    SLICE_X83Y134.A5     net (fanout=1)        0.192   ftop/idc_idcRst/rst
+    SLICE_X83Y134.A      Tilo                  0.053   ftop/idc_idcRst/rstSync/reset_hold[0]
+                                                       ftop/idc_idcRst/ASSERT_OUT1_INV_0
+    SLICE_X83Y134.SR     net (fanout=1)        0.407   ftop/idc_idcRst/ASSERT_OUT
+    SLICE_X83Y134.CLK    Trck                  0.255   ftop/idc_idcRst/rstSync/reset_hold[0]
+                                                       ftop/idc_idcRst/rstSync/reset_hold_1
+    -------------------------------------------------  ---------------------------
+    Total                                      1.215ns (0.616ns logic, 0.599ns route)
+                                                       (50.7% logic, 49.3% route)
+
+--------------------------------------------------------------------------------
+Slack:                  3.732ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               ftop/idc_idcRst/rst (FF)
+  Destination:          ftop/idc_idcRst/rstSync/reset_hold_0 (FF)
+  Requirement:          5.000ns
+  Data Path Delay:      1.215ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.018ns (0.121 - 0.139)
+  Source Clock:         ftop/sys0_clk$O rising at 0.000ns
+  Destination Clock:    ftop/sys0_clk$O rising at 5.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: ftop/idc_idcRst/rst to ftop/idc_idcRst/rstSync/reset_hold_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X82Y134.AQ     Tcko                  0.308   ftop/idc_idcRst/rst
+                                                       ftop/idc_idcRst/rst
+    SLICE_X83Y134.A5     net (fanout=1)        0.192   ftop/idc_idcRst/rst
+    SLICE_X83Y134.A      Tilo                  0.053   ftop/idc_idcRst/rstSync/reset_hold[0]
+                                                       ftop/idc_idcRst/ASSERT_OUT1_INV_0
+    SLICE_X83Y134.SR     net (fanout=1)        0.407   ftop/idc_idcRst/ASSERT_OUT
+    SLICE_X83Y134.CLK    Trck                  0.255   ftop/idc_idcRst/rstSync/reset_hold[0]
+                                                       ftop/idc_idcRst/rstSync/reset_hold_0
+    -------------------------------------------------  ---------------------------
+    Total                                      1.215ns (0.616ns logic, 0.599ns route)
+                                                       (50.7% logic, 49.3% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_SYS0CLK = PERIOD TIMEGRP "SYS0CLK" 200 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 3.400ns (period - min period limit)
+  Period: 5.000ns
+  Min period limit: 1.600ns (625.000MHz) (Tbcper_I(Fmax))
+  Physical resource: ftop/sys0_clk$O_BUFG/I0
+  Logical resource: ftop/sys0_clk$O_BUFG/I0
+  Location pin: BUFGCTRL_X0Y0.I0
+  Clock network: ftop/sys0_clk$O_0
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/idc_idcRst/rst/SR
+  Logical resource: ftop/idc_idcRst/rst/SR
+  Location pin: SLICE_X82Y134.SR
+  Clock network: ftop/RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 5.000ns
+  Low pulse: 2.500ns
+  Low pulse limit: 0.400ns (Tcl)
+  Physical resource: ftop/idc_preResetCount[2]/CLK
+  Logical resource: ftop/idc_preResetCount_3/CK
+  Location pin: SLICE_X83Y133.CLK
+  Clock network: ftop/sys0_clk$O
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/idc_preResetCount[2]/SR
+  Logical resource: ftop/idc_preResetCount_3/SR
+  Location pin: SLICE_X83Y133.SR
+  Clock network: ftop/RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 5.000ns
+  Low pulse: 2.500ns
+  Low pulse limit: 0.400ns (Tcl)
+  Physical resource: ftop/idc_idcRst/rstSync/reset_hold[0]/CLK
+  Logical resource: ftop/idc_idcRst/rstSync/reset_hold_1/CK
+  Location pin: SLICE_X83Y134.CLK
+  Clock network: ftop/sys0_clk$O
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/idc_idcRst/rstSync/reset_hold[0]/SR
+  Logical resource: ftop/idc_idcRst/rstSync/reset_hold_1/SR
+  Location pin: SLICE_X83Y134.SR
+  Clock network: ftop/idc_idcRst/ASSERT_OUT
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/idc_idcRst/rstSync/reset_hold[0]/SR
+  Logical resource: ftop/idc_idcRst/rstSync/reset_hold_0/SR
+  Location pin: SLICE_X83Y134.SR
+  Clock network: ftop/idc_idcRst/ASSERT_OUT
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst$OUT_RST_N/SR
+  Logical resource: ftop/sys0_rst/reset_hold_15/SR
+  Location pin: SLICE_X124Y112.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[14]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_12/SR
+  Location pin: SLICE_X132Y112.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[14]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_13/SR
+  Location pin: SLICE_X132Y112.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[14]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_14/SR
+  Location pin: SLICE_X132Y112.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[11]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_8/SR
+  Location pin: SLICE_X143Y106.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[11]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_9/SR
+  Location pin: SLICE_X143Y106.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[11]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_10/SR
+  Location pin: SLICE_X143Y106.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[11]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_11/SR
+  Location pin: SLICE_X143Y106.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[3]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_0/SR
+  Location pin: SLICE_X148Y102.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[3]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_1/SR
+  Location pin: SLICE_X148Y102.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[3]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_2/SR
+  Location pin: SLICE_X148Y102.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[3]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_3/SR
+  Location pin: SLICE_X148Y102.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[7]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_4/SR
+  Location pin: SLICE_X149Y102.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[7]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_5/SR
+  Location pin: SLICE_X149Y102.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[7]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_6/SR
+  Location pin: SLICE_X149Y102.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.200ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.400ns (Trpw)
+  Physical resource: ftop/sys0_rst/reset_hold[7]/SR
+  Logical resource: ftop/sys0_rst/reset_hold_7/SR
+  Location pin: SLICE_X149Y102.SR
+  Clock network: IN_RST_N_inv
+--------------------------------------------------------------------------------
+Slack: 4.250ns (period - min period limit)
+  Period: 5.000ns
+  Min period limit: 0.750ns (1333.333MHz) (Tcp)
+  Physical resource: ftop/idc_preResetCount[2]/CLK
+  Logical resource: ftop/idc_preResetCount_3/CK
+  Location pin: SLICE_X83Y133.CLK
+  Clock network: ftop/sys0_clk$O
+--------------------------------------------------------------------------------
+Slack: 4.250ns (period - min period limit)
+  Period: 5.000ns
+  Min period limit: 0.750ns (1333.333MHz) (Tcp)
+  Physical resource: ftop/idc_idcRst/rstSync/reset_hold[0]/CLK
+  Logical resource: ftop/idc_idcRst/rstSync/reset_hold_1/CK
+  Location pin: SLICE_X83Y134.CLK
+  Clock network: ftop/sys0_clk$O
+--------------------------------------------------------------------------------
+Slack: 4.300ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 5.000ns
+  Low pulse: 2.500ns
+  Low pulse limit: 0.350ns (Tcl)
+  Physical resource: ftop/idc_doResetCount[3]/CLK
+  Logical resource: ftop/idc_doResetCount_0/CK
+  Location pin: SLICE_X82Y133.CLK
+  Clock network: ftop/sys0_clk$O
+--------------------------------------------------------------------------------
+Slack: 4.300ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.350ns (Tch)
+  Physical resource: ftop/idc_doResetCount[3]/CLK
+  Logical resource: ftop/idc_doResetCount_0/CK
+  Location pin: SLICE_X82Y133.CLK
+  Clock network: ftop/sys0_clk$O
+--------------------------------------------------------------------------------
+Slack: 4.300ns (period - min period limit)
+  Period: 5.000ns
+  Min period limit: 0.700ns (1428.571MHz) (Tcp)
+  Physical resource: ftop/idc_doResetCount[3]/CLK
+  Logical resource: ftop/idc_doResetCount_0/CK
+  Location pin: SLICE_X82Y133.CLK
+  Clock network: ftop/sys0_clk$O
+--------------------------------------------------------------------------------
+Slack: 4.300ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 5.000ns
+  Low pulse: 2.500ns
+  Low pulse limit: 0.350ns (Tcl)
+  Physical resource: ftop/idc_doResetCount[3]/CLK
+  Logical resource: ftop/idc_doResetCount_1/CK
+  Location pin: SLICE_X82Y133.CLK
+  Clock network: ftop/sys0_clk$O
+--------------------------------------------------------------------------------
+Slack: 4.300ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 5.000ns
+  High pulse: 2.500ns
+  High pulse limit: 0.350ns (Tch)
+  Physical resource: ftop/idc_doResetCount[3]/CLK
+  Logical resource: ftop/idc_doResetCount_1/CK
+  Location pin: SLICE_X82Y133.CLK
+  Clock network: ftop/sys0_clk$O
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: COMP "gmii_txd[7]" OFFSET = OUT 6 ns AFTER COMP 
+"gmii_gtx_clk";
+For more information, see Offset Out Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: COMP "gmii_txd[6]" OFFSET = OUT 6 ns AFTER COMP 
+"gmii_gtx_clk";
+For more information, see Offset Out Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: COMP "gmii_txd[5]" OFFSET = OUT 6 ns AFTER COMP 
+"gmii_gtx_clk";
+For more information, see Offset Out Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: COMP "gmii_txd[4]" OFFSET = OUT 6 ns AFTER COMP 
+"gmii_gtx_clk";
+For more information, see Offset Out Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: COMP "gmii_txd[3]" OFFSET = OUT 6 ns AFTER COMP 
+"gmii_gtx_clk";
+For more information, see Offset Out Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: COMP "gmii_txd[2]" OFFSET = OUT 6 ns AFTER COMP 
+"gmii_gtx_clk";
+For more information, see Offset Out Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: COMP "gmii_txd[1]" OFFSET = OUT 6 ns AFTER COMP 
+"gmii_gtx_clk";
+For more information, see Offset Out Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: COMP "gmii_txd[0]" OFFSET = OUT 6 ns AFTER COMP 
+"gmii_gtx_clk";
+For more information, see Offset Out Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: COMP "gmii_tx_en" OFFSET = OUT 6 ns AFTER COMP 
+"gmii_gtx_clk";
+For more information, see Offset Out Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: COMP "gmii_tx_er" OFFSET = OUT 6 ns AFTER COMP 
+"gmii_gtx_clk";
+For more information, see Offset Out Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock sys0_clkn
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sys0_clkn      |    2.959|         |         |         |
+sys0_clkp      |    2.959|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sys0_clkp
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sys0_clkn      |    2.959|         |         |         |
+sys0_clkp      |    2.959|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sys1_clkn
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sys1_clkn      |    2.719|         |         |         |
+sys1_clkp      |    2.719|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sys1_clkp
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sys1_clkn      |    2.719|         |         |         |
+sys1_clkp      |    2.719|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 107 paths, 0 nets, and 111 connections
+
+Design statistics:
+   Minimum period:   2.959ns{1}   (Maximum frequency: 337.952MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Fri Sep 14 11:58:40 2012 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 1046 MB
+
+
+

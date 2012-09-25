@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="8">
+	<Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7k325tffg900-1" LaunchPart="xc7k325tffg900-1" ConstrsSet="constrs_1" Description="PlanAhead Defaults (XST defaults with hierarchy)" State="current" Dir="$PRUNDIR/synth_1" LaunchTime="1347636712">
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+		<File Type="XST-NGC" Name="fpgaTop.ngc"/>
+		<File Type="XST-SRP" Name="fpgaTop.srp"/>
+		<File Type="PA-XST" Name="fpgaTop.xst"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+		<File Type="PA-XSTPRJ" Name="fpgaTop.prj"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+	</Run>
+	<Run Id="impl_1" Type="Ft2:EntireDesign" SynthRun="synth_1" Part="xc7k325tffg900-1" LaunchPart="xc7k325tffg900-1" ConstrsSet="constrs_1" Description="ISE Defaults, including packing registers in IOs off" State="current" Dir="$PRUNDIR/impl_1" LaunchTime="1347638197">
+		<File Type="PA-EDIF" Name="fpgaTop.edf"/>
+		<File Type="MAP-MRP" Name="fpgaTop.mrp"/>
+		<File Type="PA-UCF" Name="fpgaTop.ucf"/>
+		<File Type="MAP-MAP" Name="fpgaTop.map"/>
+		<File Type="MAP-PSR" Name="fpgaTop.psr"/>
+		<File Type="PAR-NCD" Name="fpgaTop_routed.ncd"/>
+		<File Type="PAR-PAD" Name="fpgaTop_routed_pad.txt"/>
+		<File Type="PAR-PAR" Name="fpgaTop_routed.par"/>
+		<File Type="PAR-UNR" Name="fpgaTop_routed.unroutes"/>
+		<File Type="PA-CONSTRSDIR" Name=".constrs"/>
+		<File Type="BG-BIT" Name="fpgaTop.bit"/>
+		<File Type="BG-DRC" Name="fpgaTop.drc"/>
+		<File Type="BG-BGN" Name="fpgaTop.bgn"/>
+		<File Type="TRCE-TWR" Name="fpgaTop.twr"/>
+		<File Type="TRCE-TWX" Name="fpgaTop.twx"/>
+		<File Type="XDL-XDL" Name="fpgaTop_routed.xdl"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="WBT-LOG" Name="webtalk.log"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+		<File Type="NGDB-NGD" Name="fpgaTop.ngd"/>
+		<File Type="NGDB-BLD" Name="fpgaTop.bld"/>
+		<File Type="MAP-NCD" Name="fpgaTop.ncd"/>
+		<File Type="MAP-PCF" Name="fpgaTop.pcf"/>
+	</Run>
+</Runs>
+

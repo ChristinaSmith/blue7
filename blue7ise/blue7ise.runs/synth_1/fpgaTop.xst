@@ -1,0 +1,9 @@
+set -loop_iteration_limit 1000
+run
+-ifn fpgaTop.prj
+-top fpgaTop
+-p xc7k325tffg900-1
+-ofn fpgaTop.ngc
+-opt_mode speed
+-opt_level 1
+-netlist_hierarchy rebuilt

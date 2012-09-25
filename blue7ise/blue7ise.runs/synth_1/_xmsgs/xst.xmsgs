@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v" Line 39: Port <arg fmt="%s" index="1">rxclkBnd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 533: Assignment to <arg fmt="%s" index="1">CAN_FIRE_gmii_rx_rxd</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 534: Assignment to <arg fmt="%s" index="1">WILL_FIRE_gmii_rx_rxd</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 537: Assignment to <arg fmt="%s" index="1">CAN_FIRE_gmii_rx_rx_dv</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 538: Assignment to <arg fmt="%s" index="1">WILL_FIRE_gmii_rx_rx_dv</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 541: Assignment to <arg fmt="%s" index="1">CAN_FIRE_gmii_rx_rx_er</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 542: Assignment to <arg fmt="%s" index="1">WILL_FIRE_gmii_rx_rx_er</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 554: Assignment to <arg fmt="%s" index="1">CAN_FIRE_gmii_col</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 555: Assignment to <arg fmt="%s" index="1">WILL_FIRE_gmii_col</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 558: Assignment to <arg fmt="%s" index="1">CAN_FIRE_gmii_crs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 559: Assignment to <arg fmt="%s" index="1">WILL_FIRE_gmii_crs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 562: Assignment to <arg fmt="%s" index="1">CAN_FIRE_gmii_intr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 563: Assignment to <arg fmt="%s" index="1">WILL_FIRE_gmii_intr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 929: Assignment to <arg fmt="%s" index="1">CAN_FIRE_gmii_rx_rxd</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 930: Assignment to <arg fmt="%s" index="1">WILL_FIRE_gmii_rx_rxd</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 933: Assignment to <arg fmt="%s" index="1">CAN_FIRE_gmii_rx_rx_dv</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 934: Assignment to <arg fmt="%s" index="1">WILL_FIRE_gmii_rx_rx_dv</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 937: Assignment to <arg fmt="%s" index="1">CAN_FIRE_gmii_rx_rx_er</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 938: Assignment to <arg fmt="%s" index="1">WILL_FIRE_gmii_rx_rx_er</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 958: Assignment to <arg fmt="%s" index="1">CAN_FIRE_gmii_col</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 959: Assignment to <arg fmt="%s" index="1">WILL_FIRE_gmii_col</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 962: Assignment to <arg fmt="%s" index="1">CAN_FIRE_gmii_crs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 963: Assignment to <arg fmt="%s" index="1">WILL_FIRE_gmii_crs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 966: Assignment to <arg fmt="%s" index="1">CAN_FIRE_gmii_intr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 967: Assignment to <arg fmt="%s" index="1">WILL_FIRE_gmii_intr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 977: Assignment to <arg fmt="%s" index="1">CAN_FIRE_rx_get</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 978: Assignment to <arg fmt="%s" index="1">WILL_FIRE_rx_get</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 982: Assignment to <arg fmt="%s" index="1">CAN_FIRE_tx_put</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 983: Assignment to <arg fmt="%s" index="1">WILL_FIRE_tx_put</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 987: Assignment to <arg fmt="%s" index="1">CAN_FIRE_rxOperate</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 988: Assignment to <arg fmt="%s" index="1">WILL_FIRE_rxOperate</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 992: Assignment to <arg fmt="%s" index="1">CAN_FIRE_txOperate</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 993: Assignment to <arg fmt="%s" index="1">WILL_FIRE_txOperate</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1024: Assignment to <arg fmt="%s" index="1">gmii_rx_clk$O</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1032: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ODATAIN</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1033: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DATAIN</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1034: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">C</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1035: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">T</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1036: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">CE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1037: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">INC</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1038: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RST</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncResetA.v" Line 58: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncResetA.v" Line 58: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1295: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_rxRS_overflow_detect</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1296: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_rxRS_overflow_detect</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1299: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_rxRS_full_stretch</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1300: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_rxRS_full_stretch</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1318: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_rxRS_crc_capture</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1333: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_rxRS_dv_reg</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1334: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_rxRS_dv_reg</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1337: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_rxRS_preambleCnt_ruleInc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1339: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_rxRS_preambleCnt_ruleInc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1343: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_rxRS_preambleCnt_ruleDec</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1344: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_rxRS_preambleCnt_ruleDec</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1354: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_rxRS_operate_condition</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1355: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_rxRS_operate_condition</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1358: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_rxRS_rxOperateD__dreg_update</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1359: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_rxRS_rxOperateD__dreg_update</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1362: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_rxRS_crcDbgCnt_ruleInc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1368: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_rxRS_crcDbgCnt_ruleDec</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1369: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_rxRS_crcDbgCnt_ruleDec</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1372: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_operate_condition</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1373: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_operate_condition</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1376: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_undeflow_detect</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1377: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_undeflow_detect</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1380: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_unf_stretch</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1381: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_unf_stretch</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1409: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_ifg_decrementer</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1413: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_tx_output_flops</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1414: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_tx_output_flops</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1417: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_txOperateD__dreg_update</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1418: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_txOperateD__dreg_update</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1421: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_txER__dreg_update</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1422: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_txER__dreg_update</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1425: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_preambleCnt_ruleInc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1426: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_preambleCnt_ruleInc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1430: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_preambleCnt_ruleDec</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1431: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_preambleCnt_ruleDec</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1434: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_ifgCnt_ruleInc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1435: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_ifgCnt_ruleInc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1438: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_ifgCnt_ruleDec</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1439: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_ifgCnt_ruleDec</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1447: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_txData__dreg_update</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1448: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_txData__dreg_update</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1451: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_txDV__dreg_update</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1452: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_txDV__dreg_update</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1455: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_lenCnt_ruleInc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1460: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_lenCnt_ruleDec</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1461: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_lenCnt_ruleDec</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1464: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_crcDbgCnt_ruleInc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1469: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_crcDbgCnt_ruleDec</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1470: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_crcDbgCnt_ruleDec</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1473: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_txRS_underflow__dreg_update</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1474: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_txRS_underflow__dreg_update</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1311" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1556: Found parallel_case directive. Use of parallel_case directives may cause differences between RTL and post-synthesis simulation
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1942: Assignment to <arg fmt="%s" index="1">txRS_underflow</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1990: Assignment to <arg fmt="%s" index="1">rxRS_isSOF</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncResetA.v" Line 58: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncResetA.v" Line 58: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 706: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_mkConnectionGetPut</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 711: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_idc_my_reset_condition</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 716: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_idc_do_reset</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 719: Assignment to <arg fmt="%s" index="1">CAN_FIRE_RL_idc_pre_reset</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 720: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_idc_pre_reset</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 724: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_mdi_update_prescaler</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 729: Assignment to <arg fmt="%s" index="1">WILL_FIRE_RL_mdi_reset_prescaler</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v" Line 69: Assignment to <arg fmt="%s" index="1">gmii_led</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%d" index="2">1008</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">col_cc</arg>&gt; of block &lt;<arg fmt="%s" index="4">SyncBit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mkGMAC</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%d" index="2">1016</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">crs_cc</arg>&gt; of block &lt;<arg fmt="%s" index="4">SyncBit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mkGMAC</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">39</arg>: Output port &lt;<arg fmt="%s" index="3">gmii_led</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ftop</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">39</arg>: Output port &lt;<arg fmt="%s" index="3">rxclkBnd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ftop</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">39</arg>: Output port &lt;<arg fmt="%s" index="3">CLK_GATE_rxclkBnd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ftop</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">39</arg>: Output port &lt;<arg fmt="%s" index="3">CLK_GATE_gmii_tx_tx_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ftop</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">569</arg>: Output port &lt;<arg fmt="%s" index="3">RDY_rxOperate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gmac</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">569</arg>: Output port &lt;<arg fmt="%s" index="3">RDY_txOperate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gmac</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">569</arg>: Output port &lt;<arg fmt="%s" index="3">rxOverFlow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gmac</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">569</arg>: Output port &lt;<arg fmt="%s" index="3">RDY_rxOverFlow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gmac</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">569</arg>: Output port &lt;<arg fmt="%s" index="3">txUnderFlow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gmac</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">569</arg>: Output port &lt;<arg fmt="%s" index="3">RDY_txUnderFlow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gmac</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">569</arg>: Output port &lt;<arg fmt="%s" index="3">phyInterrupt</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gmac</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">569</arg>: Output port &lt;<arg fmt="%s" index="3">RDY_phyInterrupt</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gmac</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">569</arg>: Output port &lt;<arg fmt="%s" index="3">CLK_GATE_gmii_tx_tx_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gmac</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">569</arg>: Output port &lt;<arg fmt="%s" index="3">CLK_GATE_rxclkBnd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gmac</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">608</arg>: Output port &lt;<arg fmt="%s" index="3">ASSERT_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idc_idcRst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">621</arg>: Output port &lt;<arg fmt="%s" index="3">FULL_N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mdi_fRequest</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">633</arg>: Output port &lt;<arg fmt="%s" index="3">D_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mdi_fResponse</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">633</arg>: Output port &lt;<arg fmt="%s" index="3">EMPTY_N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mdi_fResponse</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v</arg>&quot; line <arg fmt="%s" index="2">670</arg>: Output port &lt;<arg fmt="%s" index="3">O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mdi_tMDC</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%s" index="2">1008</arg>: Output port &lt;<arg fmt="%s" index="3">dD_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">col_cc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%s" index="2">1016</arg>: Output port &lt;<arg fmt="%s" index="3">dD_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">crs_cc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%s" index="2">1061</arg>: Output port &lt;<arg fmt="%s" index="3">result</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rxRS_crc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%s" index="2">1061</arg>: Output port &lt;<arg fmt="%s" index="3">RDY_add</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rxRS_crc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%s" index="2">1061</arg>: Output port &lt;<arg fmt="%s" index="3">RDY_clear</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rxRS_crc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%s" index="2">1061</arg>: Output port &lt;<arg fmt="%s" index="3">RDY_result</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rxRS_crc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%s" index="2">1061</arg>: Output port &lt;<arg fmt="%s" index="3">RDY_complete</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rxRS_crc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%s" index="2">1109</arg>: Output port &lt;<arg fmt="%s" index="3">complete</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">txRS_crc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%s" index="2">1109</arg>: Output port &lt;<arg fmt="%s" index="3">RDY_add</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">txRS_crc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%s" index="2">1109</arg>: Output port &lt;<arg fmt="%s" index="3">RDY_clear</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">txRS_crc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%s" index="2">1109</arg>: Output port &lt;<arg fmt="%s" index="3">RDY_result</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">txRS_crc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v</arg>&quot; line <arg fmt="%s" index="2">1109</arg>: Output port &lt;<arg fmt="%s" index="3">RDY_complete</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">txRS_crc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">txRS_txER</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">rxRS_rxOperateD</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">txRS_txOperateD</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_fifoMem</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_fifoMem</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0954</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="new" >Unit &lt;<arg fmt="%s" index="1">mkGMAC</arg>&gt;: instances &lt;<arg fmt="%s" index="2">txRS_iobTxClk_reset</arg>&gt;, &lt;<arg fmt="%s" index="3">txRS_iobTxData_reset</arg>&gt; of unit &lt;<arg fmt="%s" index="4">ResetInverter</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="new" >Unit &lt;<arg fmt="%s" index="1">mkGMAC</arg>&gt;: instances &lt;<arg fmt="%s" index="2">txRS_iobTxClk_reset</arg>&gt;, &lt;<arg fmt="%s" index="3">txRS_iobTxEna_reset</arg>&gt; of unit &lt;<arg fmt="%s" index="4">ResetInverter</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="new" >Unit &lt;<arg fmt="%s" index="1">mkGMAC</arg>&gt;: instances &lt;<arg fmt="%s" index="2">txRS_iobTxClk_reset</arg>&gt;, &lt;<arg fmt="%s" index="3">txRS_iobTxErr_reset</arg>&gt; of unit &lt;<arg fmt="%s" index="4">ResetInverter</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">gmacLED</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">empty_reg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_26</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_25</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mdi_rPhyAddr_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mkFTop_kc705</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">26 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mdi_rPhyAddr_1&gt; &lt;mdi_rPhyAddr_2&gt; &lt;mdi_rPhyAddr_3&gt; &lt;mdi_rPhyAddr_4&gt; &lt;mdi_rWriteData_0&gt; &lt;mdi_rWriteData_1&gt; &lt;mdi_rWriteData_2&gt; &lt;mdi_rWriteData_3&gt; &lt;mdi_rWriteData_4&gt; &lt;mdi_rWriteData_5&gt; &lt;mdi_rWriteData_6&gt; &lt;mdi_rWriteData_7&gt; &lt;mdi_rWriteData_8&gt; &lt;mdi_rWriteData_9&gt; &lt;mdi_rWriteData_10&gt; &lt;mdi_rWriteData_11&gt; &lt;mdi_rWriteData_12&gt; &lt;mdi_rWriteData_13&gt; &lt;mdi_rWriteData_14&gt; &lt;mdi_rWriteData_15&gt; &lt;mdi_rRegAddr_0&gt; &lt;mdi_rRegAddr_1&gt; &lt;mdi_rRegAddr_2&gt; &lt;mdi_rRegAddr_3&gt; &lt;mdi_rRegAddr_4&gt; &lt;mdi_rWrite&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxOperateS/sSyncReg</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;txRS_txOperateS/sSyncReg&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">mdi_rPhyAddr_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkFTop_kc705</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxAPipe_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxOperateS/sSyncReg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_doPad</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_unfD</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_txDV</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_txOperateS/dSyncReg1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxOperateS/dSyncReg1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxOperateS/dSyncReg2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_txOperateS/dSyncReg2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_31</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_30</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_29</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_28</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_27</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_26</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_25</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_fullD</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_unfBit/sSyncReg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_ovfBit/sSyncReg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxDVD</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_32</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_33</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_34</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_35</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_36</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_37</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_38</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_39</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_40</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_47</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_46</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_45</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_ovfBit/dSyncReg1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_44</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_unfBit/dSyncReg1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_43</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_42</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxPipe_41</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_ovfBit/dSyncReg2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_unfBit/dSyncReg2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">txRS_txActive</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">txRS_isSOF</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_crcEnd</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxAPipe_5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxData_0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxData_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxData_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxData_3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxData_4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxData_5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxData_6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxData_7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">rxRS_rxDV</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rxRS_rxActive</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rxRS_rxAPipe_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rxRS_rxAPipe_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rxRS_rxAPipe_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rxRS_rxAPipe_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mkGMAC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">txRS_txData_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_txData_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_txData_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_txData_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_txData_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_txData_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_txData_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">txRS_txData_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="new" >All outputs of instance &lt;<arg fmt="%s" index="1">rxRS_crc</arg>&gt; of block &lt;<arg fmt="%s" index="2">mkCRC32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">mkGMAC</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">gmii_rxc_dly</arg> in unit <arg fmt="%s" index="2">mkGMAC</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_rPrescaler/q_state_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data0_reg_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">FIFO2_2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_vrReadData</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxRst/reset_hold_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxRst/reset_hold_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/intr_cc/sSyncReg</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/intr_cc/dSyncReg1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/intr_cc/dSyncReg2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxER</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/Mram_fifoMem24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/Mram_fifoMem23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/Mram_fifoMem21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/Mram_fifoMem22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/Mram_fifoMem1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dDoutReg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dDoutReg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dDoutReg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dDoutReg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dDoutReg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dDoutReg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dDoutReg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dDoutReg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dDoutReg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dDoutReg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dEnqPtr_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dEnqPtr_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dEnqPtr_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dEnqPtr_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dEnqPtr_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sDeqPtr_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sDeqPtr_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sDeqPtr_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sDeqPtr_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sDeqPtr_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dSyncReg1_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dSyncReg1_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dSyncReg1_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dSyncReg1_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dSyncReg1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sSyncReg1_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sSyncReg1_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sSyncReg1_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sSyncReg1_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sSyncReg1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dGDeqPtr_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dGDeqPtr_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dGDeqPtr_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dGDeqPtr_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dGDeqPtr_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dGDeqPtr_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sGEnqPtr_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sGEnqPtr_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sGEnqPtr_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sGEnqPtr_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sGEnqPtr_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sGEnqPtr_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dGDeqPtr1_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dGDeqPtr1_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dGDeqPtr1_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dGDeqPtr1_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dGDeqPtr1_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dGDeqPtr1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sGEnqPtr1_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sGEnqPtr1_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sGEnqPtr1_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sGEnqPtr1_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sGEnqPtr1_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sGEnqPtr1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/dNotEmptyReg</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/txRS_txF/sNotFullReg</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/phyReset/reset_hold_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/phyReset/reset_hold_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/phyReset/reset_hold_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/phyReset/reset_hold_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/phyReset/reset_hold_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/phyReset/reset_hold_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/phyReset/reset_hold_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/phyReset/reset_hold_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/Mram_fifoMem24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/Mram_fifoMem23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/Mram_fifoMem21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/Mram_fifoMem22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/Mram_fifoMem1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dDoutReg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dDoutReg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dDoutReg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dDoutReg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dDoutReg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dDoutReg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dDoutReg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dDoutReg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dDoutReg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dDoutReg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dEnqPtr_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dEnqPtr_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dEnqPtr_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dEnqPtr_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sDeqPtr_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sDeqPtr_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sDeqPtr_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sDeqPtr_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dSyncReg1_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dSyncReg1_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dSyncReg1_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dSyncReg1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sSyncReg1_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sSyncReg1_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sSyncReg1_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sSyncReg1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dGDeqPtr_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dGDeqPtr_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dGDeqPtr_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dGDeqPtr_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dGDeqPtr_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sGEnqPtr_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sGEnqPtr_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sGEnqPtr_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sGEnqPtr_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sGEnqPtr_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dGDeqPtr1_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dGDeqPtr1_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dGDeqPtr1_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dGDeqPtr1_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dGDeqPtr1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sGEnqPtr1_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sGEnqPtr1_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sGEnqPtr1_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sGEnqPtr1_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sGEnqPtr1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/dNotEmptyReg</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/gmac/rxRS_rxF/sNotFullReg</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/data0_reg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_rPlayIndex/q_state_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_rPlayIndex/q_state_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_rPlayIndex/q_state_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_rPlayIndex/q_state_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_rPlayIndex/q_state_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_rPlayIndex/q_state_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_rPlayIndex/q_state_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_rPlayIndex/q_state_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_rMDD</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_rOutEn</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_rMDC</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_rState</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/empty_reg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ftop/mdi_fResponse/full_reg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">fpgaTop</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_rPrescaler/q_state_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_rPrescaler/q_state_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_rPrescaler/q_state_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ftop/mdi_rPrescaler/q_state_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fpgaTop</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="new" >HDL ADVISOR - A <arg fmt="%d" index="1">16</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">ftop/sys0_rst/reset_hold_15</arg>&gt; and currently occupies <arg fmt="%d" index="3">16</arg> logic cells (<arg fmt="%d" index="4">8</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

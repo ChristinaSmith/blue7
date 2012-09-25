@@ -1,0 +1,27 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac471aa89]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so(JVM_handle_linux_signal+0xa7) [0x2aaac471f5e7]
+/lib64/libpthread.so.0 [0x365760ebe0]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac46895f1]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac46ec61b]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac439a2f6]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac47a062a]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac44ac306]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac44af651]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac44aff2b]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac43ece0d]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac43eee4f]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac43ef37f]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac44ae932]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac44af037]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac487254b]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac48791ec]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac4877cd0]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac4878211]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac4878890]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac471d0a0]
+/lib64/libpthread.so.0 [0x365760677d]
+/lib64/libc.so.6(clone+0x6d) [0x36566d3c1d]

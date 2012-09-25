@@ -1,0 +1,13 @@
+#
+# PlanAhead(TM)
+# htr.txt: a PlanAhead-generated description of how-to-repeat the
+#          the basic steps of a run.  Note that runme.bat/sh needs
+#          to be invoked for PlanAhead to track run status.
+# Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+#
+
+ngdbuild -intstyle ise -p xc7k325tffg900-1 -uc "fpgaTop.ucf" "fpgaTop.edf"
+map -intstyle pa -w "fpgaTop.ngd"
+par -intstyle pa "fpgaTop.ncd" -w "fpgaTop_routed.ncd"
+trce -intstyle ise -o "fpgaTop.twr" -v 30 -l 30 "fpgaTop_routed.ncd" "fpgaTop.pcf"
+xdl -secure -ncd2xdl -nopips "fpgaTop_routed.ncd" "fpgaTop_routed.xdl"

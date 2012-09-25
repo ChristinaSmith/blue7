@@ -1,0 +1,262 @@
+#-----------------------------------------------------------
+# Vivado v2012.2.1 (64-bit)
+# Build 200253 by xbuild on Wed Aug 29 11:42:44 MDT 2012
+# Start of session at: Mon Sep 24 13:41:47 2012
+# Process ID: 5863
+# Log file: /home/cms/projects/blue7/blue7cp/blue7cp/blue7cp.runs/impl_1/fpgaTop.rdi
+# Journal file: /home/cms/projects/blue7/blue7cp/blue7cp/blue7cp.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Common 17-81] Feature available: Synthesis
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+
+source fpgaTop.tcl -notrace
+Parsing EDIF File [./.Xil/Vivado-5863-core980/dcp/fpgaTop.edf]
+Finished Parsing EDIF File [./.Xil/Vivado-5863-core980/dcp/fpgaTop.edf]
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ClockBuffers.xml
+Loading clock placement rules from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/ClockPlacerRules.xml
+Loading package pin functions from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/PinFunctions.xml...
+Loading package from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/kintex7/xc7k325t/ffg900/Package.xml
+Loading io standards from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/./parts/xilinx/kintex7/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/ConfigModes.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.2/ISE_DS/PlanAhead/data/./parts/xilinx/kintex7/drc.xml
+INFO: [Constraints 18-510] IO constraint IOSTANDARD with a setting of GTE2 for cell ftop/sys1_clki will not be propagated through the buffer.  The constraint should be associated with the net that is connected to the top level port.
+Parsing XDC File [/home/cms/projects/blue7/blue7cp/blue7cp/blue7cp.runs/impl_1/.Xil/Vivado-5863-core980/dcp/fpgaTop.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/cms/projects/blue7/blue7cp/blue7cp/blue7cp.srcs/constrs_1/imports/blue7cp/kc705.xdc:135]
+set_input_delay: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 587.367 ; gain = 46.477
+Finished Parsing XDC File [/home/cms/projects/blue7/blue7cp/blue7cp/blue7cp.runs/impl_1/.Xil/Vivado-5863-core980/dcp/fpgaTop.xdc]
+Reading XDEF placement.
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 587.367 ; gain = 0.000
+Restoring placement.
+Restored 53 out of 53 XDEF sites from archive | CPU: 0.120000 secs | Memory: 1.255890 MB |
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2853 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 1 instances
+  FD => FDCE: 799 instances
+  FDC => FDCE: 139 instances
+  FDE => FDCE: 1768 instances
+  FDP => FDPE: 2 instances
+  FDR => FDRE: 88 instances
+  FDS => FDSE: 10 instances
+  INV => LUT1: 1 instances
+  IODELAY => IDELAYE2: 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 44 instances
+
+Phase 0 | Netlist Checksum: 709b389e
+read_checkpoint: Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 587.367 ; gain = 443.789
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-290] Got license for Implementation
+INFO: [Common 17-291] Device 'xc7k325t' license available: Implementation
+
+Starting Logic Optimization Task
+Logic Optimization | Checksum: 6440700b
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 587.367 ; gain = 0.000
+
+Phase 1 Retarget
+Phase 1 Retarget | Checksum: 2b70f3f7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 587.367 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-10] Eliminated 46 instances.
+Phase 2 Constant Propagation | Checksum: 1f08b1fd
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 588.367 ; gain = 1.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 238 unconnected nets.
+INFO: [Opt 31-11] Eliminated 3 unconnected instances.
+Phase 3 Sweep | Checksum: 7d2009af
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 588.367 ; gain = 1.000
+Ending Logic Optimization Task | Checksum: 7d2009af
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 588.367 ; gain = 1.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 588.367 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 589.367 ; gain = 1.000
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-290] Got license for Implementation
+INFO: [Common 17-291] Device 'xc7k325t' license available: Implementation
+Running DRC as a precondition to command place_design
+
+Starting Placer Task
+Effort Level for place_design : MEDIUM (Default)
+
+Phase 1 Mandatory Logic Optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 593.609 ; gain = 0.000
+Phase 1 Mandatory Logic Optimization | Checksum: 55b297ea
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 593.609 ; gain = 3.117
+
+Phase 2 Build SLR Info
+Phase 2 Build SLR Info | Checksum: 55b297ea
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 594.609 ; gain = 4.117
+
+Phase 3 Add Constraints
+Phase 3 Add Constraints | Checksum: 55b297ea
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 594.609 ; gain = 4.117
+
+Phase 4 Build Shapes
+Phase 4 Build Shapes | Checksum: 1a895dbc
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 594.609 ; gain = 4.117
+
+Phase 5 PrePlace DRC check
+Phase 5 PrePlace DRC check | Checksum: 1a895dbc
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 596.727 ; gain = 6.234
+
+Phase 6 PrePlace Elements
+Phase 6 PrePlace Elements | Checksum: 1a895dbc
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 596.727 ; gain = 6.234
+
+Phase 7 Placer Initialization
+
+Phase 7.1 IO & Clk Placer & Init
+
+Phase 7.1.1 IO / Clock Placer
+Phase 7.1.1 IO / Clock Placer | Checksum: 1a895dbc
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 598.844 ; gain = 8.352
+
+Phase 7.1.2 Build Placer Device
+
+Phase 7.1.2.1 Place Init Device
+Phase 7.1.2.1 Place Init Device | Checksum: 1a895dbc
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 652.891 ; gain = 62.398
+Phase 7.1.2 Build Placer Device | Checksum: 1a895dbc
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 652.891 ; gain = 62.398
+Phase 7.1 IO & Clk Placer & Init | Checksum: 1a895dbc
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 652.891 ; gain = 62.398
+
+Phase 7.2 Build Placer Netlist
+
+Phase 7.2.1 Place Init Design
+WARNING: [Timing 38-164] This design has multiple clocks. Inter clock paths are considered valid unless explicitly excluded by timing constraints such as set_clock_groups or set_false_path.
+
+Phase 7.2.1.1 Build Clock Data
+Phase 7.2.1.1 Build Clock Data | Checksum: 7ebd7e2c
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 655.895 ; gain = 65.402
+Phase 7.2.1 Place Init Design | Checksum: 0c914bc9
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 658.926 ; gain = 68.434
+Phase 7.2 Build Placer Netlist | Checksum: 0c914bc9
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 658.926 ; gain = 68.434
+
+Phase 7.3 Constrain Clocks
+Phase 7.3 Constrain Clocks | Checksum: 34b6bd2d
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 658.926 ; gain = 68.434
+Phase 7 Placer Initialization | Checksum: 34b6bd2d
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 658.926 ; gain = 68.434
+
+Phase 8 Global Placement
+Phase 8 Global Placement | Checksum: 9582c122
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 683.957 ; gain = 93.465
+
+Phase 9 Detail Placement
+
+Phase 9.1 Commit Multi Column shapes
+Phase 9.1 Commit Multi Column shapes | Checksum: 9582c122
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 683.957 ; gain = 93.465
+
+Phase 9.2 Commit Most Shapes & LUTRAMs
+Phase 9.2 Commit Most Shapes & LUTRAMs | Checksum: df9fd90f
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:23 . Memory (MB): peak = 692.992 ; gain = 102.500
+
+Phase 9.3 Area Swap
+Phase 9.3 Area Swap | Checksum: a2ff53b1
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:23 . Memory (MB): peak = 692.992 ; gain = 102.500
+
+Phase 9.4 Path Optimizer
+Phase 9.4 Path Optimizer | Checksum: dc14f7bf
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:23 . Memory (MB): peak = 692.992 ; gain = 102.500
+
+Phase 9.5 Commit Small Shapes
+Phase 9.5 Commit Small Shapes | Checksum: 869e466e
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:26 . Memory (MB): peak = 696.117 ; gain = 105.625
+Phase 9 Detail Placement | Checksum: 869e466e
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:26 . Memory (MB): peak = 696.117 ; gain = 105.625
+
+Phase 10 PostPlace Cleanup
+Phase 10 PostPlace Cleanup | Checksum: 869e466e
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:26 . Memory (MB): peak = 696.117 ; gain = 105.625
+
+Phase 11 Post-Commit Opt
+WARNING: [Timing 38-164] This design has multiple clocks. Inter clock paths are considered valid unless explicitly excluded by timing constraints such as set_clock_groups or set_false_path.
+Phase 11 Post-Commit Opt | Checksum: 81821d41
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:28 . Memory (MB): peak = 696.117 ; gain = 105.625
+
+Phase 12 Placer Reporting
+INFO: [Place 30-100] Post Placement Timing Summary | WNS=-1.18  | TNS=-1.18  |
+
+Phase 12 Placer Reporting | Checksum: 81821d41
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:28 . Memory (MB): peak = 696.117 ; gain = 105.625
+
+Phase 13 Cleanup
+Phase 13 Cleanup | Checksum: 8eeae1ca
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:28 . Memory (MB): peak = 696.117 ; gain = 105.625
+Ending Placer Task | Checksum: 62278dcc
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:28 . Memory (MB): peak = 696.117 ; gain = 105.625
+INFO: [Common 17-83] Releasing license: Implementation
+place_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:28 . Memory (MB): peak = 696.117 ; gain = 106.750
+INFO: [Timing 38-163] DEBUG : Generate clock report | CPU: 0.18 secs 
+
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 696.117 ; gain = 0.000
+INFO: [Designutils 20-134] DEBUG : Generate Control Sets report | CPU: 0.01 secs 
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 696.117 ; gain = 0.000
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-290] Got license for Implementation
+INFO: [Common 17-291] Device 'xc7k325t' license available: Implementation
+Running DRC as a precondition to command route_design
+
+
+Starting Routing Task
+
+Effort Level for route_design : MEDIUM (Default)
+
+Starting Route Task
+
+Phase 1 Build RT Design
+
+Phase 1.1 Build Netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 696.117 ; gain = 0.000
+Phase 1.1 Build Netlist | Checksum: 0
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 696.117 ; gain = 0.000
+
+Phase 1.2 Build Node Graph

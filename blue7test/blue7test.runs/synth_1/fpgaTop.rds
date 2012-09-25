@@ -1,8 +1,8 @@
 #-----------------------------------------------------------
 # Vivado v2012.2.1 (64-bit)
 # Build 200253 by xbuild on Wed Aug 29 11:42:44 MDT 2012
-# Start of session at: Mon Sep 17 10:08:15 2012
-# Process ID: 5960
+# Start of session at: Tue Sep 25 11:36:57 2012
+# Process ID: 7205
 # Log file: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/fpgaTop.rds
 # Journal file: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
@@ -37,7 +37,7 @@ INFO: [Common 17-78] Attempting to get a license: Synthesis
 INFO: [Common 17-290] Got license for Synthesis
 INFO: [Common 17-291] Device 'xc7k325t' license available: Synthesis
 Using Coregen IP in: /opt/Xilinx/14.2/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip
-starting synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 169.891 ; gain = 70.688
+starting synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 169.891 ; gain = 70.688
 INFO: [Synth 8-638] synthesizing module 'fpgaTop' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v:5]
 
 INFO: [Synth 8-638] synthesizing module 'mkFTop_kc705' [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v:163]
@@ -190,7 +190,7 @@ INFO: [Synth 8-256] done synthesizing module 'mkFTop_kc705' (19#20) [/home/cms/p
 WARNING: [Synth 8-350] instance 'ftop' of module 'mkFTop_kc705' requires 23 connections, but only 20 given [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v:39]
 INFO: [Synth 8-256] done synthesizing module 'fpgaTop' (20#20) [/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v:5]
 
-finished synthesize : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 432.539 ; gain = 333.336
+finished synthesize : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 432.539 ; gain = 333.336
 Report RTL Partitions: 
 -----+-------------+-----------+---------
      |RTL Partition|Replication|Instances
@@ -213,7 +213,7 @@ Part Resources:
 DSPs: 840 (col length:140)
 BRAMs: 890 (col length: RAMB8 0 RAMB16 0 RAMB18 140 RAMB36 70
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 526.266 ; gain = 427.062
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 526.266 ; gain = 427.062
 ---------------------------------------------------------------------------------
 
 No constraint files found.
@@ -257,9 +257,9 @@ Detailed RTL Component Info :
 	   2 Input    108 Bit        Muxes := 1     
 	   2 Input     32 Bit        Muxes := 18    
 	   2 Input     10 Bit        Muxes := 3     
+	   5 Input      8 Bit        Muxes := 1     
 	   2 Input      8 Bit        Muxes := 5     
 	   4 Input      8 Bit        Muxes := 1     
-	   5 Input      8 Bit        Muxes := 1     
 	   2 Input      5 Bit        Muxes := 2     
 	   2 Input      4 Bit        Muxes := 3     
 	   2 Input      3 Bit        Muxes := 1     
@@ -301,7 +301,7 @@ INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_14_reg) is unused and wi
 INFO: [Synth 8-3332] Sequential element (mdi_vrReadData_15_reg) is unused and will be removed from module reg__75.
 -------> Message [OPT-118] suppressed 16 times
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 527.266 ; gain = 428.062
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 527.266 ; gain = 428.062
 ---------------------------------------------------------------------------------
 
 INFO: [Synth 8-284] extracting RAM hierarchy for 'ftop/gmac/rxRS_rxF/fifoMem_reg'
@@ -374,7 +374,7 @@ No constraint files found.
 info: Area reduced by  0.4%
 info: Area reduced by  50.9%
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 553.332 ; gain = 454.129
+Finished Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:38 . Memory (MB): peak = 553.363 ; gain = 454.160
 ---------------------------------------------------------------------------------
 
 
@@ -383,7 +383,7 @@ Start Timing Optimization
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 553.332 ; gain = 454.129
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:38 . Memory (MB): peak = 553.363 ; gain = 454.160
 ---------------------------------------------------------------------------------
 
 
@@ -391,7 +391,7 @@ Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . M
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 554.363 ; gain = 455.160
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:38 . Memory (MB): peak = 554.363 ; gain = 455.160
 ---------------------------------------------------------------------------------
 
 
@@ -415,7 +415,7 @@ Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 554.363 ; gain = 455.160
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 554.363 ; gain = 455.160
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -497,10 +497,10 @@ Report Instance Areas:
 15   |    sys0_rst         |SyncResetA__parameterized1  |   17
 -----+---------------------+----------------------------+-----
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 554.363 ; gain = 455.160
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 554.363 ; gain = 455.160
 ---------------------------------------------------------------------------------
 
-Synthesis Optimization Complete: Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 554.363 ; gain = 404.785
+Synthesis Optimization Complete: Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 554.363 ; gain = 404.785
 INFO: [Netlist 29-17] Analyzing 177 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Constraints 18-510] IO constraint IOSTANDARD with a setting of GTE2 for cell ftop/sys1_clki will not be propagated through the buffer.  The constraint should be associated with the net that is connected to the top level port.
@@ -516,7 +516,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 Phase 0 | Netlist Checksum: a7c13be7
 INFO: [Common 17-83] Releasing license: Synthesis
-synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 704.270 ; gain = 554.691
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:41 . Memory (MB): peak = 704.270 ; gain = 554.691
 # write_checkpoint fpgaTop.dcp
 # report_utilization -file fpgaTop_utilization_synth.rpt
 report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 704.270 ; gain = 0.000

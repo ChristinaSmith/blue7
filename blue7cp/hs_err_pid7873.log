@@ -1,0 +1,16 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so [0x2aaac471aa89]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/tps/lnx64/jre/lib/amd64/server/libjvm.so(JVM_handle_linux_signal+0xa7) [0x2aaac471f5e7]
+/lib64/libpthread.so.0 [0x365760ebe0]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/lib/lnx64.o/librdi_common.so(HDGDPrimContainer::~HDGDPrimContainer()+0xa0) [0x2b992daa6150]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/lib/lnx64.o/librdi_common.so(HDGDMacro::~HDGDMacro()+0x5d) [0x2b992daa694d]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/lib/lnx64.o/librdi_common.so(HDGDMacroMgr::clear()+0x27) [0x2b992da9fb77]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/lib/lnx64.o/librdi_common.so(HDGDMacroMgr::~HDGDMacroMgr()+0x12) [0x2b992da9ff02]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/lib/lnx64.o/librdi_common.so(HDGDDrawing::~HDGDDrawing()+0x31) [0x2b992daa66a1]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/lib/lnx64.o/librdi_guitools.so(HFEDRouteGuiApi::loadXgd(HSTString const&)+0x1fd0) [0x2aaad231e400]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/lib/lnx64.o/librdi_guitools.so(HFEDRouteGuiApi::HFEDRouteGuiApi(HDPYRouteStorage const*, HSTString const&)+0x66c) [0x2aaad231f0dc]
+/opt/Xilinx/14.2/ISE_DS/PlanAhead/lib/lnx64.o/librdi_guitools.so(Java_ui_data_fed_fedi_new_1RouteApi+0x318) [0x2aaad23347c8]
+[0x2aaac5555d26]

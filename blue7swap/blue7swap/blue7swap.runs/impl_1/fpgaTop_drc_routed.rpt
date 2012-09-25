@@ -1,0 +1,185 @@
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: Vivado v2012.2.1 by xbuild
+          on  Wed Aug 29 11:42:44 MDT 2012
+  Report: by cms on host core980, pid 10879
+          on Tue Sep 18 14:34:45 2012
+
+REPORT SUMMARY
+            Netlist: netlist
+          Floorplan: checkpoint_fpgaTop
+      Design limits: <entire design considered>
+             Checks: DCI Cascade Checks
+                     DCI Cascade with part compatibility
+                     DCI Cascade IO standard
+                     Bank IO standard Vcc
+                     Bank IO standard Support
+                     Bank IO standard Termination
+                     Bank IO standard Vref
+                     Bank IO standard Vref utilization
+                     Bank IO standard internal Vref conflict
+                     Bank IO standard limits
+                     Bank IO standard VRN/VRP Occupied
+                     Inconsistent Diff pair IOStandards
+                     Inconsistent Diff pair IOStandards
+                     Inconsistent Diff pair IOStandards
+                     Vccaux voltage requirement for LVCMOS25
+                     Vccaux voltage requirement for LVPECL_33 and TMDS_33
+                     Inconsistent port properties
+                     Differential IO pads
+                     IOStandard Type
+                     Number of IOs
+                     IOs placed on disallowed sites
+                     Part compatibility implied prohibits not respected
+                     MGT not allowed for part compatibility
+                     IOs crosstalk to MGT
+                     IO Bus SLR Crossings
+                     Part compatibility between monolithic and multi-die devices.
+                     Incompatible BUFGs among compatible parts.
+                     Directionless IOs
+                     Bidirection LVDS IOs
+                     IN_TERM / OUT_TERM requirements
+                     Configuration Mode
+                     INTERNAL_VREF
+                     VCCAUX
+                     VCCAUX_IO unsupported with I/O Standard
+                     VCCAUX_IO unsupported on Bank Type
+                     VCCAUX_IO Group conflicts
+                     Part compatibility for differing bank types.
+                     Placement Constraints Check for Clock Region(s)
+                     Placement Constraints Check for Design Lock
+                     Placement Constraints Check for IO constraints
+                     IOSTANDARD violations
+                     Clock Placer Checks
+                     DSP Connectivity Checks
+                     Design Connectivity Checks
+                     IDELAYCTRL DRC Checks
+                     ODELAY Check for 3.3 V standard
+                     Dangling IBUFDS output inside IOBUFDS_DIFF_OUT macro 
+                     DRC check between IO and buffer(IBUF/OBUF)
+                     Unroutable connections to BUFG
+                     Non-Optimal connections to BUFG
+                     Unroutable connection between IOB and IDDR
+                     Non-Optimal connections which could lead to hold violations
+                     Unroutable connections to GTH instance
+                     DRC check of BUFIO loads
+                     Unspecified I/O Standard
+                     Unconstrained Logical Port
+                     Driverless Nets
+                     Multiple Driver Nets
+                     Black Box Instances
+                     Longest carry chain height
+                     Pblock overlap
+                     Pblock partition
+                     Resource utilization
+                     IOB clock sharing
+                     IOB set reset sharing
+                     DSP output registers
+                     DSP input registers
+                     DSP output pipelining
+                     DSP input pipelining
+                     RAMB output registers
+                     Area group tile alignment
+                     Invalid attribute value
+                     Attribute not defined
+                     Required Pin
+                     Clock restrictions for READ_FIRST mode
+                     Built-in Error Correction mode
+                     DSP48 Cascade
+                     DSP48 Buffering
+                     DSP48 asynchronous feedback
+                     FIFO synchronous
+                     Physical design rule
+                     Physical Design Attribute Defined
+                     Physical Design Attribute Format
+                     Physical Design Connection Required
+                     Unrouted net
+           Max violations: <unlimited>
+         Violations found: 17
+
+REPORT DETAILS
+RTSTAT-10#1 Warning
+No routable loads  
+27 out of 1004 nets have no routable loads. The first 17 problem nets are ftop/gmac/txRS_txF/fifoMem_reg_0_15_6_9/DOC0, ftop/gmac/txRS_txF/fifoMem_reg_0_15_6_9/DOC1, ftop/gmac/txRS_txF/fifoMem_reg_0_15_6_9/DOD0, ftop/gmac/txRS_txF/fifoMem_reg_0_15_6_9/DOD1, ftop/gmac/txRS_txF/fifoMem_reg_0_15_0_5/DOD0, ftop/gmac/txRS_txF/fifoMem_reg_0_15_0_5/DOD1, ftop/gmac/rxRS_rxF/fifoMem_reg_0_7_0_5/DOD1, ftop/gmac/rxRS_rxF/fifoMem_reg_0_7_0_5/DOD0, ftop/gmac/rxRS_rxF/fifoMem_reg_0_7_6_9/DOD1, ftop/gmac/rxRS_rxF/fifoMem_reg_0_7_6_9/DOD0, ftop/gmac/rxRS_rxF/fifoMem_reg_0_7_6_9/DOC1, ftop/gmac/rxRS_rxF/fifoMem_reg_0_7_6_9/DOC0, ftop/swap/secondF/arr_reg_0_7_0_5/DOD1, ftop/swap/secondF/arr_reg_0_7_0_5/DOD0, ftop/swap/secondF/arr_reg_0_7_6_9/DOD1, ftop/swap/secondF/arr_reg_0_7_6_9/DOD0
+Related violations: <none>
+
+PDRC-60#1 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X10Y130:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#2 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X12Y130:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#3 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X2Y140:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#4 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X2Y141:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#5 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X6Y126:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#6 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X6Y127:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#7 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X6Y129:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-60#8 Advisory
+SLICEM_5lutO5_D5  
+Dangling output pin O5 on cell SLICE_X6Y130:D5LUT. For RAMMODE SPRAM32 programming the O5 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#1 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X10Y130:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#2 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X12Y130:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#3 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X2Y140:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#4 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X2Y141:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#5 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X6Y126:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#6 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X6Y127:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#7 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X6Y129:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+
+PDRC-64#8 Advisory
+SLICEM_6lutO6_D6  
+Dangling output pin O6 on cell SLICE_X6Y130:D6LUT. For this RAMMODE programming the O6 output pin should have a signal.
+Related violations: <none>
+

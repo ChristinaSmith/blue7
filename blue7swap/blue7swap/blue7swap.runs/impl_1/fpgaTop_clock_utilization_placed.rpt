@@ -1,0 +1,118 @@
+Clock Primitive Utilization
+--------------------------------------------------
+Type      Used      Available      Num Locked     
+--------------------------------------------------
+BUFG      2         32             0              
+BUFH      0         168            0              
+BUFIO     0         40             0              
+MMCM      0         10             0              
+BUFR      1         40             0              
+
+Details of Global Clocks
+--------------------------------------------------------------------------------------
+                                         Num Loads  
+Index BUFG cell      Net Name           BELs  Sites  Locked  MaxDelay (ns) Skew (ns)     
+--------------------------------------------------------------------------------------
+1     i_398_28       sys0_clk$O           28     11    no       1.82      1.82
+2     ftop/sys1_clk  ftop/sys1_clk$O     334    119    no       1.87     0.291
+
+
+Details of Regional Clocks
+--------------------------------------------------------------------------------------------------------
+                                                           Num Loads  
+Index BUFR cell             Net Name                      BELs  Sites  Locked  MaxDelay (ns) Skew (ns)     
+--------------------------------------------------------------------------------------------------------
+1     ftop/gmac/rxClk_BUFR  ftop/gmac/n_398_rxClk_BUFR     142     40    no      0.821     0.119
+
+
+Details of Local Clocks
+
+Clock Regions : key resource utilizations
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Clock      Global
+Region Clock Networks     BUFRs    BUFIOs      MMCM       PLL        GT       PCI    ILOGIC    OLOGIC        FF          LUTM         RAMB36   DSP48E1  
+Name    Used Aval      Used Aval Used Aval Used Aval Used Aval Used Aval Used Aval Used Aval Used Aval   Used   Aval   Used   Aval   Used Aval Used Aval
+------------------------------------------------------------------------------------------------------------------------------------------------------
+X0Y0       0   12         0    4    0    4    0    1    0    1    0    0    0    0    0   50    0   50      0  32000      0   4600    0   30    0   60
+X1Y0       0   12         0    4    0    4    0    1    0    1    0    0    0    0    0   50    0   50      0  29600      0   4800    0   40    0   60
+X0Y1       0   12         0    4    0    4    0    1    0    1    0    0    0    0    0   50    0   50      0  32000      0   4600    0   30    0   60
+X1Y1       0   12         0    4    0    4    0    1    0    1    0    0    0    0    0   50    0   50      0  29600      0   4800    0   40    0   60
+X0Y2       2   12         1    4    0    4    0    1    0    1    0    0    0    0    0   50    0   50    410  27200     64   4600    0   30    0   60
+X1Y2       2   12         0    4    0    4    0    1    0    1    0    0    0    0    0   50    0   50     17  29600      0   4800    0   40    0   60
+X0Y3       1   12         0    4    0    4    0    1    0    1    0    0    0    0    0   50   11   50      1  27200      0   4600    0   30    0   60
+X1Y3       0   12         0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0      0  25200      0   4200    0   25    0   60
+X0Y4       0   12         0    4    0    4    0    1    0    1    0    0    0    0    0   50    0   50      0  32000      0   4600    0   30    0   60
+X1Y4       0   12         0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0      0  26400      0   4400    0   30    0   60
+X0Y5       0   12         0    4    0    4    0    1    0    1    0    0    0    0    0   50    0   50      0  32000      0   4600    0   30    0   60
+X1Y5       0   12         0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0      0  26400      0   4400    0   30    0   60
+X0Y6       0   12         0    4    0    4    0    1    0    1    0    0    0    0    0   50    0   50      0  32000      0   4600    0   30    0   60
+X1Y6       0   12         0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0      0  26400      0   4400    0   30    0   60
+
+* RAMB36 site  can be used as two RAMB18/FIFO18 sites
+
+Net wise resources used in clock region X0Y2
+------------------------------------------------------------------------------------------------------
+                   MMCM  BRAM 
+ Src Type  Locked  Pins  Pins  ILOGICs OLOGICs  FFs   LUTMs  DSP48E1s PLLs Clock Net Name           
+------------------------------------------------------------------------------------------------------
+BUFG         no       0     0      0       0      11      0        0      0                 sys0_clk$O
+BUFG         no       0     0      0       0     273     48        0      0            ftop/sys1_clk$O
+BUFR         no       0     0      0       0     126     16        0      0 ftop/gmac/n_398_rxClk_BUFR
+
+Net wise resources used in clock region X1Y2
+-------------------------------------------------------------------------------------------
+                   MMCM  BRAM 
+ Src Type  Locked  Pins  Pins  ILOGICs OLOGICs  FFs   LUTMs  DSP48E1s PLLs Clock Net Name
+-------------------------------------------------------------------------------------------
+BUFG         no       0     0      0       0      16      0        0      0      sys0_clk$O
+BUFG         no       0     0      0       0       1      0        0      0 ftop/sys1_clk$O
+
+Net wise resources used in clock region X0Y3
+-------------------------------------------------------------------------------------------
+                   MMCM  BRAM 
+ Src Type  Locked  Pins  Pins  ILOGICs OLOGICs  FFs   LUTMs  DSP48E1s PLLs Clock Net Name
+-------------------------------------------------------------------------------------------
+BUFG         no       0     0      0      11       1      0        0      0 ftop/sys1_clk$O
+
+
+# Location of BUFG Primitives 
+set_property LOC BUFGCTRL_X0Y0 [get_cells i_398_28]
+set_property LOC BUFGCTRL_X0Y16 [get_cells ftop/sys1_clk]
+
+# Location of IO Clock Primitives
+
+# Location of MMCM Clock Primitives
+
+# Location of BUFH Clock Primitives
+
+# Location of BUFR Clock Primitives
+set_property LOC BUFR_X0Y9 [get_cells ftop/gmac/rxClk_BUFR]
+
+# Location of IO Primitives which is load of clock spine
+
+# Location of clock ports
+set_property LOC IOB_X1Y75 [get_ports sys0_clkn]
+set_property LOC IOB_X1Y76 [get_ports sys0_clkp]
+set_property LOC IPAD_X1Y75 [get_ports sys1_clkn]
+set_property LOC IPAD_X1Y74 [get_ports sys1_clkp]
+
+# Clock net "ftop/sys1_clk$O" driven by instance "ftop/sys1_clk" located at site "BUFGCTRL_X0Y16"
+#startgroup
+create_pblock CLKAG_ftop/sys1_clk$O
+add_cells_to_pblock [get_pblocks  CLKAG_ftop/sys1_clk$O] [get_cells  -filter { IS_PRIMITIVE==1 } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets ftop/sys1_clk$O]]]
+resize_pblock [get_pblocks CLKAG_ftop/sys1_clk$O] -add {CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2}
+#endgroup
+
+# Clock net "sys0_clk$O" driven by instance "i_398_28" located at site "BUFGCTRL_X0Y0"
+#startgroup
+create_pblock CLKAG_sys0_clk$O
+add_cells_to_pblock [get_pblocks  CLKAG_sys0_clk$O] [get_cells  -filter { IS_PRIMITIVE==1 } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets  -hierarchical sys0_clk$O]]]
+resize_pblock [get_pblocks CLKAG_sys0_clk$O] -add {CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2}
+#endgroup
+
+# Clock net "ftop/gmac/n_398_rxClk_BUFR" driven by instance "ftop/gmac/rxClk_BUFR" located at site "BUFR_X0Y9"
+#startgroup
+create_pblock CLKAG_ftop/gmac/n_398_rxClk_BUFR
+add_cells_to_pblock [get_pblocks  CLKAG_ftop/gmac/n_398_rxClk_BUFR] [get_cells  -filter { IS_PRIMITIVE==1 } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets ftop/gmac/n_398_rxClk_BUFR]]]
+resize_pblock [get_pblocks CLKAG_ftop/gmac/n_398_rxClk_BUFR] -add {CLOCKREGION_X0Y2:CLOCKREGION_X0Y2}
+#endgroup

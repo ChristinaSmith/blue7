@@ -1,0 +1,29 @@
+Command line:
+   out.isim
+     -testplusarg  bscvcd
+     -simmode  tcl
+     -simrunnum  0
+     -socket  52007
+
+Tue Sep 18 14:31:00 2012
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 157.233 Meg
+
+ Total Signals          : 290
+ Total Nets             : 343
+ Total Signal Drivers   : 248
+ Total Blocks           : 10
+ Total Primitive Blocks : 4
+ Total Processes        : 272
+ Total Traceable Variables  : 63
+ Total Scalar Nets and Variables : 777
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 167.719 Meg
+
+Tue Sep 18 14:31:00 2012
+

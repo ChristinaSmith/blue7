@@ -1,0 +1,1063 @@
+
+*** Running xst
+    with args -ifn fpgaTop.xst -ofn fpgaTop.srp -intstyle ise
+
+Reading design: fpgaTop.prj
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncResetA.v" into library work
+Parsing module <SyncResetA>.
+Analyzing Verilog file "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncFIFO.v" into library work
+Parsing module <SyncFIFO>.
+Analyzing Verilog file "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncBit.v" into library work
+Parsing module <SyncBit>.
+Analyzing Verilog file "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/ResetInverter.v" into library work
+Parsing module <ResetInverter>.
+Analyzing Verilog file "/home/cms/projects/ocpi/rtl/mkCRC32.v" into library work
+Parsing module <mkCRC32>.
+Analyzing Verilog file "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/TriState.v" into library work
+Parsing module <TriState>.
+Analyzing Verilog file "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/MakeResetA.v" into library work
+Parsing module <MakeResetA>.
+Analyzing Verilog file "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/FIFO2.v" into library work
+Parsing module <FIFO2>.
+Analyzing Verilog file "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/Counter.v" into library work
+Parsing module <Counter>.
+Analyzing Verilog file "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" into library work
+Parsing module <mkGMAC>.
+Analyzing Verilog file "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" into library work
+Parsing module <mkFTop_kc705>.
+Analyzing Verilog file "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v" into library work
+Parsing module <fpgaTop>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v" Line 39: Port rxclkBnd is not connected to this instance
+
+Elaborating module <fpgaTop>.
+
+Elaborating module <mkFTop_kc705>.
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 533: Assignment to CAN_FIRE_gmii_rx_rxd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 534: Assignment to WILL_FIRE_gmii_rx_rxd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 537: Assignment to CAN_FIRE_gmii_rx_rx_dv ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 538: Assignment to WILL_FIRE_gmii_rx_rx_dv ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 541: Assignment to CAN_FIRE_gmii_rx_rx_er ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 542: Assignment to WILL_FIRE_gmii_rx_rx_er ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 554: Assignment to CAN_FIRE_gmii_col ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 555: Assignment to WILL_FIRE_gmii_col ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 558: Assignment to CAN_FIRE_gmii_crs ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 559: Assignment to WILL_FIRE_gmii_crs ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 562: Assignment to CAN_FIRE_gmii_intr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 563: Assignment to WILL_FIRE_gmii_intr ignored, since the identifier is never used
+
+Elaborating module <mkGMAC>.
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 929: Assignment to CAN_FIRE_gmii_rx_rxd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 930: Assignment to WILL_FIRE_gmii_rx_rxd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 933: Assignment to CAN_FIRE_gmii_rx_rx_dv ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 934: Assignment to WILL_FIRE_gmii_rx_rx_dv ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 937: Assignment to CAN_FIRE_gmii_rx_rx_er ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 938: Assignment to WILL_FIRE_gmii_rx_rx_er ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 958: Assignment to CAN_FIRE_gmii_col ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 959: Assignment to WILL_FIRE_gmii_col ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 962: Assignment to CAN_FIRE_gmii_crs ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 963: Assignment to WILL_FIRE_gmii_crs ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 966: Assignment to CAN_FIRE_gmii_intr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 967: Assignment to WILL_FIRE_gmii_intr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 977: Assignment to CAN_FIRE_rx_get ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 978: Assignment to WILL_FIRE_rx_get ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 982: Assignment to CAN_FIRE_tx_put ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 983: Assignment to WILL_FIRE_tx_put ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 987: Assignment to CAN_FIRE_rxOperate ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 988: Assignment to WILL_FIRE_rxOperate ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 992: Assignment to CAN_FIRE_txOperate ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 993: Assignment to WILL_FIRE_txOperate ignored, since the identifier is never used
+
+Elaborating module <SyncBit(init=1'b0)>.
+
+Elaborating module <BUFIO>.
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1024: Assignment to gmii_rx_clk$O ignored, since the identifier is never used
+
+Elaborating module <IODELAY(IDELAY_TYPE="FIXED",IDELAY_VALUE=32'b0,DELAY_SRC="I",SIGNAL_PATTERN="CLOCK",HIGH_PERFORMANCE_MODE="TRUE")>.
+WARNING:HDLCompiler:189 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1032: Size mismatch in connection of port <ODATAIN>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1033: Size mismatch in connection of port <DATAIN>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1034: Size mismatch in connection of port <C>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1035: Size mismatch in connection of port <T>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1036: Size mismatch in connection of port <CE>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1037: Size mismatch in connection of port <INC>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1038: Size mismatch in connection of port <RST>. Formal port size is 1-bit while actual signal size is 32-bit.
+
+Elaborating module <SyncResetA(RSTDELAY=32'b0111)>.
+WARNING:HDLCompiler:413 - "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncResetA.v" Line 58: Result of 32-bit expression is truncated to fit in 8-bit target.
+
+Elaborating module <BUFR(BUFR_DIVIDE="BYPASS")>.
+
+Elaborating module <mkCRC32>.
+
+Elaborating module <SyncFIFO(dataWidth=32'b01010,depth=32'b01000,indxWidth=32'b011)>.
+
+Elaborating module <SyncResetA(RSTDELAY=32'b01)>.
+WARNING:HDLCompiler:413 - "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncResetA.v" Line 58: Result of 32-bit expression is truncated to fit in 2-bit target.
+
+Elaborating module <ODDR(DDR_CLK_EDGE="SAME_EDGE",INIT=1'b0,SRTYPE="SYNC")>.
+
+Elaborating module <ResetInverter>.
+
+Elaborating module <SyncFIFO(dataWidth=32'b01010,depth=32'b010000,indxWidth=32'b0100)>.
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1295: Assignment to CAN_FIRE_RL_rxRS_overflow_detect ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1296: Assignment to WILL_FIRE_RL_rxRS_overflow_detect ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1299: Assignment to CAN_FIRE_RL_rxRS_full_stretch ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1300: Assignment to WILL_FIRE_RL_rxRS_full_stretch ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1318: Assignment to WILL_FIRE_RL_rxRS_crc_capture ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1333: Assignment to CAN_FIRE_RL_rxRS_dv_reg ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1334: Assignment to WILL_FIRE_RL_rxRS_dv_reg ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1337: Assignment to CAN_FIRE_RL_rxRS_preambleCnt_ruleInc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1339: Assignment to WILL_FIRE_RL_rxRS_preambleCnt_ruleInc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1343: Assignment to CAN_FIRE_RL_rxRS_preambleCnt_ruleDec ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1344: Assignment to WILL_FIRE_RL_rxRS_preambleCnt_ruleDec ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1354: Assignment to CAN_FIRE_RL_rxRS_operate_condition ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1355: Assignment to WILL_FIRE_RL_rxRS_operate_condition ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1358: Assignment to CAN_FIRE_RL_rxRS_rxOperateD__dreg_update ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1359: Assignment to WILL_FIRE_RL_rxRS_rxOperateD__dreg_update ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1362: Assignment to CAN_FIRE_RL_rxRS_crcDbgCnt_ruleInc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1368: Assignment to CAN_FIRE_RL_rxRS_crcDbgCnt_ruleDec ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1369: Assignment to WILL_FIRE_RL_rxRS_crcDbgCnt_ruleDec ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1372: Assignment to CAN_FIRE_RL_txRS_operate_condition ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1373: Assignment to WILL_FIRE_RL_txRS_operate_condition ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1376: Assignment to CAN_FIRE_RL_txRS_undeflow_detect ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1377: Assignment to WILL_FIRE_RL_txRS_undeflow_detect ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1380: Assignment to CAN_FIRE_RL_txRS_unf_stretch ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1381: Assignment to WILL_FIRE_RL_txRS_unf_stretch ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1409: Assignment to WILL_FIRE_RL_txRS_ifg_decrementer ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1413: Assignment to CAN_FIRE_RL_txRS_tx_output_flops ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1414: Assignment to WILL_FIRE_RL_txRS_tx_output_flops ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1417: Assignment to CAN_FIRE_RL_txRS_txOperateD__dreg_update ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1418: Assignment to WILL_FIRE_RL_txRS_txOperateD__dreg_update ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1421: Assignment to CAN_FIRE_RL_txRS_txER__dreg_update ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1422: Assignment to WILL_FIRE_RL_txRS_txER__dreg_update ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1425: Assignment to CAN_FIRE_RL_txRS_preambleCnt_ruleInc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1426: Assignment to WILL_FIRE_RL_txRS_preambleCnt_ruleInc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1430: Assignment to CAN_FIRE_RL_txRS_preambleCnt_ruleDec ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1431: Assignment to WILL_FIRE_RL_txRS_preambleCnt_ruleDec ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1434: Assignment to CAN_FIRE_RL_txRS_ifgCnt_ruleInc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1435: Assignment to WILL_FIRE_RL_txRS_ifgCnt_ruleInc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1438: Assignment to CAN_FIRE_RL_txRS_ifgCnt_ruleDec ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1439: Assignment to WILL_FIRE_RL_txRS_ifgCnt_ruleDec ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1447: Assignment to CAN_FIRE_RL_txRS_txData__dreg_update ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1448: Assignment to WILL_FIRE_RL_txRS_txData__dreg_update ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1451: Assignment to CAN_FIRE_RL_txRS_txDV__dreg_update ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1452: Assignment to WILL_FIRE_RL_txRS_txDV__dreg_update ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1455: Assignment to CAN_FIRE_RL_txRS_lenCnt_ruleInc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1460: Assignment to CAN_FIRE_RL_txRS_lenCnt_ruleDec ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1461: Assignment to WILL_FIRE_RL_txRS_lenCnt_ruleDec ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1464: Assignment to CAN_FIRE_RL_txRS_crcDbgCnt_ruleInc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1469: Assignment to CAN_FIRE_RL_txRS_crcDbgCnt_ruleDec ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1470: Assignment to WILL_FIRE_RL_txRS_crcDbgCnt_ruleDec ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1473: Assignment to CAN_FIRE_RL_txRS_underflow__dreg_update ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1474: Assignment to WILL_FIRE_RL_txRS_underflow__dreg_update ignored, since the identifier is never used
+WARNING:HDLCompiler:1311 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1556: Found parallel_case directive. Use of parallel_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1942: Assignment to txRS_underflow ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" Line 1990: Assignment to rxRS_isSOF ignored, since the identifier is never used
+
+Elaborating module <IDELAYCTRL>.
+
+Elaborating module <MakeResetA(RSTDELAY=32'b01,init=1'b0)>.
+
+Elaborating module <FIFO2(width=32'b011011,guarded=32'b01)>.
+
+Elaborating module <FIFO2(width=32'b010001,guarded=32'b01)>.
+
+Elaborating module <Counter(width=32'b01000,init=8'b0)>.
+
+Elaborating module <Counter(width=32'b0100,init=4'b0110)>.
+
+Elaborating module <TriState(width=32'b01)>.
+
+Elaborating module <IBUFDS>.
+
+Elaborating module <SyncResetA(RSTDELAY=32'b01111)>.
+WARNING:HDLCompiler:413 - "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncResetA.v" Line 58: Result of 32-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <BUFG>.
+
+Elaborating module <IBUFDS_GTE2>.
+
+Elaborating module <SyncResetA(RSTDELAY=32'b0)>.
+WARNING:HDLCompiler:413 - "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncResetA.v" Line 58: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 706: Assignment to WILL_FIRE_RL_mkConnectionGetPut ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 711: Assignment to WILL_FIRE_RL_idc_my_reset_condition ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 716: Assignment to WILL_FIRE_RL_idc_do_reset ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 719: Assignment to CAN_FIRE_RL_idc_pre_reset ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 720: Assignment to WILL_FIRE_RL_idc_pre_reset ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 724: Assignment to WILL_FIRE_RL_mdi_update_prescaler ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" Line 729: Assignment to WILL_FIRE_RL_mdi_reset_prescaler ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v" Line 69: Assignment to gmii_led ignored, since the identifier is never used
+WARNING:Xst:2972 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1008. All outputs of instance <col_cc> of block <SyncBit> are unconnected in block <mkGMAC>. Underlying logic will be removed.
+WARNING:Xst:2972 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1016. All outputs of instance <crs_cc> of block <SyncBit> are unconnected in block <mkGMAC>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <fpgaTop>.
+    Related source file is "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v".
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v" line 39: Output port <gmii_led> of the instance <ftop> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v" line 39: Output port <rxclkBnd> of the instance <ftop> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v" line 39: Output port <CLK_GATE_rxclkBnd> of the instance <ftop> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/rtl/fpgaTop_kc705.v" line 39: Output port <CLK_GATE_gmii_tx_tx_clk> of the instance <ftop> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <fpgaTop> synthesized.
+
+Synthesizing Unit <mkFTop_kc705>.
+    Related source file is "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v".
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 569: Output port <RDY_rxOperate> of the instance <gmac> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 569: Output port <RDY_txOperate> of the instance <gmac> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 569: Output port <rxOverFlow> of the instance <gmac> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 569: Output port <RDY_rxOverFlow> of the instance <gmac> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 569: Output port <txUnderFlow> of the instance <gmac> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 569: Output port <RDY_txUnderFlow> of the instance <gmac> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 569: Output port <phyInterrupt> of the instance <gmac> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 569: Output port <RDY_phyInterrupt> of the instance <gmac> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 569: Output port <CLK_GATE_gmii_tx_tx_clk> of the instance <gmac> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 569: Output port <CLK_GATE_rxclkBnd> of the instance <gmac> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 608: Output port <ASSERT_OUT> of the instance <idc_idcRst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 621: Output port <FULL_N> of the instance <mdi_fRequest> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 633: Output port <D_OUT> of the instance <mdi_fResponse> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 633: Output port <EMPTY_N> of the instance <mdi_fResponse> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkFTop_kc705.v" line 670: Output port <O> of the instance <mdi_tMDC> is unconnected or connected to loadless signal.
+    Found 4-bit register for signal <idc_preResetCount>.
+    Found 1-bit register for signal <mdi_rMDC>.
+    Found 1-bit register for signal <mdi_rMDD>.
+    Found 1-bit register for signal <mdi_rOutEn>.
+    Found 1-bit register for signal <mdi_rState>.
+    Found 5-bit register for signal <mdi_rPhyAddr>.
+    Found 5-bit register for signal <mdi_rRegAddr>.
+    Found 1-bit register for signal <mdi_rWrite>.
+    Found 16-bit register for signal <mdi_rWriteData>.
+    Found 1-bit register for signal <mdi_vrReadData>.
+    Found 1-bit register for signal <mdi_vrReadData_1>.
+    Found 1-bit register for signal <mdi_vrReadData_10>.
+    Found 1-bit register for signal <mdi_vrReadData_11>.
+    Found 1-bit register for signal <mdi_vrReadData_12>.
+    Found 1-bit register for signal <mdi_vrReadData_13>.
+    Found 1-bit register for signal <mdi_vrReadData_14>.
+    Found 1-bit register for signal <mdi_vrReadData_15>.
+    Found 1-bit register for signal <mdi_vrReadData_2>.
+    Found 1-bit register for signal <mdi_vrReadData_3>.
+    Found 1-bit register for signal <mdi_vrReadData_4>.
+    Found 1-bit register for signal <mdi_vrReadData_5>.
+    Found 1-bit register for signal <mdi_vrReadData_6>.
+    Found 1-bit register for signal <mdi_vrReadData_7>.
+    Found 1-bit register for signal <mdi_vrReadData_8>.
+    Found 1-bit register for signal <mdi_vrReadData_9>.
+    Found 4-bit register for signal <idc_doResetCount>.
+    Found 4-bit adder for signal <idc_doResetCount[3]_GND_2_o_add_9_OUT> created at line 749.
+    Found 4-bit adder for signal <idc_preResetCount[3]_GND_2_o_add_12_OUT> created at line 756.
+    Found 256x2-bit Read Only RAM for signal <_n0954>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  55 D-type flip-flop(s).
+	inferred  32 Multiplexer(s).
+Unit <mkFTop_kc705> synthesized.
+
+Synthesizing Unit <mkGMAC>.
+    Related source file is "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v".
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1008: Output port <dD_OUT> of the instance <col_cc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1016: Output port <dD_OUT> of the instance <crs_cc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1061: Output port <result> of the instance <rxRS_crc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1061: Output port <RDY_add> of the instance <rxRS_crc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1061: Output port <RDY_clear> of the instance <rxRS_crc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1061: Output port <RDY_result> of the instance <rxRS_crc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1061: Output port <RDY_complete> of the instance <rxRS_crc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1109: Output port <complete> of the instance <txRS_crc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1109: Output port <RDY_add> of the instance <txRS_crc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1109: Output port <RDY_clear> of the instance <txRS_crc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1109: Output port <RDY_result> of the instance <txRS_crc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/cms/projects/blue7/blue7test/blue7test.srcs/sources_1/imports/blue7/bdw/mkGMAC.v" line 1109: Output port <RDY_complete> of the instance <txRS_crc> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <txRS_doPad>.
+    Found 3-bit register for signal <txRS_emitFCS>.
+    Found 5-bit register for signal <txRS_ifgCnt_value>.
+    Found 1-bit register for signal <txRS_isSOF>.
+    Found 12-bit register for signal <txRS_lenCnt_value>.
+    Found 5-bit register for signal <txRS_preambleCnt_value>.
+    Found 1-bit register for signal <txRS_txActive>.
+    Found 1-bit register for signal <txRS_txDV>.
+    Found 8-bit register for signal <txRS_txData>.
+    Found 1-bit register for signal <txRS_unfD>.
+    Found 1-bit register for signal <rxRS_crcEnd>.
+    Found 1-bit register for signal <rxRS_fullD>.
+    Found 4-bit register for signal <rxRS_preambleCnt_value>.
+    Found 6-bit register for signal <rxRS_rxAPipe>.
+    Found 1-bit register for signal <rxRS_rxActive>.
+    Found 1-bit register for signal <rxRS_rxDV>.
+    Found 1-bit register for signal <rxRS_rxDVD>.
+    Found 1-bit register for signal <rxRS_rxER>.
+    Found 8-bit register for signal <rxRS_rxData>.
+    Found 48-bit register for signal <rxRS_rxPipe>.
+    Found 1-bit register for signal <gmacLED>.
+    Found 3-bit subtractor for signal <MUX_txRS_emitFCS$write_1__VAL_2> created at line 1518.
+    Found 5-bit subtractor for signal <txRS_ifgCnt_value[4]_GND_3_o_sub_27_OUT> created at line 1522.
+    Found 4-bit adder for signal <rxRS_preambleCnt_value[3]_GND_3_o_add_15_OUT> created at line 1497.
+    Found 12-bit adder for signal <txRS_lenCnt_value[11]_GND_3_o_add_29_OUT> created at line 1526.
+    Found 5-bit adder for signal <txRS_preambleCnt_value[4]_GND_3_o_add_32_OUT> created at line 1530.
+    Found 8-bit 4-to-1 multiplexer for signal <_n0404> created at line 896.
+    Found 32-bit comparator not equal for signal <rxRS_crc$complete[31]_rxRS_rxPipe[7]_equal_19_o> created at line 1501
+    Found 4-bit comparator greater for signal <GND_3_o_rxRS_preambleCnt_value[3]_LessThan_55_o> created at line 1641
+    Found 12-bit comparator greater for signal <txRS_lenCnt_value_43_ULT_59___d290> created at line 1900
+    Found 5-bit comparator greater for signal <txRS_preambleCnt_value_17_ULT_7___d291> created at line 1902
+    WARNING:Xst:2404 -  FFs/Latches <txRS_txER<0:0>> (without init value) have a constant value of 0 in block <mkGMAC>.
+    WARNING:Xst:2404 -  FFs/Latches <rxRS_rxOperateD<0:0>> (without init value) have a constant value of 0 in block <mkGMAC>.
+    WARNING:Xst:2404 -  FFs/Latches <txRS_txOperateD<0:0>> (without init value) have a constant value of 0 in block <mkGMAC>.
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+	inferred 111 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  16 Multiplexer(s).
+Unit <mkGMAC> synthesized.
+
+Synthesizing Unit <SyncBit>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncBit.v".
+        init = 1'b0
+    Found 1-bit register for signal <dSyncReg1>.
+    Found 1-bit register for signal <dSyncReg2>.
+    Found 1-bit register for signal <sSyncReg>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <SyncBit> synthesized.
+
+Synthesizing Unit <SyncResetA_1>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncResetA.v".
+        RSTDELAY = 32'b00000000000000000000000000000111
+    Found 8-bit register for signal <reset_hold>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <SyncResetA_1> synthesized.
+
+Synthesizing Unit <mkCRC32>.
+    Related source file is "/home/cms/projects/ocpi/rtl/mkCRC32.v".
+    Found 32-bit register for signal <rRemainder>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   9 Multiplexer(s).
+Unit <mkCRC32> synthesized.
+
+Synthesizing Unit <SyncFIFO_1>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncFIFO.v".
+        dataWidth = 32'b00000000000000000000000000001010
+        depth = 32'b00000000000000000000000000001000
+        indxWidth = 32'b00000000000000000000000000000011
+    Found 8x10-bit dual-port RAM <Mram_fifoMem> for signal <fifoMem>.
+    Found 1-bit register for signal <sNotFullReg>.
+    Found 1-bit register for signal <dNotEmptyReg>.
+    Found 4-bit register for signal <dSyncReg1>.
+    Found 4-bit register for signal <dEnqPtr>.
+    Found 4-bit register for signal <sSyncReg1>.
+    Found 4-bit register for signal <sDeqPtr>.
+    Found 5-bit register for signal <dGDeqPtr>.
+    Found 5-bit register for signal <sGEnqPtr>.
+    Found 5-bit register for signal <dGDeqPtr1>.
+    Found 5-bit register for signal <sGEnqPtr1>.
+    Found 10-bit register for signal <dDoutReg>.
+    Found 4-bit comparator not equal for signal <n0012> created at line 117
+    Found 4-bit comparator not equal for signal <n0015> created at line 118
+    Found 4-bit comparator equal for signal <dNextNotEmpty_INV_108_o> created at line 163
+    Summary:
+	inferred   1 RAM(s).
+	inferred  48 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <SyncFIFO_1> synthesized.
+
+Synthesizing Unit <SyncResetA_2>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncResetA.v".
+        RSTDELAY = 32'b00000000000000000000000000000001
+    Found 2-bit register for signal <reset_hold>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <SyncResetA_2> synthesized.
+
+Synthesizing Unit <ResetInverter>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/ResetInverter.v".
+    Summary:
+	no macro.
+Unit <ResetInverter> synthesized.
+
+Synthesizing Unit <SyncFIFO_2>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncFIFO.v".
+        dataWidth = 32'b00000000000000000000000000001010
+        depth = 32'b00000000000000000000000000010000
+        indxWidth = 32'b00000000000000000000000000000100
+    Found 16x10-bit dual-port RAM <Mram_fifoMem> for signal <fifoMem>.
+    Found 1-bit register for signal <sNotFullReg>.
+    Found 1-bit register for signal <dNotEmptyReg>.
+    Found 5-bit register for signal <dSyncReg1>.
+    Found 5-bit register for signal <dEnqPtr>.
+    Found 5-bit register for signal <sSyncReg1>.
+    Found 5-bit register for signal <sDeqPtr>.
+    Found 6-bit register for signal <dGDeqPtr>.
+    Found 6-bit register for signal <sGEnqPtr>.
+    Found 6-bit register for signal <dGDeqPtr1>.
+    Found 6-bit register for signal <sGEnqPtr1>.
+    Found 10-bit register for signal <dDoutReg>.
+    Found 5-bit comparator not equal for signal <n0012> created at line 117
+    Found 5-bit comparator not equal for signal <n0015> created at line 118
+    Found 5-bit comparator equal for signal <dNextNotEmpty_INV_129_o> created at line 163
+    Summary:
+	inferred   1 RAM(s).
+	inferred  56 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <SyncFIFO_2> synthesized.
+
+Synthesizing Unit <MakeResetA>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/MakeResetA.v".
+        RSTDELAY = 32'b00000000000000000000000000000001
+        init = 1'b0
+    Found 1-bit register for signal <rst>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <MakeResetA> synthesized.
+
+Synthesizing Unit <FIFO2_1>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/FIFO2.v".
+        width = 32'b00000000000000000000000000011011
+        guarded = 32'b00000000000000000000000000000001
+    Found 27-bit register for signal <data0_reg>.
+    Found 1-bit register for signal <empty_reg>.
+    Summary:
+	inferred  28 D-type flip-flop(s).
+Unit <FIFO2_1> synthesized.
+
+Synthesizing Unit <FIFO2_2>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/FIFO2.v".
+        width = 32'b00000000000000000000000000010001
+        guarded = 32'b00000000000000000000000000000001
+    Found 1-bit register for signal <full_reg>.
+    Found 17-bit register for signal <data0_reg>.
+    Found 1-bit register for signal <empty_reg>.
+    Summary:
+	inferred  19 D-type flip-flop(s).
+Unit <FIFO2_2> synthesized.
+
+Synthesizing Unit <Counter_1>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/Counter.v".
+        width = 32'b00000000000000000000000000001000
+        init = 8'b00000000
+    Found 8-bit register for signal <q_state>.
+    Found 8-bit adder for signal <q_state[7]_GND_21_o_add_7_OUT> created at line 69.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+Unit <Counter_1> synthesized.
+
+Synthesizing Unit <Counter_2>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/Counter.v".
+        width = 32'b00000000000000000000000000000100
+        init = 4'b0110
+    Found 4-bit register for signal <q_state>.
+    Found 4-bit adder for signal <q_state[3]_GND_22_o_add_7_OUT> created at line 69.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <Counter_2> synthesized.
+
+Synthesizing Unit <TriState>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/TriState.v".
+        width = 32'b00000000000000000000000000000001
+    Found 1-bit tristate buffer for signal <IO> created at line 50
+    Summary:
+	inferred   1 Tristate(s).
+Unit <TriState> synthesized.
+
+Synthesizing Unit <SyncResetA_3>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncResetA.v".
+        RSTDELAY = 32'b00000000000000000000000000001111
+    Found 16-bit register for signal <reset_hold>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <SyncResetA_3> synthesized.
+
+Synthesizing Unit <SyncResetA_4>.
+    Related source file is "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/SyncResetA.v".
+        RSTDELAY = 32'b00000000000000000000000000000000
+    Found 1-bit register for signal <reset_hold>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <SyncResetA_4> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 16x10-bit dual-port RAM                               : 1
+ 256x2-bit single-port Read Only RAM                   : 1
+ 8x10-bit dual-port RAM                                : 1
+# Adders/Subtractors                                   : 9
+ 12-bit adder                                          : 1
+ 3-bit subtractor                                      : 1
+ 4-bit adder                                           : 4
+ 5-bit adder                                           : 1
+ 5-bit subtractor                                      : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 100
+ 1-bit register                                        : 57
+ 10-bit register                                       : 2
+ 12-bit register                                       : 1
+ 16-bit register                                       : 2
+ 17-bit register                                       : 1
+ 2-bit register                                        : 3
+ 27-bit register                                       : 1
+ 3-bit register                                        : 1
+ 32-bit register                                       : 2
+ 4-bit register                                        : 8
+ 48-bit register                                       : 1
+ 5-bit register                                        : 12
+ 6-bit register                                        : 5
+ 8-bit register                                        : 4
+# Comparators                                          : 10
+ 12-bit comparator greater                             : 1
+ 32-bit comparator not equal                           : 1
+ 4-bit comparator equal                                : 1
+ 4-bit comparator greater                              : 1
+ 4-bit comparator not equal                            : 2
+ 5-bit comparator equal                                : 1
+ 5-bit comparator greater                              : 1
+ 5-bit comparator not equal                            : 2
+# Multiplexers                                         : 69
+ 1-bit 2-to-1 multiplexer                              : 33
+ 10-bit 2-to-1 multiplexer                             : 1
+ 12-bit 2-to-1 multiplexer                             : 1
+ 2-bit 2-to-1 multiplexer                              : 3
+ 3-bit 2-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 18
+ 4-bit 2-to-1 multiplexer                              : 2
+ 5-bit 2-to-1 multiplexer                              : 2
+ 6-bit 2-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 6
+ 8-bit 4-to-1 multiplexer                              : 1
+# Tristates                                            : 2
+ 1-bit tristate buffer                                 : 2
+# Xors                                                 : 10
+ 32-bit xor2                                           : 2
+ 4-bit xor2                                            : 4
+ 5-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Counter_1>.
+The following registers are absorbed into accumulator <q_state>: 1 register on signal <q_state>.
+Unit <Counter_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Counter_2>.
+The following registers are absorbed into accumulator <q_state>: 1 register on signal <q_state>.
+Unit <Counter_2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <SyncFIFO_1>.
+INFO:Xst:3231 - The small RAM <Mram_fifoMem> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 10-bit                     |          |
+    |     clkA           | connected to signal <sCLK>          | rise     |
+    |     weA            | connected to signal <sENQ>          | high     |
+    |     addrA          | connected to signal <sGEnqPtr<2:0>> |          |
+    |     diA            | connected to signal <sD_IN>         |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 8-word x 10-bit                     |          |
+    |     addrB          | connected to signal <dGDeqPtr<2:0>> |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <SyncFIFO_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <SyncFIFO_2>.
+INFO:Xst:3231 - The small RAM <Mram_fifoMem> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 10-bit                    |          |
+    |     clkA           | connected to signal <sCLK>          | rise     |
+    |     weA            | connected to signal <sENQ>          | high     |
+    |     addrA          | connected to signal <sGEnqPtr<3:0>> |          |
+    |     diA            | connected to signal <sD_IN>         |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 16-word x 10-bit                    |          |
+    |     addrB          | connected to signal <dGDeqPtr<3:0>> |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <SyncFIFO_2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mkFTop_kc705>.
+The following registers are absorbed into counter <idc_preResetCount>: 1 register on signal <idc_preResetCount>.
+The following registers are absorbed into counter <idc_doResetCount>: 1 register on signal <idc_doResetCount>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0954> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 2-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <mdi_rPlayIndex$Q_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <mkFTop_kc705> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mkGMAC>.
+The following registers are absorbed into counter <txRS_emitFCS>: 1 register on signal <txRS_emitFCS>.
+The following registers are absorbed into counter <txRS_ifgCnt_value>: 1 register on signal <txRS_ifgCnt_value>.
+The following registers are absorbed into counter <txRS_lenCnt_value>: 1 register on signal <txRS_lenCnt_value>.
+The following registers are absorbed into counter <txRS_preambleCnt_value>: 1 register on signal <txRS_preambleCnt_value>.
+The following registers are absorbed into counter <rxRS_preambleCnt_value>: 1 register on signal <rxRS_preambleCnt_value>.
+Unit <mkGMAC> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 16x10-bit dual-port distributed RAM                   : 1
+ 256x2-bit single-port distributed Read Only RAM       : 1
+ 8x10-bit dual-port distributed RAM                    : 1
+# Counters                                             : 7
+ 12-bit up counter                                     : 1
+ 3-bit down counter                                    : 1
+ 4-bit up counter                                      : 3
+ 5-bit down counter                                    : 1
+ 5-bit up counter                                      : 1
+# Accumulators                                         : 2
+ 4-bit up loadable accumulator                         : 1
+ 8-bit up accumulator                                  : 1
+# Registers                                            : 391
+ Flip-Flops                                            : 391
+# Comparators                                          : 10
+ 12-bit comparator greater                             : 1
+ 32-bit comparator not equal                           : 1
+ 4-bit comparator equal                                : 1
+ 4-bit comparator greater                              : 1
+ 4-bit comparator not equal                            : 2
+ 5-bit comparator equal                                : 1
+ 5-bit comparator greater                              : 1
+ 5-bit comparator not equal                            : 2
+# Multiplexers                                         : 61
+ 1-bit 2-to-1 multiplexer                              : 31
+ 10-bit 2-to-1 multiplexer                             : 1
+ 2-bit 2-to-1 multiplexer                              : 3
+ 32-bit 2-to-1 multiplexer                             : 18
+ 6-bit 2-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 6
+ 8-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 10
+ 32-bit xor2                                           : 2
+ 4-bit xor2                                            : 4
+ 5-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <mkGMAC>: instances <txRS_iobTxClk_reset>, <txRS_iobTxData_reset> of unit <ResetInverter> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <mkGMAC>: instances <txRS_iobTxClk_reset>, <txRS_iobTxEna_reset> of unit <ResetInverter> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <mkGMAC>: instances <txRS_iobTxClk_reset>, <txRS_iobTxErr_reset> of unit <ResetInverter> are equivalent, second instance is removed
+WARNING:Xst:1710 - FF/Latch <gmacLED> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <empty_reg> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_26> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_25> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_24> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_23> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_22> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_21> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_20> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_19> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_18> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_17> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_16> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_15> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_14> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_13> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_12> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_11> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_10> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_9> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_8> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_7> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_6> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_5> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_4> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_3> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_2> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_1> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data0_reg_0> (without init value) has a constant value of 0 in block <FIFO2_1>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <mdi_rPhyAddr_0> in Unit <mkFTop_kc705> is equivalent to the following 26 FFs/Latches, which will be removed : <mdi_rPhyAddr_1> <mdi_rPhyAddr_2> <mdi_rPhyAddr_3> <mdi_rPhyAddr_4> <mdi_rWriteData_0> <mdi_rWriteData_1> <mdi_rWriteData_2> <mdi_rWriteData_3> <mdi_rWriteData_4> <mdi_rWriteData_5> <mdi_rWriteData_6> <mdi_rWriteData_7> <mdi_rWriteData_8> <mdi_rWriteData_9> <mdi_rWriteData_10> <mdi_rWriteData_11> <mdi_rWriteData_12> <mdi_rWriteData_13> <mdi_rWriteData_14> <mdi_rWriteData_15> <mdi_rRegAddr_0> <mdi_rRegAddr_1> <mdi_rRegAddr_2> <mdi_rRegAddr_3> <mdi_rRegAddr_4> <mdi_rWrite> 
+INFO:Xst:2261 - The FF/Latch <rxRS_rxOperateS/sSyncReg> in Unit <mkGMAC> is equivalent to the following FF/Latch, which will be removed : <txRS_txOperateS/sSyncReg> 
+WARNING:Xst:1710 - FF/Latch <mdi_rPhyAddr_0> (without init value) has a constant value of 0 in block <mkFTop_kc705>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rxRS_rxAPipe_3> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rxRS_rxPipe_0> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rxRS_rxPipe_1> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rxRS_rxPipe_2> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rxRS_rxPipe_3> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rxRS_rxPipe_4> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rxRS_rxPipe_5> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rxRS_rxPipe_6> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rxRS_rxPipe_7> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxOperateS/sSyncReg> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_15> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_14> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_13> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_12> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_11> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_10> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_9> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_8> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_doPad> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_unfD> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_txDV> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_txOperateS/dSyncReg1> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxOperateS/dSyncReg1> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_23> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_22> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_21> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_20> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_19> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_18> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_17> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_16> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxOperateS/dSyncReg2> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_txOperateS/dSyncReg2> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_31> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_30> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_29> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_28> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_27> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_26> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_25> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_24> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_fullD> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_unfBit/sSyncReg> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_ovfBit/sSyncReg> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxDVD> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_32> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_33> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_34> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_35> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_36> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_37> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_38> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_39> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_40> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_47> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_46> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_45> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_ovfBit/dSyncReg1> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_44> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_unfBit/dSyncReg1> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_43> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_42> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_rxPipe_41> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rxRS_ovfBit/dSyncReg2> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_unfBit/dSyncReg2> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <txRS_txActive> is unconnected in block <mkGMAC>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <txRS_isSOF> is unconnected in block <mkGMAC>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <rxRS_crcEnd> is unconnected in block <mkGMAC>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <rxRS_rxAPipe_5> is unconnected in block <mkGMAC>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <rxRS_rxData_0> is unconnected in block <mkGMAC>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <rxRS_rxData_1> is unconnected in block <mkGMAC>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <rxRS_rxData_2> is unconnected in block <mkGMAC>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <rxRS_rxData_3> is unconnected in block <mkGMAC>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <rxRS_rxData_4> is unconnected in block <mkGMAC>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <rxRS_rxData_5> is unconnected in block <mkGMAC>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <rxRS_rxData_6> is unconnected in block <mkGMAC>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <rxRS_rxData_7> is unconnected in block <mkGMAC>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <rxRS_rxDV> is unconnected in block <mkGMAC>.
+WARNING:Xst:2677 - Node <rxRS_rxActive> of sequential type is unconnected in block <mkGMAC>.
+WARNING:Xst:2677 - Node <rxRS_rxAPipe_0> of sequential type is unconnected in block <mkGMAC>.
+WARNING:Xst:2677 - Node <rxRS_rxAPipe_1> of sequential type is unconnected in block <mkGMAC>.
+WARNING:Xst:2677 - Node <rxRS_rxAPipe_2> of sequential type is unconnected in block <mkGMAC>.
+WARNING:Xst:2677 - Node <rxRS_rxAPipe_4> of sequential type is unconnected in block <mkGMAC>.
+WARNING:Xst:1710 - FF/Latch <txRS_txData_0> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_txData_1> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_txData_2> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_txData_3> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_txData_4> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_txData_5> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_txData_6> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txRS_txData_7> (without init value) has a constant value of 0 in block <mkGMAC>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2973 - All outputs of instance <rxRS_crc> of block <mkCRC32> are unconnected in block <mkGMAC>. Underlying logic will be removed.
+INFO:Xst:1901 - Instance gmii_rxc_dly in unit mkGMAC of type IODELAY has been replaced by IODELAYE1
+
+Optimizing unit <fpgaTop> ...
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_rPrescaler/q_state_3> (without init value) has a constant value of 0 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <mkGMAC> ...
+
+Optimizing unit <mkCRC32> ...
+
+Optimizing unit <SyncFIFO_2> ...
+
+Optimizing unit <SyncResetA_1> ...
+
+Optimizing unit <SyncFIFO_1> ...
+
+Optimizing unit <SyncResetA_3> ...
+
+Optimizing unit <FIFO2_2> ...
+WARNING:Xst:1710 - FF/Latch <data0_reg_16> (without init value) has a constant value of 1 in block <FIFO2_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_15> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_14> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_13> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_12> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_11> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_10> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_9> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_8> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_7> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_6> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_5> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_vrReadData> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxRst/reset_hold_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxRst/reset_hold_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/intr_cc/sSyncReg> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/intr_cc/dSyncReg1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/intr_cc/dSyncReg2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxER> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/Mram_fifoMem24> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/Mram_fifoMem23> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/Mram_fifoMem21> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/Mram_fifoMem22> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/Mram_fifoMem1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dDoutReg_9> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dDoutReg_8> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dDoutReg_7> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dDoutReg_6> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dDoutReg_5> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dDoutReg_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dDoutReg_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dDoutReg_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dDoutReg_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dDoutReg_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dEnqPtr_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dEnqPtr_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dEnqPtr_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dEnqPtr_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dEnqPtr_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sDeqPtr_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sDeqPtr_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sDeqPtr_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sDeqPtr_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sDeqPtr_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dSyncReg1_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dSyncReg1_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dSyncReg1_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dSyncReg1_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dSyncReg1_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sSyncReg1_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sSyncReg1_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sSyncReg1_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sSyncReg1_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sSyncReg1_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dGDeqPtr_5> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dGDeqPtr_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dGDeqPtr_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dGDeqPtr_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dGDeqPtr_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dGDeqPtr_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sGEnqPtr_5> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sGEnqPtr_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sGEnqPtr_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sGEnqPtr_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sGEnqPtr_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sGEnqPtr_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dGDeqPtr1_5> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dGDeqPtr1_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dGDeqPtr1_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dGDeqPtr1_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dGDeqPtr1_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dGDeqPtr1_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sGEnqPtr1_5> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sGEnqPtr1_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sGEnqPtr1_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sGEnqPtr1_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sGEnqPtr1_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sGEnqPtr1_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/dNotEmptyReg> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/txRS_txF/sNotFullReg> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/phyReset/reset_hold_7> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/phyReset/reset_hold_6> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/phyReset/reset_hold_5> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/phyReset/reset_hold_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/phyReset/reset_hold_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/phyReset/reset_hold_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/phyReset/reset_hold_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/phyReset/reset_hold_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/Mram_fifoMem24> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/Mram_fifoMem23> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/Mram_fifoMem21> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/Mram_fifoMem22> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/Mram_fifoMem1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dDoutReg_9> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dDoutReg_8> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dDoutReg_7> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dDoutReg_6> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dDoutReg_5> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dDoutReg_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dDoutReg_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dDoutReg_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dDoutReg_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dDoutReg_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dEnqPtr_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dEnqPtr_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dEnqPtr_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dEnqPtr_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sDeqPtr_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sDeqPtr_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sDeqPtr_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sDeqPtr_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dSyncReg1_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dSyncReg1_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dSyncReg1_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dSyncReg1_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sSyncReg1_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sSyncReg1_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sSyncReg1_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sSyncReg1_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dGDeqPtr_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dGDeqPtr_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dGDeqPtr_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dGDeqPtr_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dGDeqPtr_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sGEnqPtr_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sGEnqPtr_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sGEnqPtr_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sGEnqPtr_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sGEnqPtr_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dGDeqPtr1_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dGDeqPtr1_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dGDeqPtr1_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dGDeqPtr1_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dGDeqPtr1_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sGEnqPtr1_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sGEnqPtr1_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sGEnqPtr1_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sGEnqPtr1_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sGEnqPtr1_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/dNotEmptyReg> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/gmac/rxRS_rxF/sNotFullReg> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_15> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_14> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_13> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_12> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_11> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_10> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_9> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_8> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_7> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_6> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_5> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_4> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_fResponse/data0_reg_0> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_rPlayIndex/q_state_7> (without init value) has a constant value of 0 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_rPlayIndex/q_state_6> (without init value) has a constant value of 0 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_rPlayIndex/q_state_4> (without init value) has a constant value of 0 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_rPlayIndex/q_state_3> (without init value) has a constant value of 0 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_rPlayIndex/q_state_5> (without init value) has a constant value of 0 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_rPlayIndex/q_state_2> (without init value) has a constant value of 0 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_rPlayIndex/q_state_1> (without init value) has a constant value of 0 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_rPlayIndex/q_state_0> (without init value) has a constant value of 0 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_rMDD> (without init value) has a constant value of 1 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_rOutEn> (without init value) has a constant value of 1 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_rMDC> (without init value) has a constant value of 0 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_rState> (without init value) has a constant value of 0 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_fResponse/empty_reg> (without init value) has a constant value of 0 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ftop/mdi_fResponse/full_reg> (without init value) has a constant value of 1 in block <fpgaTop>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <ftop/mdi_rPrescaler/q_state_2> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_rPrescaler/q_state_1> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_rPrescaler/q_state_3> of sequential type is unconnected in block <fpgaTop>.
+WARNING:Xst:2677 - Node <ftop/mdi_rPrescaler/q_state_0> of sequential type is unconnected in block <fpgaTop>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block fpgaTop, actual ratio is 0.
+FlipFlop ftop/sys1_rst/reset_hold_0 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+Processing Unit <fpgaTop> :
+INFO:Xst:741 - HDL ADVISOR - A 16-bit shift register was found for signal <ftop/sys0_rst/reset_hold_15> and currently occupies 16 logic cells (8 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <fpgaTop> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 31
+ Flip-Flops                                            : 31
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)     | Load  |
+-----------------------------------+---------------------------+-------+
+sys0_clkp                          | IBUFDS+BUFG               | 27    |
+sys1_clkp                          | IBUF+IBUFDS_GTE2+BUFG     | 15    |
+ftop/gmac/gmii_rxc_dly$DATAOUT     | NONE(ftop/gmac/rxClk_BUFR)| 1     |
+-----------------------------------+---------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+--------------------------------------------+---------------------------+-------+
+Control Signal                              | Buffer(FF name)           | Load  |
+--------------------------------------------+---------------------------+-------+
+ftop/gmac/empty_reg(ftop/gmac/XST_GND:G)    | NONE(ftop/gmac/rxClk_BUFR)| 1     |
+ftop/gmac/mdio_mdd_OBUF(ftop/gmac/XST_VCC:P)| NONE(ftop/gmac/rxClk_BUFR)| 1     |
+--------------------------------------------+---------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 1.609ns (Maximum Frequency: 621.504MHz)
+   Minimum input arrival time before clock: 0.822ns
+   Maximum output required time after clock: 1.006ns
+   Maximum combinational path delay: 0.000ns
+
+=========================================================================

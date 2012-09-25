@@ -1,0 +1,1 @@
+-v "0" -o "./out.isim" -prj "/tmp/fuse.prj.b10685" -sourcelibdir "." -sourcelibdir "/opt/Bluespec/Bluespec-2012.01.A/lib/Libraries" -sourcelibdir "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog" -sourcelibext ".v" -d "TOP=mkTbSwap" -L "unisims_ver" -t "worx_mkTbSwap.glbl" -t "worx_mkTbSwap.main" 

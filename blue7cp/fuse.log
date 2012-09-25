@@ -1,0 +1,23 @@
+Running: /opt/Xilinx/14.2/ISE_DS/ISE/bin/lin64/unwrapped/fuse -v 0 -o ./out.isim -prj /tmp/fuse.prj.XZ6495 -sourcelibdir . -sourcelibdir /opt/Bluespec/Bluespec-2012.01.A/lib/Libraries -sourcelibdir /opt/Bluespec/Bluespec-2012.01.A/lib/Verilog -sourcelibext .v -d TOP=mkFTop_kc705 -L unisims_ver -t worx_mkFTop_kc705.glbl -t worx_mkFTop_kc705.main 
+ISim P.28xd (signature 0x54af6ca1)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/main.v" into library worx_mkFTop_kc705
+Analyzing Verilog file "/home/cms/projects/blue7/blue7cp/mkFTop_kc705.v" into library worx_mkFTop_kc705
+WARNING:HDLCompiler:687 - "/home/cms/projects/blue7/blue7cp/mkFTop_kc705.v" Line 163: Illegal redeclaration of module <mkFTop_kc705>.
+Analyzing Verilog file "/opt/Xilinx/14.2/ISE_DS/ISE/verilog/src/glbl.v" into library worx_mkFTop_kc705
+Starting static elaboration
+WARNING:HDLCompiler:267 - "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/main.v" Line 48: Cannot find port RST_N on this module
+ERROR:HDLCompiler:25 - "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/main.v" Line 48: Module <mkFTop_kc705> does not have a port named <CLK>.
+WARNING:HDLCompiler:1016 - "/opt/Bluespec/Bluespec-2012.01.A/lib/Verilog/main.v" Line 48: Port sys0_clkp is not connected to this instance
+WARNING:HDLCompiler:189 - "/home/cms/projects/blue7/blue7cp/mkFTop_kc705.v" Line 696: Size mismatch in connection of port <mdio_mdd>. Formal port size is 0-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "/home/cms/projects/blue7/blue7cp/mkFTop_kc705.v" Line 697: Size mismatch in connection of port <mdio_mdc>. Formal port size is 0-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1032: Size mismatch in connection of port <ODATAIN>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1033: Size mismatch in connection of port <DATAIN>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1034: Size mismatch in connection of port <C>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1035: Size mismatch in connection of port <T>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1036: Size mismatch in connection of port <CE>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1037: Size mismatch in connection of port <INC>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "./mkGMAC.v" Line 1038: Size mismatch in connection of port <RST>. Formal port size is 1-bit while actual signal size is 32-bit.
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed

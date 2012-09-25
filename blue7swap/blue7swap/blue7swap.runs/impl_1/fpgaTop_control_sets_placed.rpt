@@ -1,0 +1,54 @@
+Control Set Information: 
+Number of unique control sets: 47
+Minimum Number of register sites lost to control set restrictions: 163
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Clock Signal               | Enable Signal                                    | Set/Reset Signal                        | Slice Load Count   | Bel Load Count |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| ftop/gmac/n_398_rxClk_BUFR | ftop/gmac/rxRS_rxOperateS/rxRS_rxOperateS$dD_OUT | ftop/gmac/rxRS_rxRst/SR[0]              | 1                  | 1
+| sys0_clk$O                 |                                                  | ftop/sys0_rst/SR[0]                     | 1                  | 1
+| ftop/sys1_clk$O            | ftop/gmac/WILL_FIRE_RL_txRS_egress_EOF           | ftop/gmac/txRS_txRst/SR[0]              | 1                  | 1
+| ftop/sys1_clk$O            |                                                  | ftop/gmac/txRS_txRst/SR[0]              | 1                  | 1
+| ftop/sys1_clk$O            |                                                  | ftop/sys0_rst/SR[0]                     | 1                  | 1
+| sys0_clk$O                 |                                                  | ftop/idc_idcRst/rstSync/n_398_i_397_145 | 1                  | 2
+| ftop/sys1_clk$O            | ftop/swap/firstF/ring_empty                      | ftop/sys1_rst/O2                        | 2                  | 2
+| ftop/sys1_clk$O            | ftop/swap/secondF/n_398_345                      | ftop/sys1_rst/O2                        | 1                  | 2
+| ftop/sys1_clk$O            | ftop/gmac/txRS_txOperateS/E[0]                   | ftop/gmac/txRS_txRst/SR[0]              | 1                  | 3
+| ftop/sys1_clk$O            | ftop/swap/firstF/n_398_i_260                     | ftop/sys1_rst/O2                        | 1                  | 3
+| ftop/sys1_clk$O            | ftop/swap/firstF/p_14_out                        | ftop/sys1_rst/O2                        | 1                  | 3
+| ftop/sys1_clk$O            | ftop/swap/secondF/p_14_out                       | ftop/sys1_rst/O2                        | 1                  | 3
+| ftop/sys1_clk$O            | ftop/swap/secondF/n_398_262                      | ftop/sys1_rst/O2                        | 1                  | 3
+| ftop/gmac/n_398_rxClk_BUFR | ftop/gmac/n_398_i_43                             | ftop/gmac/rxRS_rxRst/SR[0]              | 1                  | 4
+| ftop/gmac/n_398_rxClk_BUFR |                                                  | ftop/sys1_rst/O2                        | 3                  | 4
+| sys0_clk$O                 | ftop/idc_idcRst/sel                              | ftop/sys0_rst/SR[0]                     | 1                  | 4
+| sys0_clk$O                 | ftop/n_398_398                                   | ftop/sys0_rst/SR[0]                     | 1                  | 4
+| ftop/sys1_clk$O            | ftop/gmac/txRS_txOperateS/O3[0]                  | ftop/gmac/txRS_txRst/SR[0]              | 2                  | 5
+| ftop/sys1_clk$O            | ftop/gmac/n_398_i_297                            | ftop/gmac/txRS_txRst/SR[0]              | 2                  | 5
+| ftop/gmac/n_398_rxClk_BUFR | ftop/gmac/rxRS_rxOperateS/E[0]                   | ftop/gmac/rxRS_rxRst/SR[0]              | 2                  | 6
+| ftop/sys1_clk$O            | ftop/swap/firstF/WILL_FIRE_RL_advance            | ftop/sys1_rst/O2                        | 5                  | 8
+| ftop/sys1_clk$O            |                                                  | ftop/gmac/txRS_txF/SR[0]                | 3                  | 8
+| ftop/sys1_clk$O            |                                                  | ftop/gmac/rxRS_rxRst/SR[0]              | 4                  | 9
+| ftop/sys1_clk$O            | ftop/swap/firstF/n_398_350                       |                                         | 3                  | 10
+| ftop/sys1_clk$O            | ftop/gmac/txRS_txF/n_398_455                     |                                         | 2                  | 10
+| ftop/sys1_clk$O            | ftop/swap/inF/n_398_429                          |                                         | 3                  | 10
+| ftop/gmac/n_398_rxClk_BUFR | ftop/gmac/rxRS_rxF$sENQ                          | ftop/gmac/rxRS_rxRst/SR[0]              | 3                  | 10
+| ftop/sys1_clk$O            | ftop/swap/outF/d1di                              |                                         | 5                  | 10
+| ftop/sys1_clk$O            | ftop/gmac/rxRS_rxF/n_398_458                     |                                         | 2                  | 10
+| ftop/sys1_clk$O            | ftop/swap/secondF/n_398_346                      |                                         | 4                  | 10
+| ftop/gmac/n_398_rxClk_BUFR |                                                  |                                         | 6                  | 10
+| ftop/sys1_clk$O            | ftop/swap/secondF/E[0]                           |                                         | 3                  | 10
+| ftop/sys1_clk$O            | ftop/gmac/rxRS_rxF/p_3_out                       | ftop/gmac/rxRS_rxRst/SR[0]              | 2                  | 10
+| ftop/gmac/n_398_rxClk_BUFR |                                                  | ftop/gmac/rxRS_rxRst/SR[0]              | 4                  | 11
+| ftop/sys1_clk$O            | ftop/gmac/txRS_txF/sENQ                          | ftop/sys1_rst/O2                        | 2                  | 12
+| ftop/sys1_clk$O            | ftop/gmac/txRS_txF/O22[0]                        | ftop/gmac/txRS_txRst/SR[0]              | 6                  | 12
+| ftop/sys1_clk$O            | ftop/gmac/txRS_txF/p_3_out                       | ftop/sys1_rst/O2                        | 3                  | 12
+| ftop/sys1_clk$O            | ftop/gmac/txRS_txF/sENQ                          |                                         | 1                  | 16
+| ftop/gmac/n_398_rxClk_BUFR | ftop/gmac/rxRS_rxF$sENQ                          |                                         | 2                  | 16
+| ftop/sys1_clk$O            | ftop/swap/firstF/p_0_out__1                      |                                         | 2                  | 16
+| sys0_clk$O                 |                                                  | sys0_rst_IBUF                           | 6                  | 16
+| ftop/sys1_clk$O            | ftop/swap/secondF/p_0_out__2                     |                                         | 2                  | 16
+| ftop/sys1_clk$O            |                                                  | ftop/sys1_rst/O2                        | 11                 | 28
+| ftop/sys1_clk$O            | ftop/gmac/txRS_txF/E[0]                          | ftop/gmac/txRS_txRst/SR[0]              | 13                 | 32
+| ftop/gmac/n_398_rxClk_BUFR | ftop/gmac/rxRS_rxOperateS/O3[0]                  | ftop/gmac/rxRS_rxRst/SR[0]              | 11                 | 32
+| ftop/sys1_clk$O            |                                                  |                                         | 18                 | 42
+| ftop/gmac/n_398_rxClk_BUFR | ftop/gmac/WILL_FIRE_RL_rxRS_ingress_advance      |                                         | 7                  | 48
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------

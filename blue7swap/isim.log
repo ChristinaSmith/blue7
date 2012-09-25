@@ -1,0 +1,41 @@
+ISim log file
+Running: ././out.isim -tclbatch ./out.isim.tcl -testplusarg bscvcd 
+ISim P.28xd (signature 0x54af6ca1)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+00
+01
+02
+03
+04
+05
+10
+11
+12
+13
+14
+15
+42
+43
+44
+45
+20
+21
+22
+23
+24
+25
+30
+31
+32
+33
+34
+35
+52
+53
+54
+55
+Stopped at time : 1005 ns : File "/home/cms/projects/blue7/blue7swap/mkTbSwap.v" Line 1168

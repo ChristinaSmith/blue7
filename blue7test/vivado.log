@@ -1,8 +1,8 @@
 #-----------------------------------------------------------
 # Vivado v2012.2.1 (64-bit)
 # Build 200253 by xbuild on Wed Aug 29 11:42:44 MDT 2012
-# Start of session at: Tue Sep 18 13:06:37 2012
-# Process ID: 8309
+# Start of session at: Tue Sep 25 11:31:16 2012
+# Process ID: 6997
 # Log file: /home/cms/projects/blue7/blue7test/vivado.log
 # Journal file: /home/cms/projects/blue7/blue7test/vivado.jou
 #-----------------------------------------------------------
@@ -23,5 +23,19 @@ Finished parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xil
 Parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/xdc.xml].
 Finished parsing template File [/opt/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/templates/vivado/xdc.xml].
 update_compile_order -fileset sources_1
+set_property used_in_synthesis true [get_files  /home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc]
+reset_run synth_1
+launch_runs synth_1
+[Tue Sep 25 11:32:11 2012] Launched synth_1...
+Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/runme.log
+set_property used_in_synthesis false [get_files  /home/cms/projects/blue7/blue7test/blue7test.srcs/constrs_1/imports/new/kc705.xdc]
+reset_run synth_1
+launch_runs synth_1
+[Tue Sep 25 11:36:56 2012] Launched synth_1...
+Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/synth_1/runme.log
+launch_runs impl_1
+[Tue Sep 25 11:39:22 2012] Launched impl_1...
+Run output will be captured here: /home/cms/projects/blue7/blue7test/blue7test.runs/impl_1_4/runme.log
+reset_run impl_1
 exit
 INFO: [Common 17-206] Exiting Vivado...

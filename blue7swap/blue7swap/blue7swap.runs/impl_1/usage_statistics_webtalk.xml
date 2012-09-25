@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Tue Sep 18 14:34:42 2012'>
+<section name="__ROOT__" level="0" order="1" description="">
+ <section name="software_version_and_target_device" level="1" order="1" description="">
+  <keyValuePair key="beta" value="TRUE" description="" />
+  <keyValuePair key="build_version" value="200253" description="" />
+  <keyValuePair key="date_generated" value="Tue Sep 18 14:34:42 2012" description="" />
+  <keyValuePair key="os_platform" value="LIN64" description="" />
+  <keyValuePair key="product_version" value="Vivado v2012.2.1 (64-bit)" description="" />
+  <keyValuePair key="project_id" value="897531c711314a48a210f21dcf14e83b" description="" />
+  <keyValuePair key="project_iteration" value="2" description="" />
+  <keyValuePair key="random_id" value="bd7fad2bb8554a32a1fd032772a7c1ce" description="" />
+  <keyValuePair key="registration_id" value="21811470_206273011_209528847_120" description="" />
+  <keyValuePair key="route_design" value="TRUE" description="" />
+  <keyValuePair key="target_device" value="xc7k325t" description="" />
+  <keyValuePair key="target_family" value="kintex7" description="" />
+  <keyValuePair key="target_package" value="ffg900" description="" />
+  <keyValuePair key="target_speed" value="-1" description="" />
+  <keyValuePair key="tool_flow" value="Vivado" description="" />
+ </section>
+ <section name="user_environment" level="1" order="2" description="">
+  <keyValuePair key="cpu_name" value="Intel(R) Core(TM) i7 CPU       X 980  @ 3.33GHz" description="" />
+  <keyValuePair key="cpu_speed" value="1596.000 MHz" description="" />
+  <keyValuePair key="os_name" value="RedHatEnterpriseClient" description="" />
+  <keyValuePair key="os_release" value="Red Hat Enterprise Linux Client release 5.8 (Tikanga)" description="" />
+  <keyValuePair key="system_ram" value="12.000 GB" description="" />
+  <keyValuePair key="total_processors" value="1" description="" />
+ </section>
+ <section name="plan_ahead_usage" level="1" order="3" description="">
+  <section name="java_command_handlers" level="2" order="1" description="">
+   <keyValuePair key="addsrc" value="4" description="" />
+   <keyValuePair key="launchimpact" value="1" description="" />
+   <keyValuePair key="newproject" value="1" description="" />
+   <keyValuePair key="openproject" value="1" description="" />
+   <keyValuePair key="reporttimingsummary" value="1" description="" />
+   <keyValuePair key="runbitgen" value="1" description="" />
+   <keyValuePair key="runimplementation" value="2" description="" />
+   <keyValuePair key="runschematic" value="3" description="" />
+   <keyValuePair key="runsynthesis" value="7" description="" />
+   <keyValuePair key="settopnode" value="2" description="" />
+   <keyValuePair key="showview" value="4" description="" />
+   <keyValuePair key="updatesourcefiles" value="3" description="" />
+   <keyValuePair key="viewtaskimplementation" value="1" description="" />
+   <keyValuePair key="viewtasksynthesis" value="2" description="" />
+  </section>
+  <section name="other_data" level="2" order="2" description="">
+   <keyValuePair key="guimode" value="2" description="" />
+  </section>
+  <section name="project_data" level="2" order="3" description="">
+   <keyValuePair key="constraintsetcount" value="1" description="" />
+   <keyValuePair key="currentimplrun" value="impl_1" description="" />
+   <keyValuePair key="currentsynthesisrun" value="synth_1" description="" />
+   <keyValuePair key="designmode" value="RTL" description="" />
+   <keyValuePair key="hdproject" value="false" description="" />
+   <keyValuePair key="implstrategy" value="Vivado Implementation Defaults" description="" />
+   <keyValuePair key="partitioncount" value="0" description="" />
+   <keyValuePair key="prproject" value="false" description="" />
+   <keyValuePair key="reconfigmodulecount" value="0" description="" />
+   <keyValuePair key="reconfigpartitioncount" value="0" description="" />
+   <keyValuePair key="srcsetcount" value="100" description="" />
+   <keyValuePair key="synthesisstrategy" value="Vivado Synthesis Defaults" description="" />
+   <keyValuePair key="totalimplruns" value="1" description="" />
+   <keyValuePair key="totalsynthesisruns" value="1" description="" />
+  </section>
+ </section>
+ <section name="unisim_transformation" level="1" order="4" description="">
+  <section name="post_unisim_transformation" level="2" order="1" description="">
+   <keyValuePair key="bufg" value="2" description="" />
+   <keyValuePair key="bufr" value="1" description="" />
+   <keyValuePair key="carry4" value="3" description="" />
+   <keyValuePair key="fdce" value="275" description="" />
+   <keyValuePair key="fdpe" value="8" description="" />
+   <keyValuePair key="fdre" value="77" description="" />
+   <keyValuePair key="fdse" value="68" description="" />
+   <keyValuePair key="gnd" value="16" description="" />
+   <keyValuePair key="ibuf" value="14" description="" />
+   <keyValuePair key="ibufds" value="1" description="" />
+   <keyValuePair key="ibufds_gte2" value="1" description="" />
+   <keyValuePair key="idelayctrl" value="1" description="" />
+   <keyValuePair key="idelaye2" value="1" description="" />
+   <keyValuePair key="lut1" value="26" description="" />
+   <keyValuePair key="lut2" value="17" description="" />
+   <keyValuePair key="lut3" value="32" description="" />
+   <keyValuePair key="lut4" value="67" description="" />
+   <keyValuePair key="lut5" value="118" description="" />
+   <keyValuePair key="lut6" value="182" description="" />
+   <keyValuePair key="muxf7" value="1" description="" />
+   <keyValuePair key="obuf" value="13" description="" />
+   <keyValuePair key="obuft" value="1" description="" />
+   <keyValuePair key="oddr" value="11" description="" />
+   <keyValuePair key="ramd32" value="48" description="" />
+   <keyValuePair key="rams32" value="16" description="" />
+   <keyValuePair key="vcc" value="24" description="" />
+  </section>
+  <section name="pre_unisim_transformation" level="2" order="2" description="">
+   <keyValuePair key="bufg" value="2" description="" />
+   <keyValuePair key="bufio" value="1" description="" />
+   <keyValuePair key="bufr" value="1" description="" />
+   <keyValuePair key="carry4" value="3" description="" />
+   <keyValuePair key="fd" value="52" description="" />
+   <keyValuePair key="fdc" value="69" description="" />
+   <keyValuePair key="fdce" value="36" description="" />
+   <keyValuePair key="fde" value="118" description="" />
+   <keyValuePair key="fdpe" value="8" description="" />
+   <keyValuePair key="fdr" value="12" description="" />
+   <keyValuePair key="fdre" value="65" description="" />
+   <keyValuePair key="fdse" value="68" description="" />
+   <keyValuePair key="gnd" value="7" description="" />
+   <keyValuePair key="ibuf" value="14" description="" />
+   <keyValuePair key="ibufds" value="1" description="" />
+   <keyValuePair key="ibufds_gte2" value="1" description="" />
+   <keyValuePair key="idelayctrl" value="1" description="" />
+   <keyValuePair key="inv" value="1" description="" />
+   <keyValuePair key="iodelay" value="1" description="" />
+   <keyValuePair key="lut1" value="26" description="" />
+   <keyValuePair key="lut2" value="17" description="" />
+   <keyValuePair key="lut3" value="32" description="" />
+   <keyValuePair key="lut4" value="67" description="" />
+   <keyValuePair key="lut5" value="118" description="" />
+   <keyValuePair key="lut6" value="182" description="" />
+   <keyValuePair key="muxf7" value="1" description="" />
+   <keyValuePair key="obuf" value="13" description="" />
+   <keyValuePair key="obuft" value="1" description="" />
+   <keyValuePair key="oddr" value="11" description="" />
+   <keyValuePair key="ram32m" value="8" description="" />
+   <keyValuePair key="vcc" value="7" description="" />
+  </section>
+ </section>
+</section>
+</webTalkData>
